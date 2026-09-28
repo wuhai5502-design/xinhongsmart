@@ -1,0 +1,4 @@
+# 本地交付源文件，不发布到站点
+product-*.html
+schema-organization.html
+sitemap-template.xml
