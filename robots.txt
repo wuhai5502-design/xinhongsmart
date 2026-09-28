@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /*?sort=
+Disallow: /*?filter=
+
+# AI crawlers - allow (they send traffic to AI search)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://xinhongsmart.com/sitemap.xml
