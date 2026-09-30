@@ -1,0 +1,72 @@
+/* Company page styles; shared product layouts keep their existing rules. */
+.about-page .desktop-nav a[aria-current="page"]{color:var(--blue)}
+.about-skip{position:absolute;top:8px;left:16px;z-index:10000;padding:10px 18px;background:white;color:var(--blue);transform:translateY(-200%)}
+.about-skip:focus{transform:translateY(0)}
+.about-page a:focus-visible{outline:3px solid #6396ff;outline-offset:5px}
+.about-page main :is(section,nav)[id]{scroll-margin-top:24px}
+.about-hero{background:var(--wash);padding:72px 0 64px}
+.about-hero-grid{display:grid;grid-template-columns:.95fr 1.05fr;gap:52px;align-items:center}
+.about-hero-grid>*{min-width:0}
+.about-hero h1{font-size:clamp(42px,4.5vw,64px);line-height:1.08;letter-spacing:-.05em;margin:0 0 24px}
+.about-hero-copy>p{color:var(--muted);font-size:17px;max-width:560px;line-height:1.8}
+.about-hero-copy .about-lead{font-size:23px;line-height:1.5;color:var(--ink);margin-bottom:16px}
+.about-actions{display:flex;align-items:center;flex-wrap:wrap;gap:22px;margin-top:28px}
+.about-actions .btn-blue:hover{color:white;background:var(--deep)}
+.about-figure{margin:0;min-width:0}
+.about-figure picture{display:block;background:#e9f0fa;overflow:hidden;border:1px solid var(--line)}
+.about-figure img{width:100%;height:auto}
+.about-figure figcaption{margin-top:12px;font-size:12px;color:var(--muted);line-height:1.6}
+.about-section-nav{border-bottom:1px solid var(--line)}
+.about-section-nav .container{display:flex;gap:36px;flex-wrap:wrap;padding-top:20px;padding-bottom:20px}
+.about-section-nav a{font-size:14px;font-weight:700}
+.about-section{padding:80px 0}
+.about-intro-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:80px}
+.about-intro-grid>*{min-width:0}
+.about-page .about-section h2,.about-support h2{font-size:clamp(32px,3vw,44px);line-height:1.15;letter-spacing:-.045em;margin:0}
+.about-intro-grid .rich-text{font-size:17px}
+.about-intro-grid .rich-text p:last-of-type{margin-bottom:24px}
+.about-wash{background:var(--wash)}
+.about-section-lead{color:var(--muted);font-size:17px;line-height:1.75;max-width:700px;margin:20px 0 0}
+.about-focus-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:36px}
+.about-focus-card{min-width:0;border:1px solid var(--line);background:#fff;padding:30px;display:flex;flex-direction:column}
+.about-number{color:var(--blue);font-size:12px;font-weight:800;letter-spacing:.12em}
+.about-focus-card h3{font-size:23px;line-height:1.35;letter-spacing:-.025em;margin:26px 0 16px}
+.about-focus-card p{font-size:16px;line-height:1.8;color:var(--muted);margin-bottom:24px}
+.about-focus-card .text-link{margin-top:auto;white-space:normal}
+.about-collaboration-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.about-collaboration-grid>*{min-width:0}
+.about-process{list-style:none;margin:28px 0 0;padding:0}
+.about-process li{display:flex;gap:18px;padding:18px 0;border-top:1px solid var(--line)}
+.about-process li>span{font-size:13px;font-weight:800;color:var(--blue);padding-top:3px;flex:none}
+.about-process h3{font-size:18px;line-height:1.4;margin:0 0 8px}
+.about-process p{font-size:15px;line-height:1.75;color:var(--muted);margin:0}
+.about-support{background:var(--deep);color:white;padding:70px 0}
+.about-support-lead{color:#d3def4;font-size:18px;line-height:1.8;max-width:740px;margin:22px 0 0}
+.about-support-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:36px;margin-top:38px}
+.about-support-grid>div{border-top:1px solid #ffffff38;padding-top:22px;min-width:0}
+.about-support-grid h3{font-size:20px;margin-bottom:12px}
+.about-support-grid p{font-size:16px;line-height:1.8;color:#d3def4;margin:0}
+.about-contact{padding:80px 0 100px}
+.about-contact-lead{font-size:18px;color:#e4ebfa;line-height:1.75;max-width:750px;margin:20px 0 32px}
+.about-contact-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:28px}
+.about-contact-grid>*{min-width:0;padding:32px;background:white;color:var(--ink)}
+.about-contact-grid h3{font-size:22px;margin:0 0 24px}
+.about-contact-details{margin:0}
+.about-contact-details>div+div{margin-top:20px}
+.about-contact-details dt{font-size:13px;font-weight:800;letter-spacing:.04em;margin-bottom:7px}
+.about-contact-details dd{margin:0;font-size:16px;color:var(--muted);line-height:1.8;overflow-wrap:anywhere}
+.about-contact-details address{font-style:normal}
+.about-contact-details a{color:var(--blue)}
+.about-contact-details a:hover,.about-email-link:hover{text-decoration:underline}
+.about-contact-grid .about-enquiry-card{background:#e9f0ff}
+.about-enquiry-card p,.about-enquiry-card li{color:#465b7f;line-height:1.8;font-size:16px}
+.about-enquiry-card ul{padding-left:20px;margin:20px 0 30px}
+.about-enquiry-card li+li{margin-top:12px}
+.about-whatsapp{background:#146d39;color:white;max-width:100%;gap:18px}
+.about-whatsapp:hover{background:#10582e;color:white}
+.about-email-link{display:block;font-size:14px;font-weight:700;color:var(--blue);margin-top:20px}
+@media(max-width:1050px){.about-hero-grid{gap:32px}.about-intro-grid,.about-collaboration-grid{gap:40px}.about-focus-card{padding:24px}.about-focus-card h3{font-size:21px}}
+@media(max-width:900px){.about-hero-grid,.about-intro-grid,.about-collaboration-grid{grid-template-columns:1fr}.about-hero{padding:52px 0}.about-hero-copy>p{max-width:720px}.about-hero-figure{max-width:740px}.about-intro-grid{gap:28px}.about-focus-grid{grid-template-columns:1fr}.about-focus-card{padding:28px}.about-focus-card h3{margin-top:18px}.about-collaboration-grid{gap:36px}.about-collaboration-figure{max-width:700px}.about-support-grid{gap:24px}.about-contact-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.about-page .container{width:calc(100% - 36px)}.about-hero{padding:40px 0}.about-hero h1{font-size:42px}.about-hero-copy .about-lead{font-size:21px}.about-hero-copy>p{font-size:16px}.about-section-nav .container{gap:14px 24px}.about-section-nav a{font-size:13px}.about-section{padding:54px 0}.about-focus-card{padding:24px}.about-support{padding:54px 0}.about-support-grid{grid-template-columns:1fr;gap:26px}.about-contact{padding:54px 0 90px}.about-contact-grid>*{padding:24px}.about-contact-grid h3{font-size:21px}.about-contact-details dd,.about-enquiry-card p,.about-enquiry-card li{font-size:15px}.about-contact-lead{font-size:17px}}
+@media(max-width:600px){.about-page .xhs-wa-float{padding:14px;gap:0}.about-page .xhs-wa-float span{display:none}}
+@media(prefers-reduced-motion:reduce){html:has(.about-page){scroll-behavior:auto}.about-page .xhs-wa-float{animation:none}}
