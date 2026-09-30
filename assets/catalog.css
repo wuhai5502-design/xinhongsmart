@@ -1,0 +1,10 @@
+/* Share the category, title and description rows within each catalogue row. */
+@supports(grid-template-rows:subgrid){
+  .catalog-product-grid{row-gap:0}
+  .catalog-product-grid>.product-card{display:grid;grid-template-rows:subgrid;grid-row:span 4;row-gap:0;margin-bottom:20px}
+  .catalog-product-grid .product-image{align-self:center}
+  .catalog-product-grid .product-info{display:contents}
+  .catalog-product-grid .product-info>.overline{margin:23px 23px 0}
+  .catalog-product-grid .product-heading{margin:14px 23px 7px;align-self:start}
+  .catalog-product-grid .product-info>p{margin:0 23px 23px;align-self:start}
+}
