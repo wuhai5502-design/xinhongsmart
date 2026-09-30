@@ -86,3 +86,8 @@
 /* White surrounds for the document scanner and signature pad photos. */
 .product-image--photo,.detail-image--photo{background:#fff}
 .product-image--photo{display:block}
+
+/* Keep image sizing and grid placement while providing responsive WebP sources. */
+.product-picture{display:contents}
+
+.product-picture--fill{display:block;width:100%;height:100%;min-width:0;min-height:0}
