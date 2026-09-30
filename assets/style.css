@@ -82,3 +82,7 @@
 .detail-image .product-photo img{width:100%;height:auto}
 /* The empty hero spacer must not cover the carousel controls. */
 .hero-full .hero-grid:empty{pointer-events:none}
+
+/* White surrounds for the document scanner and signature pad photos. */
+.product-image--photo,.detail-image--photo{background:#fff}
+.product-image--photo{display:block}
