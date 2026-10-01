@@ -96,7 +96,7 @@
 .product-hero{padding:44px 0 50px}
 .product-hero.has-photo{display:grid;grid-template-columns:1.02fr 1fr;gap:52px;align-items:center}
 .product-hero picture{display:block}
-.product-hero img{width:100%;height:auto;max-height:400px;object-fit:contain;background:var(--wash);padding:24px;box-sizing:border-box}
+.product-hero img{width:100%;height:auto;max-height:460px;object-fit:contain;background:var(--wash);padding:24px;box-sizing:border-box}
 .product-hero h1{font-size:clamp(31px,3.5vw,50px);line-height:1.08;letter-spacing:-.035em;margin:0 0 20px}
 .product-hero .lead{font-size:17px;line-height:1.72;color:var(--muted);max-width:660px;margin:0 0 28px}
 .cta-btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 24px;background:var(--blue);color:#fff;font-size:14px;font-weight:700}
