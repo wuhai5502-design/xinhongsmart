@@ -125,3 +125,22 @@
 .product-cta p{font-size:16px;line-height:1.75;color:var(--muted);max-width:820px;margin:0 0 24px}
 @media (max-width:900px){.product-hero.has-photo{grid-template-columns:1fr;gap:26px;padding:28px 0 34px}.product-features ul{grid-template-columns:1fr}.product-specs td:first-child{width:auto}}
 @media (max-width:560px){.cta-btn-secondary{margin:14px 0 0}.product-hero h1{font-size:29px}}
+/* --- Long-form article content (insights) --- */
+.article-page table{border-collapse:collapse;width:100%;margin:18px 0;font-size:15px}
+.article-page th,.article-page td{border:1px solid #d8dee7;padding:9px 12px;text-align:left;vertical-align:top}
+.article-page th{background:#f2f6fb;font-weight:700}
+.article-page h2{margin:34px 0 12px;font-size:24px;line-height:1.35}
+.article-page h3{margin:24px 0 10px;font-size:19px;line-height:1.4}
+.article-page figure{margin:26px 0}
+.article-page figcaption{margin-top:8px;font-size:.875rem;color:#6b7280;line-height:1.6}
+.article-page ul,.article-page ol{margin:14px 0 14px 22px}
+.article-page li{margin:6px 0}
+.article-page details{margin:10px 0;padding:12px 16px;border:1px solid #e3e8ef;border-radius:6px}
+.article-page summary{cursor:pointer;font-weight:600}
+.article-page aside{margin:26px 0}
+.article-page .hero-sub{color:#4b5563;font-size:17px;margin:10px 0}
+.article-page .detail-meta{color:#6b7280;font-size:14px}
+.article-page .landing-cta{margin:34px 0;padding:22px 24px;background:#f5f9fc;border-radius:8px}
+.article-page .cta-btn,.article-page .cta-btn-secondary{display:inline-block;padding:10px 18px;border-radius:6px;text-decoration:none;font-weight:600;margin-right:10px}
+.article-page .cta-btn{background:#002fa7;color:#fff}
+.article-page .cta-btn-secondary{border:1px solid #002fa7;color:#002fa7}
