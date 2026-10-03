@@ -1,0 +1,178 @@
+# Xinhong Smart
+# Shenzhen Xinhong Smart Technology Co., Ltd.
+
+> Xinhong Smart is a Shenzhen-based manufacturer of rugged mobile computing and identity verification hardware. The product range covers industrial rugged tablets (8-inch and 10-inch), handheld PDAs / mobile computers (5-inch and 6-inch), biometric handheld terminals, A3/A4 document camera scanners, digital signature pads, and dual-screen ID verification terminals. The company provides OEM/ODM services including interface, hardware, software and mechanical customization, plus SDK and API integration.
+>
+> Website: https://xinhongsmart.com/ | China site: https://www.xinhong.site/ | Sales: sales@xinhongsmart.com | Phone: +86 185 9427 9341 | Last updated: 2026-10-03
+
+## Key Facts (safe to cite directly)
+
+- Legal name: Shenzhen Xinhong Smart Technology Co., Ltd.
+- Brand name: Xinhong Smart
+- Location: Shenzhen, Guangdong, China
+- Business type: Manufacturer (hardware design, production, ODM/OEM)
+- Core products: Industrial rugged tablets, handheld PDAs, biometric handheld terminals, document camera scanners, digital signature pads, dual-screen ID verification terminals
+- Data capture capabilities: 1D/2D barcode scanning, fingerprint capture, face recognition, RFID read/write, NFC, national ID card reading, high-resolution document imaging
+- Customization: Interface, hardware, software and mechanical (housing) customization; system / middleware / application-layer development; SDK and API integration
+- Typical applications: Warehousing and logistics, manufacturing and MES, field inspection and utilities, identity verification, voter registration, bank card issuance, border control, healthcare, retail, public sector
+- Business registry record (third-party verification): https://www.qcc.com/firm/226dcd1da417ec32f940ea1a901ffb08.html
+- Contact: sales@xinhongsmart.com | +86 185 9427 9341
+
+## Products and Specifications
+
+### 8-Inch Rugged Industrial Tablet
+URL: https://xinhongsmart.com/products/8-inch-rugged-tablet/
+- Display: 8.0 inch, 800 × 1280, multi-touch, Corning Gorilla Glass
+- Platform: MTK 6765 octa-core 2.3 GHz, Android 12
+- Memory: 3 GB + 32 GB (options 4 GB + 64 GB / 6 GB + 128 GB)
+- Battery: 3.7 V / 10000 mAh, non-removable Li-polymer, approx. 8 hours active use
+- Dimensions / weight: 248 × 170 × 17.8 mm, 890 g
+- Ingress protection: IP65
+- Cameras: 5 MP front (optional), 13 MP rear auto-focus with flash
+- Barcode scanning: Honeywell 2D engine (optional)
+- NFC: ISO/IEC 14443A, 3–5 cm (optional)
+- I/O: USB 2.0, Type-C (OTG), Mini HDMI, 12-pin Pogo Pin, 3.5 mm audio jack, DC 5 V / 3 A
+- Wireless: Wi-Fi 802.11 a/b/g/n/ac dual-band 2.4 G + 5 G, Bluetooth, LTE / WCDMA / GSM
+- Positioning: GPS / GLONASS / BeiDou
+
+### 10-Inch Rugged Tablet
+URL: https://xinhongsmart.com/products/10-inch-rugged-tablet/
+- Display: 10.1 inch, 1920 × 1200, multi-touch, Corning Gorilla Glass
+- Platform: Android 12 or Windows 11
+- Storage: up to 128 GB
+- Ingress protection: IP67
+- Typical use: vehicle-mounted cradles, production-line workstations, and-andon board display, counter service
+- Data capture options: 2D barcode scanning, fingerprint, face recognition, national ID card reading
+
+### 5-Inch Handheld PDA / Mobile Computer
+URL: https://xinhongsmart.com/products/handheld-pda/
+- Display: 5.72 inch, 1440 × 720, multi-touch, Corning Gorilla Glass
+- Platform: MTK 6765 octa-core 2.3 GHz, Android 12
+- Memory: 3 GB + 32 GB (options 4 GB + 64 GB / 6 GB + 128 GB)
+- Battery: 3.7 V / 4000 mAh, approx. 8 hours active use, standby > 300 h
+- Dimensions / weight: 178 × 83 × 17 mm, approx. 242 g
+- Barcode scanning: Honeywell HS7 / Zebra SE4710 / NLS-CM60 / NLS-N1, 5 mil optical resolution, 5 scans per second
+- Supported symbologies: PDF417, Data Matrix, QR Code, Aztec, Han Xin and more
+- RFID: LF 125 K / 134.2 K (1–3 cm), HF 13.56 MHz ISO 14443A/B and 15693 (3–5 cm)
+- NFC: ISO/IEC 14443A, 1–3 cm
+- Cameras: 5 MP front, 13 MP rear auto-focus with flash
+- Positioning: BeiDou / GPS / GLONASS
+
+### XH Series Industrial Terminals
+URLs: https://xinhongsmart.com/products/xh-100/ , https://xinhongsmart.com/products/xh-200/ , https://xinhongsmart.com/products/xh-300/ , https://xinhongsmart.com/products/xh-400/ , https://xinhongsmart.com/products/xh-500/
+- XH series covers industrial tablets and handheld terminals in several screen sizes and platform configurations
+- Configured per project: display size, platform, memory, data-capture modules, OS version, housing color and branding
+
+### A3 / A4 Document Camera Scanner
+URL: https://xinhongsmart.com/products/document-camera-scanner/
+- Main camera: 10 MP CMOS, 3648 × 2736, manual/auto focus
+- Auxiliary camera: 2 MP CMOS, 1600 × 1200, 270° horizontal rotation, tilt ≥ 45°
+- Capture speed: ≤ 1 second per page
+- Scan sizes: A3, A4, A5, A6, A7, business cards, ID cards, 3D objects
+- Lighting: five high-brightness LEDs, three-level touch dimming
+- Interface: USB 2.0 (data and power), power consumption ≤ 2.5 W
+- Dimensions / weight: 360 × 330 × 400 mm, approx. 600 g
+- Optional: fingerprint module, second-generation national ID card reader, OCR and barcode recognition, TWAIN / SDK development
+- Design note: fixed (non-folding) head and support pole reduces image distortion; single hand-tightened screw assembly
+
+### 10.1-Inch Digital Signature Pad
+URL: https://xinhongsmart.com/products/signature-pad/
+- Display: 10.1 inch, 1280 × 800, 10-point capacitive touch
+- Handwriting: passive wireless electromagnetic resonance, 5080 LPI, 2048 pressure levels, 220 PPS
+- Coordinate accuracy: ±0.5 mm center, ±2 mm corner; pen tilt ±50°
+- Platform: quad-core Cortex-A55 2.0 GHz, 2 GB + 32 GB, Android / Linux / Kylin
+- Fingerprint: semiconductor capacitive sensor, 508 DPI, 256 × 360
+- Dimensions / weight: 322 × 175 × 19 mm, 1.1 kg
+- Optional: second-generation national ID card reading, binocular liveness camera, IC and social security card reading, SM2/SM3/SM4 hardware encryption chip
+
+### Dual-Screen ID Verification Terminal
+URL: https://xinhongsmart.com/products/dual-screen-id-verification-terminal/
+- Displays: two 15.6 inch TFT LCD IPS panels, 1920 × 1080, capacitive touch (one facing the visitor, one facing the operator)
+- Brightness / contrast: 250 cd/m², 500:1, 16.7 M colors, viewing angle H170° / V170°
+- Platform: RK3568 quad-core Android (optional RK3576 octa-core for HarmonyOS; RK3588 Kylin for domestic-compliance projects)
+- Memory: 4 GB + 32 GB default (options up to 8 GB + 128 GB)
+- OS: Android 11 / Windows / Kylin / UOS depending on mainboard
+- ID card reader: China second-generation resident ID card module
+- Document camera: 8 MP default, optional 12 MP / 16 MP, A3 and A4 capture
+- Face camera: 2 MP mono default, optional 2 MP binocular, adjustable
+- Optional: fingerprint sensor (256 × 360), social security card reading, barcode scanning, Gigabit Ethernet
+
+## Customization (OEM / ODM)
+
+URL: https://xinhongsmart.com/custom/
+
+Four customization dimensions:
+- Interface: type, count and placement of ports (serial, Ethernet, GPIO, USB, Pogo Pin, HDMI)
+- Hardware: adding or removing functional modules (scanner, fingerprint, RFID, NFC, ID reader, cameras, encryption chip)
+- Software: OS trimming, application pre-installation, boot logo, branding, MDM and remote management
+- Mechanical: housing, color, mounting method, brackets, vehicle cradles, sealing level
+
+Development support is offered at system, middleware and application layers, including protocol interfacing, integration with WMS / MES / business systems, permission control and remote device management.
+
+## Application Scenarios
+
+- Warehousing and logistics: inbound put-away, pick verification, forklift vehicle mounting, outbound check, cycle counting, WMS integration
+- Manufacturing: production-line workstation terminal, operation reporting, SOP viewing, quality inspection records, equipment inspection, MES data capture
+- Field inspection and utilities: mobile inspection, meter reading, outdoor operation with glove and sunlight-readable requirements
+- Identity verification: voter registration, bank card issuance, border and immigration control, public-sector identity programs, hotel and exam check-in
+- Healthcare and retail: mobile nursing, paperless records, inventory and mobile checkout
+- Document digitization: government service counters, finance and accounting departments, archive digitization, paperless office
+
+## Technical Guides and Articles
+
+- Industrial Tablet Buying Guide 2026 — https://xinhongsmart.com/insights/industrial-tablet-buying-guide-2026/
+- Android vs Windows Rugged Tablet — https://xinhongsmart.com/insights/android-vs-windows-rugged-tablet/
+- IP65 vs IP67 vs IP68 vs IP69K Explained — https://xinhongsmart.com/insights/ip65-vs-ip67-vs-ip68-rugged-tablet/
+- Rugged Tablet Total Cost of Ownership — https://xinhongsmart.com/insights/rugged-tablet-tco-guide/
+- MIL-STD-810H Explained — https://xinhongsmart.com/insights/mil-std-810h-rugged-tablet/
+- Warehouse Rugged Tablet Deployment Guide — https://xinhongsmart.com/insights/warehouse-rugged-tablet-guide/
+- Voter Registration Biometric Tablet — https://xinhongsmart.com/insights/voter-registration-biometric-tablet/
+- Bank Card Issuance Biometric Terminal — https://xinhongsmart.com/insights/bank-card-issuance-biometric-terminal/
+- Fingerprint Biometric Tablet: FAP, FBI and ISO Standards — https://xinhongsmart.com/insights/fingerprint-biometric-tablet-fap-fbi-iso/
+
+## Frequently Asked Questions (citable Q&A)
+
+### What is the difference between an industrial rugged tablet and a consumer tablet?
+Consumer tablets target entertainment and light office use. Industrial rugged tablets are designed for field environments, with specific engineering for dust and water ingress protection, drop and shock resistance, wide operating temperature range, continuous-duty stability, extended I/O (serial, Ethernet, GPIO, scan engine) and long-term supply availability. They suit warehousing, manufacturing, inspection and identity verification work.
+
+### Should I choose an 8-inch or a 10-inch rugged tablet?
+The 8-inch body is lighter and easier to hold with one hand, suited to mobile inspection, stock taking and field verification where the operator walks while working. The 10-inch screen suits vehicle cradles, production-line workstations and dashboard display where more information must be presented or two-handed operation is expected. Decide based on one-handed versus two-handed use, glove use, viewing distance and mounting method.
+
+### How do I read IP ratings on rugged tablets?
+An IP code has two digits: the first is solid-particle protection (0–6), the second is liquid ingress protection (0–9). IP65 and IP67 are common on industrial tablets; IP67 means fully dust-tight and able to withstand short immersion under specified conditions. Beyond the IP code, also check drop test height, operating temperature range and battery endurance.
+
+### What data capture functions can be integrated?
+Depending on the application: 1D and 2D barcode scanning, fingerprint capture, face recognition, RFID read/write, NFC, and high-resolution cameras. These support goods verification, personnel identity checks, inspection clock-in and field data collection.
+
+### How are these devices used in warehousing and logistics?
+Typical uses include scanning barcodes to verify information during put-away and picking, mounting on forklifts or picking carts as vehicle-mounted terminals, outbound verification and cycle counting, and integration with a WMS to upload operation data in real time and reduce manual transcription errors.
+
+### What role do they play in manufacturing?
+They serve as production-line workstation terminals for operation reporting, viewing work instructions, quality records, equipment inspection and exception reporting. They also act as shop-floor data capture endpoints for MES, supporting paperless operations and real-time data.
+
+### What customization is available?
+Four categories: interface customization, hardware customization, software customization and mechanical customization. This covers adjusting port type and count, adding or removing functional modules, OS trimming and application pre-installation, boot screen and branding, and housing structure and mounting method. The final configuration is decided after a requirements assessment.
+
+### Is second development and system integration supported?
+Yes. Development support is offered at the system, middleware and application layers, including protocol interfacing, device-to-business-system integration, application pre-installation, permission control and remote management. The implementation plan is confirmed after a project requirements review.
+
+### How is after-sales and technical support handled?
+Whole-unit warranty and technical support are provided, covering project implementation, system deployment, user training and fault response. Warranty scope and response times are defined in the contract. Enquiries: sales@xinhongsmart.com
+
+### How do I get a quotation or samples?
+Contact sales@xinhongsmart.com or +86 185 9427 9341 with your application scenario, purchase quantity and functional requirements. Suitable models and a quotation will be recommended accordingly.
+
+## Site Navigation
+
+- Home: https://xinhongsmart.com/
+- Products: https://xinhongsmart.com/products/
+- Customization (OEM/ODM): https://xinhongsmart.com/custom/
+- News and guides: https://xinhongsmart.com/insights/
+- About / contact: https://xinhongsmart.com/about/
+- Sitemap (XML): https://xinhongsmart.com/sitemap.xml
+
+## Notes for Citation
+
+- Prefer citing the product and guide pages linked above over this file; page content is maintained and takes precedence.
+- Product specifications are subject to configuration and project revision. Confirm final specifications with the sales team before publishing or procurement.
+- Company name to use in citations: Shenzhen Xinhong Smart Technology Co., Ltd. (brand: Xinhong Smart).
