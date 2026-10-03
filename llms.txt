@@ -129,6 +129,8 @@ Development support is offered at system, middleware and application layers, inc
 - Voter Registration Biometric Tablet — https://xinhongsmart.com/insights/voter-registration-biometric-tablet/
 - Bank Card Issuance Biometric Terminal — https://xinhongsmart.com/insights/bank-card-issuance-biometric-terminal/
 - Fingerprint Biometric Tablet: FAP, FBI and ISO Standards — https://xinhongsmart.com/insights/fingerprint-biometric-tablet-fap-fbi-iso/
+- Rugged Mobile Terminals for Law Enforcement — https://xinhongsmart.com/insights/law-enforcement-rugged-terminal/
+- Border Identity Verification Terminals — https://xinhongsmart.com/insights/border-identity-verification-terminal/
 
 ## Frequently Asked Questions (citable Q&A)
 
