@@ -33,7 +33,15 @@
 .xhs-oem-table th{background:#f7f9fc;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:#6d798f}
 .xhs-oem-table td:first-child{width:30%;color:#5a6572}
 .xhs-cta-list{margin:14px 0 22px;padding-left:20px;color:#4c5d78;line-height:1.9;font-size:17px}
+.xhs-oem-hub{display:grid;grid-template-columns:1fr;gap:16px;margin-top:22px}
+.xhs-hub-card{display:block;background:#fff;border:1px solid var(--line);border-radius:10px;padding:20px 20px 18px;text-decoration:none;transition:border-color .15s,box-shadow .15s}
+.xhs-hub-card:hover{border-color:var(--blue);box-shadow:0 6px 18px rgba(0,47,167,.10)}
+.xhs-hub-card h3{font-size:18px;margin:0 0 8px;color:var(--ink)}
+.xhs-hub-card p{margin:0 0 12px;font-size:15px;line-height:1.7;color:#54637c}
+.xhs-hub-go{font-size:15px;font-weight:600;color:var(--blue)}
 @media(min-width:860px){.xhs-oem-grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:720px){.xhs-oem-hub{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:1040px){.xhs-oem-hub{grid-template-columns:repeat(3,1fr)}}
 </style>
 <!-- SEO:JSONLD:START -->
 <script type="application/ld+json">
@@ -51,9 +59,18 @@
 <nav class="desktop-nav" aria-label="Main navigation"><a href="/">Home</a><a href="/products/">Products</a><a href="/custom/">Custom Solutions</a><a href="/oem-odm/">OEM &amp; ODM</a><a href="/insights/">News</a><a href="/about/">About Us</a></nav><a class="header-contact" href="/about/#contact">Contact us <span>&#8599;</span></a>
 <details class="mobile-menu"><summary aria-label="Open menu">&#9776;</summary><nav><a href="/">Home</a><a href="/products/">Products</a><a href="/custom/">Custom Solutions</a><a href="/oem-odm/">OEM &amp; ODM</a><a href="/insights/">News</a><a href="/about/">About Us</a></nav></details></div></header>
 
-<section class="page-intro"><div class="container"><div class="eyebrow">OEM · ODM · FACTORY DIRECT</div><h1>OEM &amp; ODM Manufacturing for Rugged Terminals</h1><p>Shenzhen Xinhong Smart Technology Co., Ltd. manufactures rugged handheld terminals, industrial tablets and biometric devices for system integrators, distributors and brand owners. An OEM programme reconfigures a platform that is already in production; an ODM programme designs the device your deployment needs and takes it through tooling into mass production. Assembly, burn-in, serialisation and inspection run against acceptance criteria agreed with you before the line starts.</p></div></section>
+<section class="page-intro"><div class="container"><div class="eyebrow">OEM · ODM · FACTORY DIRECT</div><h1>OEM &amp; ODM Manufacturing for Rugged Terminals</h1><p>Shenzhen Xinhong Smart Technology Co., Ltd. manufactures rugged handheld terminals, industrial tablets and biometric devices for system integrators, distributors and brand owners. An OEM programme reconfigures a platform that is already in production; an ODM programme designs the device your deployment needs and takes it through tooling into mass production. Assembly, burn-in, serialisation and inspection run against acceptance criteria agreed with you before the line starts.</p><p style="font-size:15px;line-height:1.8;color:#5a6a82;margin-top:14px">This page is the centre for that work. The detail sits in five areas: <a class="text-link" href="/oem-odm/hardware-customization/">hardware customization</a>, <a class="text-link" href="/oem-odm/software-customization/">software customization</a>, <a class="text-link" href="/oem-odm/industrial-design/">industrial design</a>, <a class="text-link" href="/oem-odm/android-os-customization/">Android OS customization</a> and <a class="text-link" href="/oem-odm/certification-support/">certification support</a>.</p></div></section>
 
 <main>
+<section class="section"><div class="container"><div class="eyebrow">OEM / ODM CENTRE</div><h2>Five areas you can change</h2><p class="lead" style="margin-top:12px;max-width:860px">Most projects touch more than one of these. Each page sets out what can be changed on an existing platform, what moves the project onto the ODM route, and what has to be settled before the line starts.</p>
+<div class="xhs-oem-hub">
+<a class="xhs-hub-card" href="/oem-odm/hardware-customization/"><h3>Hardware Customization</h3><p>Modules, interfaces, memory tiers, LTE bands and chargers — the 2D engine, fingerprint sensor, NFC, RFID and ID card reader fitted to your build, plus the internal USB, TTL serial, GPIO and SPI headers available to integrators.</p><span class="xhs-hub-go">Hardware options &#8599;</span></a>
+<a class="xhs-hub-card" href="/oem-odm/software-customization/"><h3>Software Customization</h3><p>API and SDK access for every module in the build, output formats confirmed before the order is placed, and your application pre-installed on the image instead of rolled out on site.</p><span class="xhs-hub-go">SDK and integration &#8599;</span></a>
+<a class="xhs-hub-card" href="/oem-odm/industrial-design/"><h3>Industrial Design</h3><p>Finishing changes that reuse existing tooling, structural changes that need partial tooling, and a new enclosure that needs full tooling — including what a housing change does to ingress protection.</p><span class="xhs-hub-go">Design and tooling &#8599;</span></a>
+<a class="xhs-hub-card" href="/oem-odm/android-os-customization/"><h3>Android OS Customization</h3><p>The Android version per platform, GMS or plain AOSP, boot logo, launcher and kiosk behaviour, pre-installed applications, and whether the image is frozen or updateable.</p><span class="xhs-hub-go">OS and image &#8599;</span></a>
+<a class="xhs-hub-card" href="/oem-odm/certification-support/"><h3>Certification Support</h3><p>What the standard build already carries, how conformity for your destination market is scoped before tooling, and what triggers re-testing once the enclosure, board or radio changes.</p><span class="xhs-hub-go">Compliance planning &#8599;</span></a>
+</div></div></section>
+
 <section class="section"><div class="container"><div class="eyebrow">TWO PROGRAMMES</div><h2>Start from a shipping platform, or from your requirement</h2>
 <div class="xhs-oem-grid">
 <div class="xhs-oem-card"><h3>OEM — reconfigure a proven platform</h3><p>The mainboard and tooling already exist and have been through production, so the engineering risk is low and the route to a sample is short. You choose what changes; everything else stays as validated.</p><ul><li>Module set, interface layout and memory tier</li><li>Android build, boot logo and pre-installed applications</li><li>Housing colour, silk-screen and model name</li><li>Packaging, manual and accessory set</li></ul></div>
