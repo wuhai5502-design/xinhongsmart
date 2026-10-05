@@ -43,5 +43,5 @@
 ## 待确认事项（影响文案准确性，尽快回我）
 
 1. **8寸机型的 IP 等级**：目前文案写 "IP65 standard / IP67 optional" —— 请跟工厂确认
-2. **公司成立年份**：schema 里写了 2016，请确认（影响 Organization 数据）
+2. ~~**公司成立年份**：schema 里写了 2016，请确认（影响 Organization 数据）~~ ✅ 已确认 2016（2026-10-05 用户确认），About 页正文 + Organization.foundingDate + llms.txt 三处均已写入
 3. **WhatsApp / 领英**：海外 B2B 站强烈建议挂 WhatsApp 按钮；有领英公司页的话加进 schema 的 sameAs

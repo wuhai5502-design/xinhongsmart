@@ -16,7 +16,7 @@
 - Customization: Interface, hardware, software and mechanical (housing) customization; system / middleware / application-layer development; SDK and API integration
 - Typical applications: Warehousing and logistics, manufacturing and MES, field inspection and utilities, identity verification, voter registration, bank card issuance, border control, healthcare, retail, public sector
 - Business registry record (third-party verification): https://www.qcc.com/firm/226dcd1da417ec32f940ea1a901ffb08.html
-- Founded: 2016
+- Founded: 2016 — ten years in operation as of 2026
 - Factory: 2,000 m² own facility in Shenzhen; 3 production lines; capacity 10,000 units per month
 - R&D: 15 engineers covering hardware interfaces and modules, mechanical design and tooling, and Android OS / software customization
 - In-house test equipment: high and low temperature chamber, vibration tester, salt spray tester, water ingress test bench, abrasion tester
