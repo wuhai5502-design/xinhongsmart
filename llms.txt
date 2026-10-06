@@ -139,6 +139,8 @@ Development support is offered at system, middleware and application layers, inc
 - Fingerprint Biometric Tablet: FAP, FBI and ISO Standards — https://xinhongsmart.com/insights/fingerprint-biometric-tablet-fap-fbi-iso/
 - Rugged Mobile Terminals for Law Enforcement — https://xinhongsmart.com/insights/law-enforcement-rugged-terminal/
 - Border Identity Verification Terminals — https://xinhongsmart.com/insights/border-identity-verification-terminal/
+- Rugged Tablet Certifications: What You Need — https://xinhongsmart.com/insights/rugged-tablet-certifications-required/
+- How to Customize an Android Rugged Tablet — https://xinhongsmart.com/insights/customize-android-rugged-tablet/
 
 ## Frequently Asked Questions (citable Q&A)
 

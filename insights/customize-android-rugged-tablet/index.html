@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261005-footer"><!-- SEO:HEAD:START -->
+<title>How to Customize an Android Rugged Tablet | Xinhong Smart</title>
+<meta name="description" content="A practical OEM/ODM roadmap for customizing an Android rugged tablet: hardware modules, Android OS and kiosk changes, SDK and MDM, branding, certification re-testing, MOQs and realistic lead times.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="theme-color" content="#002fa7">
+<link rel="canonical" href="https://xinhongsmart.com/insights/customize-android-rugged-tablet/">
+<link rel="alternate" hreflang="x-default" href="https://xinhongsmart.com/insights/customize-android-rugged-tablet/">
+<meta property="og:site_name" content="Xinhong Smart"><meta property="og:locale" content="en_US"><meta property="og:type" content="article">
+<meta property="og:url" content="https://xinhongsmart.com/insights/customize-android-rugged-tablet/">
+<meta property="og:title" content="How to Customize an Android Rugged Tablet: Hardware, OS, Firmware and Branding">
+<meta property="og:description" content="A practical OEM/ODM roadmap for customizing an Android rugged tablet: hardware modules, Android OS and kiosk changes, SDK and MDM, branding, certification re-testing, MOQs and realistic lead times.">
+<meta property="og:image" content="https://xinhongsmart.com/uploads/blog/manufacturing-line.jpg">
+<meta property="article:published_time" content="2026-10-06"><meta property="article:modified_time" content="2026-10-06">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="How to Customize an Android Rugged Tablet: Hardware, OS, Firmware and Branding"><meta name="twitter:description" content="A practical OEM/ODM roadmap for customizing an Android rugged tablet: hardware modules, Android OS and kiosk changes, SDK and MDM, branding, certification re-testing, MOQs and realistic lead times.">
+<!-- SEO:HEAD:END -->
+<!-- SEO:JSONLD:START -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"How to Customize an Android Rugged Tablet: Hardware, OS, Firmware and Branding","description":"A step-by-step OEM/ODM customization roadmap for Android rugged tablets. Covers the five customization layers (hardware modules, Android OS and firmware, SDK and MDM integration, branding and packaging, certification re-validation), typical minimum order quantities, realistic lead times, NRE versus unit cost, common mistakes and a buyer checklist.","url":"https://xinhongsmart.com/insights/customize-android-rugged-tablet/","image":["https://xinhongsmart.com/uploads/blog/manufacturing-line.jpg"],"datePublished":"2026-10-06","dateModified":"2026-10-06","inLanguage":"en","author":{"@type":"Organization","name":"Shenzhen Xinhong Smart Technology Co., Ltd.","url":"https://xinhongsmart.com/"},"publisher":{"@type":"Organization","name":"Shenzhen Xinhong Smart Technology Co., Ltd.","url":"https://xinhongsmart.com/","sameAs":["https://www.xinhong.site/","https://www.qcc.com/firm/226dcd1da417ec32f940ea1a901ffb08.html"],"logo":{"@type":"ImageObject","url":"https://xinhongsmart.com/favicon.svg"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://xinhongsmart.com/insights/customize-android-rugged-tablet/"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xinhongsmart.com/"},{"@type":"ListItem","position":2,"name":"News","item":"https://xinhongsmart.com/insights/"},{"@type":"ListItem","position":3,"name":"How to Customize an Android Rugged Tablet","item":"https://xinhongsmart.com/insights/customize-android-rugged-tablet/"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the minimum order quantity for a customized rugged tablet?","acceptedAnswer":{"@type":"Answer","text":"It depends on the layer. Software, launcher and branding changes typically start at 50 to 100 units on an existing platform. Swapping a data capture module usually starts around 100 to 300 units because it affects board configuration and validation. A new housing colour, tooling or a full ODM design starts at 500 to 1000 units and above, plus tooling NRE."}},{"@type":"Question","name":"How long does Android rugged tablet customization take?","acceptedAnswer":{"@type":"Answer","text":"Configuration-only changes on an existing platform typically take 4 to 8 weeks from signed specification to shipment, including software build and validation. Projects needing new housing tooling take 12 to 20 weeks, and adding new market certifications adds another 4 to 8 weeks. Firmware-only or launcher customization can be done in 1 to 3 weeks."}},{"@type":"Question","name":"Can we lock the tablet to a single app in kiosk mode?","acceptedAnswer":{"@type":"Answer","text":"Yes. Android Enterprise supports lock task mode and a managed launcher, and we can ship a build with your application set as the default kiosk app, with the status bar, notifications and navigation hidden. The same build can disable USB file transfer, camera, screenshots and factory reset from the user interface."}},{"@type":"Question","name":"Can you remove Google Mobile Services from the build?","acceptedAnswer":{"@type":"Answer","text":"Yes, an AOSP build without Google Mobile Services is possible, which is common for China domestic deployments and for customers with strict data policies. Be aware that apps depending on Google Play services, push notifications or Google Maps will not run, so your application must be validated against a pure AOSP build before production."}},{"@type":"Question","name":"Will adding a custom port or connector void the IP67 rating?","acceptedAnswer":{"@type":"Answer","text":"It can. Any change to the enclosure, gasket, port door or battery cover changes the sealing path and can invalidate a previously passed ingress test. Software changes have no effect on ingress ratings. The safe sequence is to make the mechanical change, then re-run IEC 60529 validation on the new configuration and issue a fresh report."}},{"@type":"Question","name":"Can we put our own brand and model number on the device?","acceptedAnswer":{"@type":"Answer","text":"Yes. Logo application can be silkscreen, laser etching or moulded into the housing, along with a custom boot logo, boot animation and wallpaper. Packaging, manuals, labels and accessories can also carry your brand. If you need the regulatory certificates to show your company as the certificate holder, that requires its own conformity route and should be planned early."}},{"@type":"Question","name":"Can you pre-install our APK and manage over-the-air updates?","acceptedAnswer":{"@type":"Answer","text":"Yes. We can pre-install your applications as system or user apps, sign them with your key where required, and provide an FOTA update path. You can host the update package on your own server and control rollout by device group, or use your MDM to distribute updates once devices are enrolled."}},{"@type":"Question","name":"Do you provide an SDK for the barcode scanner and RFID module?","acceptedAnswer":{"@type":"Answer","text":"Yes. We provide Android SDK and API access for the 2D imager, UHF RFID, NFC, fingerprint module and GPIO or UART control, so your application can trigger scanning, receive decoded data through intents or a bound service, and control hardware features programmatically. SDK access is normally included with hardware customization projects."}},{"@type":"Question","name":"Can we choose the Android version?","acceptedAnswer":{"@type":"Answer","text":"The Android version is tied to the platform's system-on-module and its vendor board support package, so it cannot always be chosen freely. What matters more commercially is the commitment: how many years of security patches, and how many major OS upgrades. Ask for this in writing rather than the version number alone."}},{"@type":"Question","name":"Who owns the tooling and NRE?","acceptedAnswer":{"@type":"Answer","text":"Tooling paid for by the customer is normally owned by the customer, but this must be stated in the agreement, along with where the tooling is stored and whether it can be moved. NRE for firmware and industrial design is usually non-recurring and separate from the unit price. Clarify both before the project starts."}}]}
+</script>
+<!-- SEO:JSONLD:END -->
+
+</head><body>
+<header class="site-header"><div class="container header-inner"><a class="brand" href="/" aria-label="Home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span class="brand-name">Xinhong Smart</span></a>
+<nav class="desktop-nav" aria-label="Main navigation"><a href="/">Home</a><a href="/products/">Products</a><a href="/biometric-tablet/">Biometric Tablet</a><a href="/oem-odm/">OEM &amp; ODM</a><a href="/insights/">News</a><a href="/about/">About Us</a></nav><a class="header-contact" href="/about/#contact">Contact us <span>↗</span></a>
+<details class="mobile-menu"><summary aria-label="Open menu">☰</summary><nav><a href="/">Home</a><a href="/products/">Products</a><a href="/biometric-tablet/">Biometric Tablet</a><a href="/oem-odm/">OEM &amp; ODM</a><a href="/insights/">News</a><a href="/about/">About Us</a></nav></details></div></header>
+<main><div class="container article-page"><a class="text-link" href="/insights/">&#8592; All news</a><div class="eyebrow">NEWS / 2026-10-06</div><h1>How to Customize an Android Rugged Tablet: Hardware, OS, Firmware and Branding</h1>
+<p class="hero-sub">Five Customization Layers · Hardware Modules · Android OS &amp; Kiosk · SDK &amp; MDM · Tooling, MOQ and Lead Times</p>
+<nav aria-label="Breadcrumb" style="font-size:14px;color:#002fa7;margin:10px 0 4px"><a href="/">Home</a> / <a href="/insights/">News</a> / <span aria-current="page">How to Customize an Android Rugged Tablet</span></nav>
+<p>Most buyers approach customization backwards: they start with a wish list of features and discover the cost and lead time at the end. It works better the other way round. Customization happens in <strong>five independent layers</strong>, each with its own minimum order quantity, lead time and risk profile. Once you know which layer a request belongs to, you can predict what it will cost and how long it will take — and, more importantly, which requests will invalidate the certifications you already paid for.</p>
+
+<h2 id="summary">Quick Answer: The Five Layers</h2>
+<table>
+<tr><th>Layer</th><th>What you can change</th><th>Typical MOQ</th><th>Typical lead time</th></tr>
+<tr><td><strong>1. Hardware</strong></td><td>Scanner, RFID, fingerprint, battery, ports, display, radios</td><td>100–300</td><td>4–8 weeks</td></tr>
+<tr><td><strong>2. Android OS</strong></td><td>Launcher, kiosk, pre-installed apps, boot logo, key mapping</td><td>50–100</td><td>2–4 weeks</td></tr>
+<tr><td><strong>3. Firmware / SDK</strong></td><td>APIs, scan intents, GPIO control, FOTA, MDM hooks</td><td>50–100</td><td>2–6 weeks</td></tr>
+<tr><td><strong>4. Branding</strong></td><td>Logo, housing colour, packaging, manuals, labels</td><td>50–500</td><td>2–8 weeks</td></tr>
+<tr><td><strong>5. Industrial design</strong></td><td>New housing, tooling, full ODM</td><td>500–1000+</td><td>12–20 weeks</td></tr>
+</table>
+<blockquote><p><strong>Cost driver:</strong> layers 2, 3 and 4 are configuration work — cheap and fast. Layer 5 means tooling, which means NRE and months. Most projects get 90% of the value from layers 1 to 4.</p></blockquote>
+
+<h2 id="hardware">Layer 1 — Hardware Customization</h2>
+<p>This is where the device stops being generic. Each change is a board or mechanical decision, so each carries validation cost.</p>
+
+<h3>Data Capture</h3>
+<table>
+<tr><th>Module</th><th>Options</th><th>Typical use</th></tr>
+<tr><td>2D imager</td><td>Zebra SE4710 / SE55, Honeywell N6703 / N3601</td><td>Warehouse picking, retail, ticketing</td></tr>
+<tr><td>UHF RFID</td><td>Impinj-based reader, 860–960 MHz by region</td><td>Pallet and inventory scanning at distance</td></tr>
+<tr><td>NFC / HF RFID</td><td>ISO 14443 A/B, ISO 15693, MIFARE</td><td>Access control, smart card, payment</td></tr>
+<tr><td>Fingerprint</td><td>FAP 10 / FAP 20 / FAP 30, ISO 19794 formats</td><td>Identity verification, enrolment</td></tr>
+<tr><td>ID / passport</td><td>MRZ OCR, contact chip, full-page document scan</td><td>Border control, KYC</td></tr>
+</table>
+
+<h3>Power, Display and I/O</h3>
+<ul>
+<li><strong>Battery:</strong> capacity increase, hot-swap second pack, heated cell for cold chain, larger charging contacts for dock reliability.</li>
+<li><strong>Display:</strong> 700–1000 nit sunlight-readable panel, glove and wet-finger touch controller, chemically strengthened cover glass, optional digitizer.</li>
+<li><strong>Ports:</strong> full-size USB-A, RJ45 Ethernet, RS232 serial, GPIO, HDMI-out, dual nano-SIM, microSD.</li>
+<li><strong>Radios:</strong> regional 4G/5G band sets, Wi-Fi 6 / 6E, dedicated GNSS with higher accuracy, private LTE or LTE band sets for utilities.</li>
+<li><strong>Mechanical:</strong> housing colour, hand strap, shoulder strap, kickstand, vehicle dock and cradle, VESA or AMPS mounting pattern, custom keypad or function keys.</li>
+</ul>
+
+<figure style="margin:28px 0;text-align:center;">
+  <img src="/uploads/blog/manufacturing-line.jpg" alt="OEM rugged tablet assembly line configured for customized hardware modules" width="1536" height="1024" loading="lazy" decoding="async" style="max-width:100%;height:auto;border-radius:8px;box-shadow:0 4px 18px rgba(0,0,0,.10);">
+  <figcaption style="margin-top:10px;font-size:.875rem;color:#6b7280;line-height:1.65;">Hardware customization is assembly and validation work — the unit cost impact is small, but each change needs its own test run.</figcaption>
+</figure>
+
+<h2 id="os">Layer 2 — Android OS Customization</h2>
+<p>Software changes are the highest-value, lowest-risk customization available. They do not affect ingress ratings, do not require tooling, and can usually be revised after deployment through an update.</p>
+<ul>
+<li><strong>Kiosk and lockdown.</strong> Android Enterprise lock task mode or a managed launcher: your app becomes the home screen, with status bar, notifications and navigation hidden.</li>
+<li><strong>Pre-installed applications.</strong> Your APK shipped as a system or user app, version-pinned, optionally signed with your key.</li>
+<li><strong>Removed consumer software.</strong> Strip the browser, app store, FM radio and demo content that generate support tickets.</li>
+<li><strong>Hardware key remapping.</strong> Reassign the physical trigger, function keys and volume buttons to your application's actions.</li>
+<li><strong>Boot identity.</strong> Custom boot logo, boot animation, wallpaper, model name and default locale.</li>
+<li><strong>Disabled functions.</strong> Camera, USB file transfer, screenshots, Bluetooth, factory reset — policy-controlled rather than physical removal.</li>
+<li><strong>GMS versus AOSP.</strong> Keep Google Mobile Services for Play and Maps, or ship a pure AOSP build. Choose early: it changes which of your apps will run.</li>
+<li><strong>Update commitment.</strong> The Android version is bounded by the platform, but the security patch cadence and upgrade window are commercial terms — get them in writing.</li>
+</ul>
+<p>If you are still deciding between platforms, our <a href="/insights/android-vs-windows-rugged-tablet/">Android vs Windows comparison</a> covers the MDM and application compatibility trade-offs in detail.</p>
+
+<h2 id="sdk">Layer 3 — Firmware, SDK and Device Management</h2>
+<p>This layer determines whether your software team can actually control the hardware, and whether your IT team can manage hundreds of units without touching them.</p>
+<ul>
+<li><strong>Scanning API.</strong> Trigger the imager programmatically and receive decoded data through an intent or a bound service, rather than relying on keyboard emulation.</li>
+<li><strong>RFID and NFC API.</strong> Inventory sessions, power control, tag filtering and read-rate tuning.</li>
+<li><strong>GPIO, UART and RS232 control.</strong> Needed for vehicle installations, relays and legacy industrial equipment.</li>
+<li><strong>Device identity API.</strong> Read serial number, IMEI and custom asset tags for asset registration.</li>
+<li><strong>FOTA.</strong> An update package path you can host yourself, with staged rollout by device group.</li>
+<li><strong>MDM compatibility.</strong> Android Enterprise zero-touch enrolment, and verified behaviour with SOTI MobiControl, Hexnode, VMware Workspace ONE and similar platforms, including remote wipe and geofencing.</li>
+</ul>
+<blockquote><p>Ask for the SDK documentation <em>before</em> you place the order. If the vendor cannot show API documentation for a module, assume your developers will be locked out of it.</p></blockquote>
+
+<h2 id="branding">Layer 4 — Branding and Packaging</h2>
+<ul>
+<li><strong>Logo:</strong> silkscreen, laser etching or moulded into the housing.</li>
+<li><strong>Housing colour:</strong> usually subject to a paint batch MOQ, which is higher than a logo MOQ.</li>
+<li><strong>Packaging:</strong> custom retail or bulk carton, printed manual, quick-start card, accessory branding.</li>
+<li><strong>Labels:</strong> your model number, barcode, regulatory labels and asset tags.</li>
+<li><strong>Certificate holder:</strong> if the regulatory certificates must name your company rather than the manufacturer, that is a separate conformity route — plan it at the start, not the end.</li>
+</ul>
+
+<h2 id="certification">Layer 5 — Certification and Re-Validation</h2>
+<p>This is the layer buyers forget, and it is the one that can invalidate the other four. A mechanical change alters the sealing path; a radio change alters the emissions profile.</p>
+<table>
+<tr><th>Change</th><th>Does it need re-testing?</th><th>Why</th></tr>
+<tr><td>Software, launcher, branding</td><td>No</td><td>No effect on enclosure or radio</td></tr>
+<tr><td>New port, connector or cut-out</td><td><strong>Yes — IP re-test</strong></td><td>Sealing path has changed</td></tr>
+<tr><td>New battery pack or cover</td><td><strong>Yes — IP and battery</strong></td><td>Gasket geometry and cell safety</td></tr>
+<tr><td>Different cellular module</td><td><strong>Yes — radio</strong></td><td>FCC ID / CE radio conformity is per module</td></tr>
+<tr><td>New housing or tooling</td><td><strong>Yes — full re-validation</strong></td><td>Drop, IP, thermal all change</td></tr>
+</table>
+<p>Our <a href="/insights/rugged-tablet-certifications-required/">rugged tablet certification guide</a> explains how to read a test report and what each standard actually proves, and our <a href="/oem-odm/certification-support/">certification support</a> page covers the approvals we can arrange for a customer configuration.</p>
+
+<h2 id="process">Process and Realistic Timeline</h2>
+<table>
+<tr><th>Stage</th><th>Duration</th><th>Deliverable</th></tr>
+<tr><td>Requirements and feasibility review</td><td>1–2 weeks</td><td>Specification, risk list, quote</td></tr>
+<tr><td>Engineering verification test (EVT)</td><td>3–5 weeks</td><td>Working prototype, SDK handover</td></tr>
+<tr><td>Design verification test (DVT)</td><td>3–5 weeks</td><td>Validated build, test reports</td></tr>
+<tr><td>Production verification test (PVT)</td><td>2–4 weeks</td><td>Pilot batch, packaging sign-off</td></tr>
+<tr><td>Mass production</td><td>2–4 weeks</td><td>Shipment</td></tr>
+</table>
+<p>Configuration-only projects compress EVT and DVT into 4–8 weeks total. New tooling stretches the middle stages to 12–20 weeks, and new market certifications add 4–8 weeks on top.</p>
+
+<h2 id="cost">MOQ, NRE and Unit Cost</h2>
+<table>
+<tr><th>Request</th><th>Typical MOQ</th><th>Cost character</th></tr>
+<tr><td>Launcher, kiosk, pre-installed apps</td><td>50–100</td><td>Usually no NRE</td></tr>
+<tr><td>Logo and packaging</td><td>50–500</td><td>Small setup fee</td></tr>
+<tr><td>Module swap (scanner, RFID, fingerprint)</td><td>100–300</td><td>Unit cost increase</td></tr>
+<tr><td>Custom port or connector</td><td>300–500</td><td>NRE plus IP re-test</td></tr>
+<tr><td>New housing colour</td><td>500+</td><td>Paint batch MOQ</td></tr>
+<tr><td>New housing tooling</td><td>1000+</td><td>Tooling NRE plus full validation</td></tr>
+</table>
+
+<h2 id="mistakes">Seven Mistakes to Avoid</h2>
+<ol>
+<li><strong>Changing the enclosure without re-testing IP.</strong> The most common and most expensive error — the certificate you paid for quietly stops applying.</li>
+<li><strong>Assuming your app runs on AOSP.</strong> Test against a GMS-free build before committing to it.</li>
+<li><strong>Choosing an Android version without a patch commitment.</strong> The version number matters less than the update policy.</li>
+<li><strong>Designing a dock last.</strong> Charging contacts and mounting patterns interact; docking failures are the top field complaint.</li>
+<li><strong>Forgetting spare parts.</strong> A custom housing means a custom spare pipeline — agree the support window before production.</li>
+<li><strong>Not specifying band sets per country.</strong> A device certified for one region's LTE bands may not register in another.</li>
+<li><strong>Skipping the SDK review.</strong> If the scanner has no usable API, your team will build fragile workarounds.</li>
+</ol>
+
+<figure style="margin:28px 0;text-align:center;">
+  <img src="/uploads/blog/field-products.jpg" alt="Customized rugged tablets deployed in real field service and warehouse environments" width="1536" height="1024" loading="lazy" decoding="async" style="max-width:100%;height:auto;border-radius:8px;box-shadow:0 4px 18px rgba(0,0,0,.10);">
+  <figcaption style="margin-top:10px;font-size:.875rem;color:#6b7280;line-height:1.65;">The goal of customization is fewer workarounds in the field — not a longer feature list on paper.</figcaption>
+</figure>
+
+<h2 id="checklist">Buyer's Checklist</h2>
+<table>
+<tr><th>Item</th><th>Why it matters</th></tr>
+<tr><td>Written specification with method numbers</td><td>Enforceable after delivery</td></tr>
+<tr><td>SDK documentation reviewed by your developers</td><td>Avoids locked-out hardware</td></tr>
+<tr><td>Re-validation plan for every mechanical change</td><td>Keeps certifications valid</td></tr>
+<tr><td>Android patch cadence in the contract</td><td>Defines the real support life</td></tr>
+<tr><td>Spare parts and repair window</td><td>Custom housing needs a custom pipeline</td></tr>
+<tr><td>Tooling ownership clause</td><td>Protects your investment</td></tr>
+<tr><td>Pilot batch before mass production</td><td>Catches dock and app issues cheaply</td></tr>
+</table>
+
+<h2 id="recommendation">Xinhong Recommendation</h2>
+<ul>
+<li><strong>Do the software layers first.</strong> Kiosk, launcher and SDK integration deliver most of the operational value at the lowest risk.</li>
+<li><strong>Keep mechanical changes to proven options.</strong> Ports and modules we already validate on the platform avoid re-tooling and re-certification.</li>
+<li><strong>Plan the dock with the device.</strong> Not after.</li>
+<li><strong>Budget a pilot batch.</strong> 20–50 units in real conditions before committing to volume.</li>
+</ul>
+<p>Have a specification in mind? Send it over and we will tell you which layer each request falls into, what it costs, what it does to your lead time, and which certifications need re-testing — including where a standard configuration is the better choice.</p>
+
+<section class="landing-cta">
+  <h2>Scope Your Customization Project</h2>
+  <p>Send your requirements list and target volume. We reply within 12 hours with a layer-by-layer breakdown: MOQ, NRE, unit cost impact, lead time and re-validation requirements.</p>
+  <p><a class="cta-btn" href="/about/#contact">Contact Us</a> <a class="cta-btn-secondary" href="/oem-odm/hardware-customization/">Hardware Customization</a> <a class="cta-btn-secondary" href="/oem-odm/android-os-customization/">Android OS Customization</a></p>
+</section>
+
+<aside style="margin:28px 0;padding:16px 20px;border-left:3px solid #087dbd;background:#f5f9fc;border-radius:0 6px 6px 0;">
+  <strong>Related guide:</strong> <a href="/insights/android-vs-windows-rugged-tablet/">Android vs Windows Rugged Tablet</a> - how the OS choice affects MDM support, scanning SDKs, application compatibility and total cost of ownership.
+</aside>
+
+<section class="landing-faq">
+<h2>Frequently Asked Questions</h2>
+<details><summary>What is the minimum order quantity for a customized rugged tablet?</summary><div>It depends on the layer. Software, launcher and branding changes typically start at 50 to 100 units on an existing platform. Swapping a data capture module usually starts around 100 to 300 units because it affects board configuration and validation. A new housing colour, tooling or a full ODM design starts at 500 to 1000 units and above, plus tooling NRE.</div></details>
+<details><summary>How long does Android rugged tablet customization take?</summary><div>Configuration-only changes on an existing platform typically take 4 to 8 weeks from signed specification to shipment, including software build and validation. Projects needing new housing tooling take 12 to 20 weeks, and adding new market certifications adds another 4 to 8 weeks. Firmware-only or launcher customization can be done in 1 to 3 weeks.</div></details>
+<details><summary>Can we lock the tablet to a single app in kiosk mode?</summary><div>Yes. Android Enterprise supports lock task mode and a managed launcher, and we can ship a build with your application set as the default kiosk app, with the status bar, notifications and navigation hidden. The same build can disable USB file transfer, camera, screenshots and factory reset from the user interface.</div></details>
+<details><summary>Can you remove Google Mobile Services from the build?</summary><div>Yes, an AOSP build without Google Mobile Services is possible, which is common for China domestic deployments and for customers with strict data policies. Be aware that apps depending on Google Play services, push notifications or Google Maps will not run, so your application must be validated against a pure AOSP build before production.</div></details>
+<details><summary>Will adding a custom port or connector void the IP67 rating?</summary><div>It can. Any change to the enclosure, gasket, port door or battery cover changes the sealing path and can invalidate a previously passed ingress test. Software changes have no effect on ingress ratings. The safe sequence is to make the mechanical change, then re-run IEC 60529 validation on the new configuration and issue a fresh report.</div></details>
+<details><summary>Can we put our own brand and model number on the device?</summary><div>Yes. Logo application can be silkscreen, laser etching or moulded into the housing, along with a custom boot logo, boot animation and wallpaper. Packaging, manuals, labels and accessories can also carry your brand. If you need the regulatory certificates to show your company as the certificate holder, that requires its own conformity route and should be planned early.</div></details>
+<details><summary>Can you pre-install our APK and manage over-the-air updates?</summary><div>Yes. We can pre-install your applications as system or user apps, sign them with your key where required, and provide an FOTA update path. You can host the update package on your own server and control rollout by device group, or use your MDM to distribute updates once devices are enrolled.</div></details>
+<details><summary>Do you provide an SDK for the barcode scanner and RFID module?</summary><div>Yes. We provide Android SDK and API access for the 2D imager, UHF RFID, NFC, fingerprint module and GPIO or UART control, so your application can trigger scanning, receive decoded data through intents or a bound service, and control hardware features programmatically. SDK access is normally included with hardware customization projects.</div></details>
+<details><summary>Can we choose the Android version?</summary><div>The Android version is tied to the platform's system-on-module and its vendor board support package, so it cannot always be chosen freely. What matters more commercially is the commitment: how many years of security patches, and how many major OS upgrades. Ask for this in writing rather than the version number alone.</div></details>
+<details><summary>Who owns the tooling and NRE?</summary><div>Tooling paid for by the customer is normally owned by the customer, but this must be stated in the agreement, along with where the tooling is stored and whether it can be moved. NRE for firmware and industrial design is usually non-recurring and separate from the unit price. Clarify both before the project starts.</div></details>
+</section>
+</main><footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a href="/">Xinhong Smart</a></div><div><strong>Explore</strong><a href="/products/">Products</a><a href="/products/rugged-tablets/">Rugged Tablets</a><a href="/products/handheld-pdas/">Handheld PDAs</a><a href="/products/biometric-devices/">Biometric Devices</a><a href="/products/document-devices/">Document Devices</a><a href="/biometric-tablet/">Biometric Tablets</a><a href="/oem-odm/">OEM &amp; ODM</a><a href="/insights/">News</a></div><div><strong>OEM &amp; ODM</strong><a href="/oem-odm/hardware-customization/">Hardware Customization</a><a href="/oem-odm/software-customization/">Software &amp; SDK</a><a href="/oem-odm/industrial-design/">Industrial Design</a><a href="/oem-odm/android-os-customization/">Android OS</a><a href="/oem-odm/certification-support/">Certification Support</a></div><div><strong>Company</strong><a href="/about/">About Us</a><a href="/about/#contact">Contact</a></div><div><strong>Contact</strong><p></p></div></div><div class="container footer-bottom">&copy; 2026 Shenzhen Xinhong Smart Technology Co., Ltd. All rights reserved.</div></footer>
+<a class="xhs-wa-float" href="https://wa.me/8618594279341?text=Hello%20Xinhong%20Smart%2C%20I%27m%20interested%20in%20your%20rugged%20terminals." target="_blank" rel="noopener" aria-label="Chat on WhatsApp" style="position:fixed;right:20px;bottom:20px;z-index:9999;display:flex;align-items:center;gap:9px;background:#25D366;color:#fff;padding:12px 18px;border-radius:999px;text-decoration:none;font-weight:700;font-size:15px;box-shadow:0 6px 18px rgba(37,211,102,.45)"><svg width="21" height="21" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.1-.198.05-.371-.025-.52-.074-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg><span>Chat on WhatsApp</span></a>
+<style>@keyframes xhsWaPulse{0%{box-shadow:0 6px 18px rgba(37,211,102,.45),0 0 0 0 rgba(37,211,102,.55)}70%{box-shadow:0 6px 18px rgba(37,211,102,.45),0 0 0 16px rgba(37,211,102,0)}100%{box-shadow:0 6px 18px rgba(37,211,102,.45),0 0 0 0 rgba(37,211,102,0)}}.xhs-wa-float{animation:xhsWaPulse 1.8s infinite}</style></body></html>
