@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261005-footer">
+<!-- SEO:HEAD:START -->
+<title>UHF RFID Reader Tablet: Read Range and Antenna Design | Xinhong Smart</title>
+<meta name="description" content="How to specify a UHF RFID reader tablet: read range vs output power, EPC Gen2v2 and ISO 18000-63, regional frequency bands, circular vs linear polarisation, on-metal tags, duty cycle and WMS integration.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="theme-color" content="#002fa7">
+<link rel="canonical" href="https://xinhongsmart.com/insights/uhf-rfid-reader-tablet/">
+<link rel="alternate" hreflang="x-default" href="https://xinhongsmart.com/insights/uhf-rfid-reader-tablet/">
+<meta property="og:site_name" content="Xinhong Smart"><meta property="og:locale" content="en_US"><meta property="og:type" content="article">
+<meta property="og:url" content="https://xinhongsmart.com/insights/uhf-rfid-reader-tablet/">
+<meta property="og:title" content="UHF RFID Reader Tablet: Read Range, Antenna Design and Tag Compatibility">
+<meta property="og:description" content="A practical specification guide to UHF RFID reader tablets: what read range really depends on, regional frequency bands, antenna polarisation, why metal and liquid kill reads, and how EPC data reaches your WMS.">
+<meta property="og:image" content="https://xinhongsmart.com/uploads/blog/field-products.jpg">
+<meta property="article:published_time" content="2026-10-07"><meta property="article:modified_time" content="2026-10-07">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="UHF RFID Reader Tablet: Read Range, Antenna Design and Tag Compatibility"><meta name="twitter:description" content="What read range really depends on, regional frequency bands, antenna polarisation, why metal and liquid kill reads, and how EPC data reaches your WMS.">
+<!-- SEO:HEAD:END -->
+<!-- SEO:JSONLD:START -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"UHF RFID Reader Tablet: Read Range, Antenna Design and Tag Compatibility","description":"A practical specification guide to UHF RFID reader tablets: what read range really depends on, regional frequency bands (ETSI, FCC, China), antenna polarisation and gain, EPC Gen2v2 tag chips, on-metal and liquid detuning, duty cycle and thermal limits, and how EPC data reaches a WMS.","url":"https://xinhongsmart.com/insights/uhf-rfid-reader-tablet/","image":["https://xinhongsmart.com/uploads/blog/field-products.jpg"],"datePublished":"2026-10-07","dateModified":"2026-10-07","inLanguage":"en","author":{"@type":"Organization","name":"Shenzhen Xinhong Smart Technology Co., Ltd.","url":"https://xinhongsmart.com/"},"publisher":{"@type":"Organization","name":"Shenzhen Xinhong Smart Technology Co., Ltd.","url":"https://xinhongsmart.com/","sameAs":["https://www.xinhong.site/","https://www.qcc.com/firm/226dcd1da417ec32f940ea1a901ffb08.html"],"logo":{"@type":"ImageObject","url":"https://xinhongsmart.com/favicon.svg"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://xinhongsmart.com/insights/uhf-rfid-reader-tablet/"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xinhongsmart.com/"},{"@type":"ListItem","position":2,"name":"News","item":"https://xinhongsmart.com/insights/"},{"@type":"ListItem","position":3,"name":"UHF RFID Reader Tablet","item":"https://xinhongsmart.com/insights/uhf-rfid-reader-tablet/"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What read range should I expect from a UHF RFID reader tablet?","acceptedAnswer":{"@type":"Answer","text":"Treat any single number on a datasheet as a best-case figure measured in open air with an ideal tag at maximum power. In a real warehouse with racking, metal and mixed cartons, a handheld UHF reader tablet typically reads single items at two to five metres and dense pallet loads at one to three metres. Validate with your own tags on your own goods before committing."}},{"@type":"Question","name":"Can one UHF RFID reader tablet be used worldwide?","acceptedAnswer":{"@type":"Answer","text":"Not on one fixed setting. UHF RFID is licensed differently by region: 865-868 MHz in the EU under ETSI EN 302 208, 902-928 MHz in the United States under FCC Part 15, and 840-845 MHz paired with 920-925 MHz in China. The radio must be configured for the country of use, and some regions also regulate dwell time and channel hopping."}},{"@type":"Question","name":"Why do my tags stop reading when they are on metal?","acceptedAnswer":{"@type":"Answer","text":"Metal reflects radio energy and detunes the tag antenna away from its designed frequency, while liquids absorb UHF energy. Use an on-metal tag with a spacer layer that lifts the antenna off the metal surface, or mount the tag on a non-metallic face of the asset. Reducing reader power often helps too, because excessive power causes reflections and phantom reads."}},{"@type":"Question","name":"Is UHF RFID better than scanning 2D barcodes?","acceptedAnswer":{"@type":"Answer","text":"They solve different problems. UHF reads hundreds of tags per second without line of sight and through packaging, which suits pallet receiving and cycle counting. Barcodes cost a fraction of a cent each, need line of sight and one scan per item, but remain the cheapest option where items are handled individually. Many warehouses run both."}},{"@type":"Question","name":"Do I need NFC as well as UHF on the same device?","acceptedAnswer":{"@type":"Answer","text":"Often yes. UHF handles bulk identification at distance, while NFC at 13.56 MHz is the standard for close-range card reading, access control and secure credential checks. The two radios are complementary, and a combined unit avoids carrying a second device for gate and door workflows."}}]}
+</script>
+<!-- SEO:JSONLD:END -->
+</head>
+<body>
+<header class="site-header"><div class="container header-inner"><a class="brand" href="/" aria-label="Home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span class="brand-name">Xinhong Smart</span></a>
+<nav class="desktop-nav" aria-label="Main navigation"><a href="/">Home</a><a href="/products/">Products</a><a href="/biometric-tablet/">Biometric Tablet</a><a href="/oem-odm/">OEM &amp; ODM</a><a href="/insights/">News</a><a href="/about/">About Us</a></nav><a class="header-contact" href="/about/#contact">Contact us <span>&#8599;</span></a>
+<details class="mobile-menu"><summary aria-label="Open menu">&#9776;</summary><nav><a href="/">Home</a><a href="/products/">Products</a><a href="/biometric-tablet/">Biometric Tablet</a><a href="/oem-odm/">OEM &amp; ODM</a><a href="/insights/">News</a><a href="/about/">About Us</a></nav></details></div></header>
+<main><div class="container article-page"><a class="text-link" href="/insights/">&#8592; All news</a><div class="eyebrow">NEWS / 2026-10-07</div><h1>UHF RFID Reader Tablet: Read Range, Antenna Design and Tag Compatibility</h1>
+<p class="hero-sub">860&#8211;960 MHz &#183; EPC Gen2v2 / ISO 18000-63 &#183; Read range vs output power &#183; Circular vs linear polarisation &#183; On-metal tags &#183; Duty cycle &#183; EPC to WMS</p>
+<nav aria-label="Breadcrumb" style="font-size:14px;color:#002fa7;margin:10px 0 4px"><a href="/">Home</a> / <a href="/insights/">News</a> / <span aria-current="page">UHF RFID Reader Tablet</span></nav>
+<p>A UHF RFID reader tablet lets one operator identify hundreds of items in a few seconds without pointing at anything and without opening a carton. That capability is genuinely different from barcode scanning and from NFC, and it is the reason UHF has become standard in apparel retail, pallet logistics and asset tracking.</p>
+<p>It is also the specification most often bought on the wrong number. Vendors quote read range in metres; buyers compare those numbers; and then the device arrives at a warehouse full of steel racking and behaves quite differently. This article explains what actually determines read range, which regional rules constrain the radio, how antenna choice changes behaviour, and what to put in a specification before you commit to a rollout.</p>
+<img src="/uploads/blog/field-products.jpg" alt="Rugged Android tablets with integrated UHF RFID reader and barcode scanner prepared for warehouse and field deployment" width="1536" height="1024" loading="lazy" decoding="async" style="max-width:100%;height:auto;border-radius:8px;box-shadow:0 4px 18px rgba(0,0,0,.10);">
+
+<h2>What a UHF RFID Reader Tablet Does</h2>
+<p>A UHF RFID reader tablet is a rugged Android tablet with an integrated UHF radio module, an antenna, and an API that returns tag identifiers to an application. It operates in the 860&#8211;960 MHz band, reads passive EPC Gen2 tags that have no battery, and can inventory hundreds of tags per second within its field.</p>
+<p>The physics worth knowing: a passive UHF tag is powered by the reader's own transmission, and answers by reflecting a modulated signal back. This two-way link is why range behaves differently from anything with its own power source.</p>
+<table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:15px">
+<thead><tr style="background:#f3f6fc"><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Capture method</th><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Typical range</th><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Line of sight</th><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Bulk read</th><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Tag cost</th></tr></thead>
+<tbody>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">UHF RFID</td><td style="padding:10px;border:1px solid #dfe6f2">1&#8211;10 m, varies with tag and environment</td><td style="padding:10px;border:1px solid #dfe6f2">Not required</td><td style="padding:10px;border:1px solid #dfe6f2">Hundreds per second</td><td style="padding:10px;border:1px solid #dfe6f2">Low, cents per label</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">HF / NFC (13.56 MHz)</td><td style="padding:10px;border:1px solid #dfe6f2">Up to about 10 cm</td><td style="padding:10px;border:1px solid #dfe6f2">Required, close contact</td><td style="padding:10px;border:1px solid #dfe6f2">One at a time</td><td style="padding:10px;border:1px solid #dfe6f2">Low</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">2D barcode</td><td style="padding:10px;border:1px solid #dfe6f2">Contact to roughly 1 m</td><td style="padding:10px;border:1px solid #dfe6f2">Required, and label must be clean</td><td style="padding:10px;border:1px solid #dfe6f2">One at a time</td><td style="padding:10px;border:1px solid #dfe6f2">Lowest, printed</td></tr>
+</tbody></table>
+
+<h2>Read Range: Why the Datasheet Number Is Not the Field Number</h2>
+<p>Read range on a UHF handheld is the result of a link budget, not a fixed property of the reader. Five things set it:</p>
+<ul>
+<li><strong>Reader output power.</strong> Regulated by region, typically quoted as ERP or EIRP. Raising power helps the forward link but also increases reflections and stray reads.</li>
+<li><strong>Antenna gain and matching.</strong> A higher-gain antenna concentrates energy into a narrower beam, which increases range in one direction and reduces coverage elsewhere.</li>
+<li><strong>Tag chip sensitivity.</strong> Modern chips wake at roughly &#8722;18 to &#8722;22 dBm. A tag with better sensitivity is readable at greater distance for the same reader power.</li>
+<li><strong>Tag antenna size and tuning.</strong> A tag cut for one frequency band and then used in another loses range. Small tags are inherently shorter-range than large ones.</li>
+<li><strong>What is behind the tag.</strong> Metal reflects, water absorbs, and both change the result far more than most spec sheets suggest.</li>
+</ul>
+<p>Because UHF is a two-way link, the limiting direction matters. The reader must deliver enough energy to wake the chip (forward link), and the tag's faint reflected signal must still be distinguishable at the receiver (return link). In practice the forward link usually runs out first for passive tags.</p>
+<p><strong>Practical expectation.</strong> In open air with a good general-purpose tag, a handheld UHF reader tablet commonly reads single items at several metres. Inside a working warehouse with racking, mixed cartons and operators moving around, expect single-item reads in the low metres and dense pallet reads closer still. Always validate with your own tags, on your own goods, in your own aisles.</p>
+
+<h2>Frequency Bands and Regional Regulations</h2>
+<p>UHF RFID is not globally harmonised. A device configured for one market may be non-compliant in another, so the radio must be set for the country of use:</p>
+<ul>
+<li><strong>European Union:</strong> 865&#8211;868 MHz under ETSI EN 302 208, with channel and power limits and listen-before-talk behaviour.</li>
+<li><strong>United States:</strong> 902&#8211;928 MHz under FCC Part 15, generally allowing higher power with frequency hopping.</li>
+<li><strong>China:</strong> 840&#8211;845 MHz together with 920&#8211;925 MHz.</li>
+<li><strong>Other markets:</strong> Australia sits around 920 MHz, India around 865&#8211;867 MHz, with national variations on power and dwell.</li>
+</ul>
+<p>If you ship the same hardware to several countries, buy a module that is software-configurable per region and confirm the certification covers each destination. This is a common source of trouble in projects that start in one market and expand.</p>
+
+<h2>Antenna: Polarisation, Gain and Placement</h2>
+<p>Antenna choice is the single most under-specified part of a UHF tablet, and it drives real behaviour more than raw power does.</p>
+<h3>Circular vs linear polarisation</h3>
+<p>A circularly polarised antenna performs consistently regardless of how a tag is oriented, which is what you want when cartons arrive in random orientations. A linearly polarised antenna delivers more range when the tag antenna is aligned with it and much less when it is not. For general warehouse and inventory work, circular polarisation is the safer default.</p>
+<h3>Gain and beam width</h3>
+<p>Antenna gain and coverage angle trade against each other. A high-gain antenna reaches further but covers a narrower cone, so an operator has to aim more carefully. A lower-gain, wider antenna is more forgiving when sweeping a shelf.</p>
+<h3>Placement on the device</h3>
+<p>Where the antenna sits relative to the user's hand and body matters, because the body absorbs RF energy. Top-mounted antennas on a pistol-grip or sled-free design tend to behave more predictably than designs where the hand covers the radiating element. Test the exact grip your operators will use.</p>
+
+<h2>Tag Chips and Compatibility</h2>
+<p>Nearly all modern UHF tags speak EPC Gen2v2, standardised as ISO 18000-63. That gives you four memory banks: EPC (the identifier), TID (a factory-written, usually read-only unique ID), user memory, and reserved memory for access and kill passwords.</p>
+<p>Chip families commonly encountered include Impinj Monza, NXP UCODE and Alien Higgs. What matters for a buyer is not the brand but three parameters: wake sensitivity, how much user memory exists if you plan to write data to the tag, and whether the tag supports the optional features your application needs.</p>
+<p>One compatibility trap worth naming: different regions allocate different sub-bands, and a tag tuned for the US band reads noticeably worse in the EU band and vice versa. If you deploy across regions, either buy region-appropriate tags or use wideband designs.</p>
+
+<h2>Why Metal and Liquid Ruin UHF Reads</h2>
+<p>Two materials cause most field failures.</p>
+<p><strong>Metal.</strong> A metal surface reflects RF and, worse, changes the electrical environment around the tag antenna so it is no longer tuned to the operating frequency. A standard label stuck directly to a steel asset may not read at all. The fix is an on-metal tag with a dielectric spacer that lifts the antenna off the surface, or mounting the tag on a non-metallic face.</p>
+<p><strong>Liquids.</strong> Water and other liquids absorb UHF energy. Bottled drinks, fresh food and even the human body reduce range. Tags designed for liquid-filled cartons exist, and placement away from the densest part of the contents helps.</p>
+<p>Counter-intuitively, reducing reader power often improves results in reflective environments. Excessive power creates multipath reflections and reads of tags you did not intend to capture, which is a data-quality problem rather than a coverage one.</p>
+
+<h2>UHF vs NFC vs Barcode: Choosing the Capture Method</h2>
+<p>The honest answer is that most operations run more than one. UHF earns its place where items arrive in bulk and you need to know what is in a carton or on a pallet without opening it. Barcodes remain cheaper per unit and perfectly adequate when an item is already being handled one at a time. NFC is the right tool for close-range credential checks, access control and card-based workflows.</p>
+<p>A tablet that carries UHF plus a 2D imager plus NFC covers the majority of warehouse and field scenarios without forcing a second device on the operator, which is usually the better total-cost outcome than buying separate specialised tools.</p>
+
+<h2>Warehouse Data Collection: Where UHF Pays Back</h2>
+<p>UHF RFID shows the clearest return in four workflows:</p>
+<ul>
+<li><strong>Receiving.</strong> A pallet can be identified as it passes a door, or swept by hand in seconds, instead of being broken down and scanned carton by carton.</li>
+<li><strong>Cycle counting.</strong> Shelf sweeps that took hours with a barcode scanner become minutes, and can be done far more often, which improves record accuracy.</li>
+<li><strong>Pick verification.</strong> Confirming that the right items went into the right tote without a line-by-line scan.</li>
+<li><strong>Outbound audit.</strong> Verifying load composition before a truck leaves, which reduces downstream disputes.</li>
+</ul>
+<p>The business case is usually built on labour minutes per cycle count and on reduction of mis-ships, not on the cost of the hardware. Model those two numbers before you buy.</p>
+
+<h2>Power, Duty Cycle and Heat</h2>
+<p>Transmitting at UHF power levels is the most expensive thing a battery-powered handheld does. Continuous transmission drains the battery and warms the module, and sustained high duty cycle can trigger thermal throttling that silently reduces performance.</p>
+<p>Design for this instead of discovering it later: use trigger-based reads rather than continuous transmission where the workflow allows, set sensible session and timeout parameters, and specify a battery sized for a full shift at your expected duty cycle rather than at the vendor's best-case figure.</p>
+
+<h2>Integration: Getting EPC Data Into Your WMS</h2>
+<p>A reader that returns tag IDs to a demo app is not yet a deployment. Before rollout, confirm:</p>
+<ul>
+<li>The SDK exposes <strong>EPC, TID and user memory</strong> read and write, not just EPC.</li>
+<li>You can <strong>filter and deduplicate</strong> reads, since the same tag is seen many times per second.</li>
+<li>Reads are <strong>timestamped and buffered</strong> so a dropped Wi-Fi connection does not lose a whole pallet of data.</li>
+<li>There is a defined path from raw EPC to your <strong>WMS or ERP identifier</strong>, including how EPC numbers are allocated and commissioned in the first place.</li>
+</ul>
+<p>Tag commissioning deserves its own budget. Someone has to print, encode and attach every label, and that process needs to be right before the first device ships.</p>
+
+<h2>UHF RFID Reader Tablet: Specification Checklist</h2>
+<table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:15px">
+<thead><tr style="background:#f3f6fc"><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Item</th><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">What to confirm</th></tr></thead>
+<tbody>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Frequency and region</td><td style="padding:10px;border:1px solid #dfe6f2">Configurable for every destination market, with certification to match</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Protocol</td><td style="padding:10px;border:1px solid #dfe6f2">EPC Gen2v2 / ISO 18000-63</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Output power</td><td style="padding:10px;border:1px solid #dfe6f2">Adjustable, and compliant with local limits</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Antenna</td><td style="padding:10px;border:1px solid #dfe6f2">Polarisation and gain appropriate to your sweep pattern</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Read rate</td><td style="padding:10px;border:1px solid #dfe6f2">Tags per second under dense conditions, not open air</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Battery and thermals</td><td style="padding:10px;border:1px solid #dfe6f2">Full shift at realistic duty cycle, no silent throttling</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Other radios</td><td style="padding:10px;border:1px solid #dfe6f2">2D imager and NFC if workflows need them</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Ruggedness</td><td style="padding:10px;border:1px solid #dfe6f2">IP rating and drop spec suited to the environment</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">SDK and support</td><td style="padding:10px;border:1px solid #dfe6f2">Documented API, sample code, firmware update path</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Pilot</td><td style="padding:10px;border:1px solid #dfe6f2">Trial with your own tags and goods before volume order</td></tr>
+</tbody></table>
+
+<h2>Frequently Asked Questions</h2>
+<h3>What read range should I expect from a UHF RFID reader tablet?</h3>
+<p>Treat any single datasheet number as a best case measured in open air with an ideal tag at maximum power. In a real warehouse with racking and mixed cartons, expect single items in the low metres and dense loads closer. Validate with your own tags on your own goods.</p>
+<h3>Can one UHF RFID reader tablet be used worldwide?</h3>
+<p>Not on one fixed setting. The band is licensed differently by region: 865&#8211;868 MHz in the EU, 902&#8211;928 MHz in the US, and 840&#8211;845 MHz with 920&#8211;925 MHz in China. The radio must be configured for the country of use.</p>
+<h3>Why do my tags stop reading on metal?</h3>
+<p>Metal reflects energy and detunes the tag antenna away from its design frequency, while liquids absorb UHF energy. Use an on-metal tag with a spacer, mount on a non-metallic face, and consider lowering reader power to cut reflections.</p>
+<h3>Is UHF RFID better than scanning 2D barcodes?</h3>
+<p>They solve different problems. UHF reads in bulk without line of sight and suits pallets, containers and cycle counts. Barcodes are cheaper per unit and fine where items are handled individually. Most operations run both.</p>
+<h3>Do I need NFC as well as UHF?</h3>
+<p>Usually yes. UHF handles bulk identification at distance; NFC at 13.56 MHz is the standard for close-range cards, access control and credential checks. One combined device avoids carrying two.</p>
+
+<h2>Planning a UHF RFID Rollout?</h2>
+<p>Send us your tag type, the materials you are tagging, aisle or pallet geometry and expected daily read volume. We will tell you honestly whether UHF fits the workflow, which antenna configuration we would specify, and whether a pilot with your own labels makes sense before any volume commitment.</p>
+<p><a class="btn btn-blue" href="/about/#contact">Request a quote</a> &#160; <a class="text-link" href="/oem-odm/">See OEM &amp; ODM options &#8594;</a> &#160; <a class="text-link" href="/products/rugged-tablets/">Browse rugged tablets &#8594;</a></p>
+<p>Related reading: <a href="/insights/warehouse-rugged-tablet-guide/">Warehouse Rugged Tablet Deployment: A Step-by-Step Rollout Plan</a> &#183; <a href="/insights/industrial-tablet-buying-guide-2026/">Industrial Tablet Buying Guide 2026</a> &#183; <a href="/insights/customize-android-rugged-tablet/">How to Customize an Android Rugged Tablet</a></p>
+</div></main>
+<footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a href="/">Xinhong Smart</a></div><div><strong>Explore</strong><a href="/products/">Products</a><a href="/products/rugged-tablets/">Rugged Tablets</a><a href="/products/handheld-pdas/">Handheld PDAs</a><a href="/products/biometric-devices/">Biometric Devices</a><a href="/products/document-devices/">Document Devices</a><a href="/biometric-tablet/">Biometric Tablets</a><a href="/oem-odm/">OEM &amp; ODM</a><a href="/insights/">News</a></div><div><strong>OEM &amp; ODM</strong><a href="/oem-odm/hardware-customization/">Hardware Customization</a><a href="/oem-odm/software-customization/">Software &amp; SDK</a><a href="/oem-odm/industrial-design/">Industrial Design</a><a href="/oem-odm/android-os-customization/">Android OS</a><a href="/oem-odm/certification-support/">Certification Support</a></div><div><strong>Company</strong><a href="/about/">About Us</a><a href="/about/#contact">Contact</a></div><div><strong>Contact</strong><p></p></div></div><div class="container footer-bottom">&copy; 2026 Shenzhen Xinhong Smart Technology Co., Ltd. All rights reserved.</div></footer>
+<a class="xhs-wa-float" href="https://wa.me/8618594279341?text=Hello%20Xinhong%20Smart%2C%20I%27m%20interested%20in%20your%20rugged%20terminals." target="_blank" rel="noopener" aria-label="Chat on WhatsApp" style="position:fixed;right:20px;bottom:20px;z-index:9999;display:flex;align-items:center;gap:9px;background:#25D366;color:#fff;padding:12px 18px;border-radius:999px;text-decoration:none;font-weight:700;font-size:15px;box-shadow:0 6px 18px rgba(37,211,102,.45)"><svg width="21" height="21" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.1-.198.05-.371-.025-.52-.074-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg><span>Chat on WhatsApp</span></a>
+<style>@keyframes xhsWaPulse{0%{box-shadow:0 6px 18px rgba(37,211,102,.45),0 0 0 0 rgba(37,211,102,.55)}70%{box-shadow:0 6px 18px rgba(37,211,102,.45),0 0 0 16px rgba(37,211,102,0)}100%{box-shadow:0 6px 18px rgba(37,211,102,.45),0 0 0 0 rgba(37,211,102,0)}}.xhs-wa-float{animation:xhsWaPulse 1.8s infinite}</style></body></html>

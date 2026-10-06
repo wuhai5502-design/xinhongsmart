@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261005-footer">
+<!-- SEO:HEAD:START -->
+<title>Industrial Android Tablet: Specs and OS Lifecycle | Xinhong Smart</title>
+<meta name="description" content="What makes an Android tablet industrial: Android version and security patch lifecycle, GMS vs AOSP, Android Enterprise MDM and kiosk, serial and GPIO interfaces, 5-7 year supply commitments, and what OEM/ODM customisation can actually change.">
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+<meta name="theme-color" content="#002fa7">
+<link rel="canonical" href="https://xinhongsmart.com/insights/industrial-android-tablet/">
+<link rel="alternate" hreflang="x-default" href="https://xinhongsmart.com/insights/industrial-android-tablet/">
+<meta property="og:site_name" content="Xinhong Smart"><meta property="og:locale" content="en_US"><meta property="og:type" content="article">
+<meta property="og:url" content="https://xinhongsmart.com/insights/industrial-android-tablet/">
+<meta property="og:title" content="Industrial Android Tablet: Specs, Android Lifecycle and Long-Term Supply">
+<meta property="og:description" content="A buyer's guide to the engineering behind industrial Android tablets: OS version and patch cadence, GMS versus AOSP, Android Enterprise management, interfaces consumer tablets lack, supply continuity, and OEM/ODM customisation.">
+<meta property="og:image" content="https://xinhongsmart.com/uploads/8-inch-rugged-tablet.jpg">
+<meta property="article:published_time" content="2026-10-07"><meta property="article:modified_time" content="2026-10-07">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Industrial Android Tablet: Specs, Android Lifecycle and Long-Term Supply"><meta name="twitter:description" content="OS version and patch cadence, GMS versus AOSP, Android Enterprise management, interfaces consumer tablets lack, supply continuity, and OEM/ODM customisation.">
+<!-- SEO:HEAD:END -->
+<!-- SEO:JSONLD:START -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Industrial Android Tablet: Specs, Android Lifecycle and Long-Term Supply","description":"A buyer's guide to the engineering behind industrial Android tablets: what separates an industrial Android tablet from a consumer one, Android version and security patch lifecycle, GMS versus AOSP, Android Enterprise management modes, hardware interfaces consumer tablets lack, display and touch under real conditions, multi-year supply and change control, and the layers of OEM/ODM customisation.","url":"https://xinhongsmart.com/insights/industrial-android-tablet/","image":["https://xinhongsmart.com/uploads/8-inch-rugged-tablet.jpg"],"datePublished":"2026-10-07","dateModified":"2026-10-07","inLanguage":"en","author":{"@type":"Organization","name":"Shenzhen Xinhong Smart Technology Co., Ltd.","url":"https://xinhongsmart.com/"},"publisher":{"@type":"Organization","name":"Shenzhen Xinhong Smart Technology Co., Ltd.","url":"https://xinhongsmart.com/","sameAs":["https://www.xinhong.site/","https://www.qcc.com/firm/226dcd1da417ec32f940ea1a901ffb08.html"],"logo":{"@type":"ImageObject","url":"https://xinhongsmart.com/favicon.svg"}},"mainEntityOfPage":{"@type":"WebPage","@id":"https://xinhongsmart.com/insights/industrial-android-tablet/"}}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://xinhongsmart.com/"},{"@type":"ListItem","position":2,"name":"News","item":"https://xinhongsmart.com/insights/"},{"@type":"ListItem","position":3,"name":"Industrial Android Tablet","item":"https://xinhongsmart.com/insights/industrial-android-tablet/"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What Android version should an industrial tablet run?","acceptedAnswer":{"@type":"Answer","text":"Choose the newest version the hardware platform and your MDM both support, but treat the security patch cadence as more important than the major version number. A device on Android 13 receiving quarterly patches is safer than one on Android 14 that never receives an update. Confirm in writing how long patches continue and what happens at end of support."}},{"@type":"Question","name":"Do I need GMS, or is AOSP enough?","acceptedAnswer":{"@type":"Answer","text":"GMS is required if you depend on Google Play services, Play Store distribution, or location and push services. AOSP is sufficient for locked-down enterprise deployments that install a single managed application from your own distribution, and it avoids licensing and dependency on Google certification. Decide based on how your application is delivered and updated."}},{"@type":"Question","name":"How long will the same model still be available?","acceptedAnswer":{"@type":"Answer","text":"For enterprise deployments, ask for a written supply commitment, commonly five to seven years, plus a change control policy that notifies you before any component substitution. Without it, a re-spin of the same model number may contain a different display, touch controller or radio module, which can break your application or require re-validation."}},{"@type":"Question","name":"Can an industrial Android tablet still be managed centrally?","acceptedAnswer":{"@type":"Answer","text":"Yes. Android Enterprise supports fully managed, work profile and dedicated device kiosk modes, plus zero-touch enrolment so a device provisions itself on first boot. Ask which mode the device is certified for and whether your chosen MDM vendor supports it on that model."}},{"@type":"Question","name":"What can OEM/ODM customisation actually change?","acceptedAnswer":{"@type":"Answer","text":"Realistically five layers: the housing and industrial design, the hardware interfaces and modules, the Android build itself including pre-installed applications and kiosk behaviour, the branding from boot logo to packaging, and re-validation of certifications after the change. Each layer has different minimum order quantities and lead times, so scope them before quoting."}}]}
+</script>
+<!-- SEO:JSONLD:END -->
+</head>
+<body>
+<header class="site-header"><div class="container header-inner"><a class="brand" href="/" aria-label="Home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span><span class="brand-name">Xinhong Smart</span></a>
+<nav class="desktop-nav" aria-label="Main navigation"><a href="/">Home</a><a href="/products/">Products</a><a href="/biometric-tablet/">Biometric Tablet</a><a href="/oem-odm/">OEM &amp; ODM</a><a href="/insights/">News</a><a href="/about/">About Us</a></nav><a class="header-contact" href="/about/#contact">Contact us <span>&#8599;</span></a>
+<details class="mobile-menu"><summary aria-label="Open menu">&#9776;</summary><nav><a href="/">Home</a><a href="/products/">Products</a><a href="/biometric-tablet/">Biometric Tablet</a><a href="/oem-odm/">OEM &amp; ODM</a><a href="/insights/">News</a><a href="/about/">About Us</a></nav></details></div></header>
+<main><div class="container article-page"><a class="text-link" href="/insights/">&#8592; All news</a><div class="eyebrow">NEWS / 2026-10-07</div><h1>Industrial Android Tablet: Specs, Android Lifecycle and Long-Term Supply</h1>
+<p class="hero-sub">Android 13 / 14 &#183; Security patch cadence &#183; GMS vs AOSP &#183; Android Enterprise and kiosk &#183; Serial, GPIO and RJ45 &#183; 5&#8211;7 year supply &#183; OEM/ODM layers</p>
+<nav aria-label="Breadcrumb" style="font-size:14px;color:#002fa7;margin:10px 0 4px"><a href="/">Home</a> / <a href="/insights/">News</a> / <span aria-current="page">Industrial Android Tablet</span></nav>
+<p>Most industrial Android tablets look similar from the outside and differ enormously underneath. Two devices can carry the same screen size, the same Android version and a similar price, and still be wrong for each other's jobs &#8212; because one is managed properly for five years and the other cannot be patched at all.</p>
+<p>This article is about the parts of the specification that decide whether a deployment survives contact with real operations: the Android version and how long it is maintained, whether you need Google Mobile Services, how the fleet is managed, which physical interfaces exist, and whether the same model is still buyable in three years.</p>
+<img src="/uploads/8-inch-rugged-tablet.jpg" alt="8-inch industrial Android rugged tablet with glove-friendly touchscreen for field and warehouse use" width="1007" height="727" loading="lazy" decoding="async" style="max-width:100%;height:auto;border-radius:8px;box-shadow:0 4px 18px rgba(0,0,0,.10);">
+
+<h2>What "Industrial" Actually Changes</h2>
+<p>An industrial Android tablet is not a consumer tablet in a thick case. The differences that matter are the ones that show up after eighteen months in service.</p>
+<table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:15px">
+<thead><tr style="background:#f3f6fc"><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Attribute</th><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Consumer tablet</th><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Industrial Android tablet</th></tr></thead>
+<tbody>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Availability</td><td style="padding:10px;border:1px solid #dfe6f2">12&#8211;24 months, then replaced</td><td style="padding:10px;border:1px solid #dfe6f2">Commonly 5&#8211;7 years on a written commitment</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">OS updates</td><td style="padding:10px;border:1px solid #dfe6f2">Consumer-driven, ends with the model</td><td style="padding:10px;border:1px solid #dfe6f2">Vendor-maintained build with defined patch cadence</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Ingress and drop</td><td style="padding:10px;border:1px solid #dfe6f2">Usually none</td><td style="padding:10px;border:1px solid #dfe6f2">IP65 / IP67 and a stated drop specification</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Interfaces</td><td style="padding:10px;border:1px solid #dfe6f2">USB-C, maybe microSD</td><td style="padding:10px;border:1px solid #dfe6f2">Serial, RJ45, GPIO, pogo pins, dedicated modules</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Battery</td><td style="padding:10px;border:1px solid #dfe6f2">Sealed, replace by service</td><td style="padding:10px;border:1px solid #dfe6f2">Sized for a full shift, often hot-swappable</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Management</td><td style="padding:10px;border:1px solid #dfe6f2">Personal device assumptions</td><td style="padding:10px;border:1px solid #dfe6f2">Android Enterprise, kiosk lock, zero-touch enrolment</td></tr>
+</tbody></table>
+
+<h2>Android Version and Security Patch Lifecycle</h2>
+<p>The major version number gets the attention; the patch cadence determines your actual risk. Ask two separate questions:</p>
+<ul>
+<li><strong>Which Android version ships, and can it be upgraded?</strong> Confirm what the silicon vendor supports, since a system-on-chip has its own support window that limits how far the Android version can go.</li>
+<li><strong>How often are security patches delivered, and for how long?</strong> A device on an older Android version receiving regular patches is in better shape than a newer build that never gets one.</li>
+</ul>
+<p>Get the answer in writing, with an end-of-support date. Enterprise fleets routinely outlive a consumer update policy, and the cost of replacing a thousand devices early dwarfs any saving on the unit price.</p>
+
+<h2>GMS vs AOSP: Which You Actually Need</h2>
+<p>This choice shapes the whole build, and it is often made by default rather than by decision.</p>
+<p><strong>GMS (Google Mobile Services)</strong> gives you the Play Store, Google Play services, push messaging and Google location services. You need it if your application depends on those APIs, or if you intend to distribute updates through Play. It requires Google certification for the specific device build, which constrains how much you can modify the system image.</p>
+<p><strong>AOSP (Android Open Source Project)</strong> is plain Android without Google's proprietary layer. It suits locked-down deployments that run one managed application distributed from your own server or MDM. It removes the dependency on Google certification and gives far more freedom to modify the build, at the cost of losing Play services.</p>
+<p>A third consideration is geography: in some markets access to Google services is restricted, and an AOSP build with a local app store is the practical choice. Decide this before quoting, because switching later means re-certifying the device.</p>
+
+<h2>Android Enterprise and MDM</h2>
+<p>An industrial Android tablet that cannot be centrally managed becomes a support problem at fleet scale. Android Enterprise defines the modes you should ask about:</p>
+<ul>
+<li><strong>Fully managed:</strong> the whole device is corporate-owned and controlled, suited to single-purpose tools.</li>
+<li><strong>Work profile:</strong> separates work and personal data, useful when the device doubles as a personal one.</li>
+<li><strong>Dedicated device / kiosk:</strong> locks the device to a small set of applications, standard for warehouse, retail and field terminals.</li>
+<li><strong>Zero-touch enrolment:</strong> the device provisions itself on first network connection, so a replacement unit can be shipped straight to a site without IT handling it.</li>
+</ul>
+<p>Confirm which modes the specific model is certified for and whether your MDM vendor supports them on it. Then validate the actual workflow: application installation, update rollout, remote wipe, and what an operator can and cannot reach from the locked screen.</p>
+
+<h2>Interfaces Consumer Tablets Do Not Have</h2>
+<p>Physical interfaces are usually why an industrial tablet is chosen over a consumer one, and they are the hardest thing to add later.</p>
+<ul>
+<li><strong>Serial (RS-232 / RS-485)</strong> for legacy industrial equipment, meters and PLCs that predate USB.</li>
+<li><strong>RJ45 Ethernet</strong> where Wi-Fi is unreliable or where a fixed workstation needs a wired link.</li>
+<li><strong>GPIO and pogo pins</strong> for docking, charging cradles, vehicle mounts and trigger handles.</li>
+<li><strong>Full-size USB-A</strong> to connect existing peripherals without adapters that break in the field.</li>
+<li><strong>Integrated capture modules</strong> such as a 2D barcode imager, UHF RFID reader, fingerprint sensor or document camera, rather than bolt-on accessories.</li>
+</ul>
+<p>List every peripheral you must connect today and every one you might connect in three years. A tablet without the right port becomes an expensive bracket for a phone.</p>
+<p>Related: <a href="/insights/uhf-rfid-reader-tablet/">UHF RFID Reader Tablet: Read Range, Antenna Design and Tag Compatibility</a></p>
+
+<h2>Display and Touch Under Real Conditions</h2>
+<p>Specifications that look adequate on paper fail outdoors and on the shop floor:</p>
+<ul>
+<li><strong>Brightness.</strong> A consumer-class panel around 300&#8211;400 nits is unreadable in direct sun. Field tablets commonly specify 500 nits or more, with optical bonding to cut internal reflection.</li>
+<li><strong>Glove and wet touch.</strong> Confirm the touch controller supports the gloves your operators actually wear, and that it behaves sensibly with rain or condensation rather than registering phantom touches.</li>
+<li><strong>Cover glass.</strong> Ask about scratch and impact resistance, and whether the panel is replaceable as a service part.</li>
+</ul>
+
+<h2>Long-Term Supply and Change Control</h2>
+<p>This is the clause most often missing from a purchase order, and the one that causes the most pain later.</p>
+<p>Ask for a <strong>written supply commitment</strong>, typically five to seven years for enterprise hardware, and a <strong>change control policy</strong> that requires advance written notice before any component substitution. Without the second part, a re-order of the same model number can arrive with a different display driver, touch controller or radio module &#8212; which can break your application, your MDM profile, or your regulatory certification.</p>
+<p>Also confirm spare-part availability and repair turnaround for the same period, and whether the vendor will hold a buffer stock for you.</p>
+
+<h2>Custom Android Hardware: What OEM/ODM Can Change</h2>
+<p>Customisation is not one thing; it is five layers with very different costs and lead times.</p>
+<ol>
+<li><strong>Industrial design and housing</strong> &#8212; colour, materials, branding, mounting points. Highest tooling cost, longest lead time.</li>
+<li><strong>Hardware interfaces and modules</strong> &#8212; adding a serial port, a specific scanner, a fingerprint module or a second radio.</li>
+<li><strong>The Android build</strong> &#8212; pre-installed applications, kiosk behaviour, removed consumer apps, boot animation, system defaults.</li>
+<li><strong>Branding and packaging</strong> &#8212; boot logo, labels, manuals, retail box.</li>
+<li><strong>Certification re-validation</strong> &#8212; any hardware change can invalidate existing CE, FCC or other approvals, so budget for re-testing.</li>
+</ol>
+<p>Be explicit about which layers you need before asking for a quote. Asking for "customisation" without scoping produces either an inflated price or a disappointing sample.</p>
+<p>More detail: <a href="/insights/customize-android-rugged-tablet/">How to Customize an Android Rugged Tablet</a> &#183; <a href="/oem-odm/android-os-customization/">Android OS customisation</a></p>
+
+<h2>Industrial Android Tablet: Specification Checklist</h2>
+<table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:15px">
+<thead><tr style="background:#f3f6fc"><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Item</th><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">What to confirm in writing</th></tr></thead>
+<tbody>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Android version and patches</td><td style="padding:10px;border:1px solid #dfe6f2">Ship version, upgrade path, patch cadence, end-of-support date</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">GMS or AOSP</td><td style="padding:10px;border:1px solid #dfe6f2">Which build, and certification status for your markets</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Management</td><td style="padding:10px;border:1px solid #dfe6f2">Android Enterprise modes supported, MDM compatibility, zero-touch</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Interfaces</td><td style="padding:10px;border:1px solid #dfe6f2">Serial, RJ45, GPIO, USB-A, pogo, integrated modules</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Display and touch</td><td style="padding:10px;border:1px solid #dfe6f2">Brightness in nits, glove mode, wet-hand behaviour, glass spec</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Ruggedness</td><td style="padding:10px;border:1px solid #dfe6f2">IP rating and drop spec with test method, not just a claim</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Battery</td><td style="padding:10px;border:1px solid #dfe6f2">Full-shift capacity, hot-swap, replacement part availability</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Supply and change control</td><td style="padding:10px;border:1px solid #dfe6f2">Multi-year availability, advance notice of component changes</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Certifications</td><td style="padding:10px;border:1px solid #dfe6f2">CE, FCC, UKCA, RoHS, UN 38.3 and any industry-specific scheme</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Support</td><td style="padding:10px;border:1px solid #dfe6f2">Firmware update path, SDK, RMA turnaround, spare parts</td></tr>
+</tbody></table>
+
+<h2>Frequently Asked Questions</h2>
+<h3>What Android version should an industrial tablet run?</h3>
+<p>Choose the newest version your hardware platform and MDM support, but weigh patch cadence above the version number. A device on Android 13 with quarterly patches is safer than one on Android 14 that never gets updated. Get the support period in writing.</p>
+<h3>Do I need GMS, or is AOSP enough?</h3>
+<p>GMS is needed if you rely on Play services, Play Store distribution, or Google location and push APIs. AOSP suits locked-down deployments distributing one managed application internally, and gives more freedom to modify the build. Decide before quoting, since switching later means re-certification.</p>
+<h3>How long will the same model be available?</h3>
+<p>Ask for a written supply commitment, commonly five to seven years, plus a change control policy requiring notice before component substitution. Without it, a re-order of the same model number may contain different internals that break your application or certification.</p>
+<h3>Can an industrial Android tablet be managed centrally?</h3>
+<p>Yes, through Android Enterprise: fully managed, work profile, and dedicated kiosk modes, with zero-touch enrolment so units provision themselves on first boot. Confirm which modes the specific model supports and that your MDM vendor covers them.</p>
+<h3>What can OEM/ODM customisation actually change?</h3>
+<p>Five layers: housing and industrial design, hardware interfaces and modules, the Android build including pre-installed apps and kiosk behaviour, branding and packaging, and re-validation of certifications afterwards. Each has different minimum order quantities and lead times.</p>
+
+<h2>Specifying an Industrial Android Tablet?</h2>
+<p>Tell us the Android version your application targets, whether you need GMS, the interfaces and modules you must connect, and how long the model needs to stay available. We will confirm what is achievable on which platform, and where custom OEM/ODM work makes sense versus a standard configuration.</p>
+<p><a class="btn btn-blue" href="/about/#contact">Request a quote</a> &#160; <a class="text-link" href="/oem-odm/">See OEM &amp; ODM options &#8594;</a> &#160; <a class="text-link" href="/products/rugged-tablets/">Browse rugged tablets &#8594;</a></p>
+<p>Related reading: <a href="/insights/industrial-tablet-buying-guide-2026/">Industrial Tablet Buying Guide 2026</a> &#183; <a href="/insights/android-vs-windows-rugged-tablet/">Android vs Windows Rugged Tablet</a> &#183; <a href="/insights/rugged-tablet-certifications-required/">Rugged Tablet Certifications</a></p>
+</div></main>
+<footer class="site-footer"><div class="container footer-grid"><div class="footer-brand"><a href="/">Xinhong Smart</a></div><div><strong>Explore</strong><a href="/products/">Products</a><a href="/products/rugged-tablets/">Rugged Tablets</a><a href="/products/handheld-pdas/">Handheld PDAs</a><a href="/products/biometric-devices/">Biometric Devices</a><a href="/products/document-devices/">Document Devices</a><a href="/biometric-tablet/">Biometric Tablets</a><a href="/oem-odm/">OEM &amp; ODM</a><a href="/insights/">News</a></div><div><strong>OEM &amp; ODM</strong><a href="/oem-odm/hardware-customization/">Hardware Customization</a><a href="/oem-odm/software-customization/">Software &amp; SDK</a><a href="/oem-odm/industrial-design/">Industrial Design</a><a href="/oem-odm/android-os-customization/">Android OS</a><a href="/oem-odm/certification-support/">Certification Support</a></div><div><strong>Company</strong><a href="/about/">About Us</a><a href="/about/#contact">Contact</a></div><div><strong>Contact</strong><p></p></div></div><div class="container footer-bottom">&copy; 2026 Shenzhen Xinhong Smart Technology Co., Ltd. All rights reserved.</div></footer>
+<a class="xhs-wa-float" href="https://wa.me/8618594279341?text=Hello%20Xinhong%20Smart%2C%20I%27m%20interested%20in%20your%20rugged%20terminals." target="_blank" rel="noopener" aria-label="Chat on WhatsApp" style="position:fixed;right:20px;bottom:20px;z-index:9999;display:flex;align-items:center;gap:9px;background:#25D366;color:#fff;padding:12px 18px;border-radius:999px;text-decoration:none;font-weight:700;font-size:15px;box-shadow:0 6px 18px rgba(37,211,102,.45)"><svg width="21" height="21" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.1-.198.05-.371-.025-.52-.074-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg><span>Chat on WhatsApp</span></a>
+<style>@keyframes xhsWaPulse{0%{box-shadow:0 6px 18px rgba(37,211,102,.45),0 0 0 0 rgba(37,211,102,.55)}70%{box-shadow:0 6px 18px rgba(37,211,102,.45),0 0 0 16px rgba(37,211,102,0)}100%{box-shadow:0 6px 18px rgba(37,211,102,.45),0 0 0 0 rgba(37,211,102,0)}}.xhs-wa-float{animation:xhsWaPulse 1.8s infinite}</style></body></html>
