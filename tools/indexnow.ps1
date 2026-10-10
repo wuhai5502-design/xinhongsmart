@@ -15,7 +15,7 @@ param(
     [string[]]$Urls = @(),
     [string]$Sitemap = 'sitemap.xml',
     [string]$SiteHost = 'xinhongsmart.com',
-    [string]$Key = 'dd877ae5ec2cef3b826b8ecda430de56',
+    [string]$Key = 'a79072b72a494fef94801722677a0723',
     [switch]$DryRun
 )
 
