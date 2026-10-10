@@ -75,6 +75,9 @@
    viewport width keeps the box at 3:1 and shows the whole banner; capped at 560px so
    wide screens (>=1680) and the <1024px layout keep their current height. */
 @media(min-width:1024px){.hero-full .hero-grid{min-height:min(33.3333vw,560px)}}
+/* Visually hidden, still read by screen readers and crawlers. The hero headline lives
+   inside the banner artwork, so it is repeated here as real text. */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);clip-path:inset(50%);white-space:nowrap;border:0}
 .hero-full .hero-copy{max-width:840px}
 .brand-name{white-space:nowrap;font-size:19px}
 .footer-brand a{color:inherit}
