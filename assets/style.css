@@ -70,6 +70,11 @@
 /* light overlay: was .72-.84 (too dark), then 0 (too bright) - now subtle */
 .hero-full .hero-banners::after{content:"";position:absolute;inset:0;pointer-events:none;background:rgba(6,18,52,.10)}
 .hero-full .hero-grid{grid-template-columns:1fr;justify-items:start;padding:76px 0 88px}
+/* Banner art is 2172x724 (exactly 3:1) and its headline is baked into the pixels, so
+   object-fit:cover must never crop it horizontally. Deriving the hero height from the
+   viewport width keeps the box at 3:1 and shows the whole banner; capped at 560px so
+   wide screens (>=1680) and the <1024px layout keep their current height. */
+@media(min-width:1024px){.hero-full .hero-grid{min-height:min(33.3333vw,560px)}}
 .hero-full .hero-copy{max-width:840px}
 .brand-name{white-space:nowrap;font-size:19px}
 .footer-brand a{color:inherit}
