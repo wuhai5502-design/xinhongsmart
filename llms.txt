@@ -3,7 +3,7 @@
 
 > Xinhong Smart is a Shenzhen-based manufacturer of rugged mobile computing and identity verification hardware. The product range covers industrial rugged tablets (8-inch and 10-inch), handheld PDAs / mobile computers (5-inch and 6-inch), biometric handheld terminals, A3/A4 document camera scanners, digital signature pads, and dual-screen ID verification terminals. The company provides OEM/ODM services including interface, hardware, software and mechanical customization, plus SDK and API integration.
 >
-> Website: https://xinhongsmart.com/ | China site: https://www.xinhong.site/ | Sales: sales@xinhongsmart.com | Phone: +86 185 9427 9341 | Last updated: 2026-10-03
+> Website: https://xinhongsmart.com/ | China site: https://www.xinhong.site/ | Sales: sales@xinhongsmart.com | Phone: +86 185 9427 9341 | Last updated: 2026-10-11
 
 ## Key Facts (safe to cite directly)
 
@@ -29,7 +29,7 @@
 ## Products and Specifications
 
 ### 8-Inch Rugged Industrial Tablet
-URL: https://xinhongsmart.com/products/8-inch-rugged-tablet/
+URL: https://xinhongsmart.com/products/rugged-tablets/8-inch-rugged-tablet/
 - Display: 8.0 inch, 800 × 1280, multi-touch, Corning Gorilla Glass
 - Platform: MTK 6765 octa-core 2.3 GHz, Android 12
 - Memory: 3 GB + 32 GB (options 4 GB + 64 GB / 6 GB + 128 GB)
@@ -44,7 +44,7 @@ URL: https://xinhongsmart.com/products/8-inch-rugged-tablet/
 - Positioning: GPS / GLONASS / BeiDou
 
 ### 10-Inch Rugged Tablet
-URL: https://xinhongsmart.com/products/10-inch-rugged-tablet/
+URL: https://xinhongsmart.com/products/rugged-tablets/10-inch-rugged-tablet/
 - Display: 10.1 inch, 1920 × 1200, multi-touch, Corning Gorilla Glass
 - Platform: Android 12 or Windows 11
 - Storage: up to 128 GB
@@ -53,7 +53,7 @@ URL: https://xinhongsmart.com/products/10-inch-rugged-tablet/
 - Data capture options: 2D barcode scanning, fingerprint, face recognition, national ID card reading
 
 ### 5-Inch Handheld PDA / Mobile Computer
-URL: https://xinhongsmart.com/products/handheld-pda/
+URL: https://xinhongsmart.com/products/handheld-pdas/5-inch-handheld-pda/
 - Display: 5.72 inch, 1440 × 720, multi-touch, Corning Gorilla Glass
 - Platform: MTK 6765 octa-core 2.3 GHz, Android 12
 - Memory: 3 GB + 32 GB (options 4 GB + 64 GB / 6 GB + 128 GB)
@@ -67,12 +67,12 @@ URL: https://xinhongsmart.com/products/handheld-pda/
 - Positioning: BeiDou / GPS / GLONASS
 
 ### XH Series Industrial Terminals
-URLs: https://xinhongsmart.com/products/xh-100/ , https://xinhongsmart.com/products/xh-200/ , https://xinhongsmart.com/products/xh-300/ , https://xinhongsmart.com/products/xh-400/ , https://xinhongsmart.com/products/xh-500/
+URLs: https://xinhongsmart.com/products/biometric-devices/xh-100/ , https://xinhongsmart.com/products/handheld-pdas/xh-200/ , https://xinhongsmart.com/products/rugged-tablets/xh-300/ , https://xinhongsmart.com/products/biometric-devices/xh-400/ , https://xinhongsmart.com/products/rugged-tablets/xh-500/
 - XH series covers industrial tablets and handheld terminals in several screen sizes and platform configurations
 - Configured per project: display size, platform, memory, data-capture modules, OS version, housing color and branding
 
 ### A3 / A4 Document Camera Scanner
-URL: https://xinhongsmart.com/products/document-camera-scanner/
+URL: https://xinhongsmart.com/products/document-devices/document-camera-scanner/
 - Main camera: 10 MP CMOS, 3648 × 2736, manual/auto focus
 - Auxiliary camera: 2 MP CMOS, 1600 × 1200, 270° horizontal rotation, tilt ≥ 45°
 - Capture speed: ≤ 1 second per page
@@ -84,7 +84,7 @@ URL: https://xinhongsmart.com/products/document-camera-scanner/
 - Design note: fixed (non-folding) head and support pole reduces image distortion; single hand-tightened screw assembly
 
 ### 10.1-Inch Digital Signature Pad
-URL: https://xinhongsmart.com/products/signature-pad/
+URL: https://xinhongsmart.com/products/document-devices/signature-pad/
 - Display: 10.1 inch, 1280 × 800, 10-point capacitive touch
 - Handwriting: passive wireless electromagnetic resonance, 5080 LPI, 2048 pressure levels, 220 PPS
 - Coordinate accuracy: ±0.5 mm center, ±2 mm corner; pen tilt ±50°
@@ -94,7 +94,7 @@ URL: https://xinhongsmart.com/products/signature-pad/
 - Optional: second-generation national ID card reading, binocular liveness camera, IC and social security card reading, SM2/SM3/SM4 hardware encryption chip
 
 ### Dual-Screen ID Verification Terminal
-URL: https://xinhongsmart.com/products/dual-screen-id-verification-terminal/
+URL: https://xinhongsmart.com/products/biometric-devices/dual-screen-id-verification-terminal/
 - Displays: two 15.6 inch TFT LCD IPS panels, 1920 × 1080, capacitive touch (one facing the visitor, one facing the operator)
 - Brightness / contrast: 250 cd/m², 500:1, 16.7 M colors, viewing angle H170° / V170°
 - Platform: RK3568 quad-core Android (optional RK3576 octa-core for HarmonyOS; RK3588 Kylin for domestic-compliance projects)
@@ -107,7 +107,7 @@ URL: https://xinhongsmart.com/products/dual-screen-id-verification-terminal/
 
 ## Customization (OEM / ODM)
 
-URL: https://xinhongsmart.com/custom/
+URL: https://xinhongsmart.com/oem-odm/
 
 Four customization dimensions:
 - Interface: type, count and placement of ports (serial, Ethernet, GPIO, USB, Pogo Pin, HDMI)
@@ -141,6 +141,8 @@ Development support is offered at system, middleware and application layers, inc
 - Border Identity Verification Terminals — https://xinhongsmart.com/insights/border-identity-verification-terminal/
 - Rugged Tablet Certifications: What You Need — https://xinhongsmart.com/insights/rugged-tablet-certifications-required/
 - How to Customize an Android Rugged Tablet — https://xinhongsmart.com/insights/customize-android-rugged-tablet/
+- Industrial Android Tablet: Specs and OS Lifecycle — https://xinhongsmart.com/insights/industrial-android-tablet/
+- UHF RFID Reader Tablet: Read Range and Antenna Design — https://xinhongsmart.com/insights/uhf-rfid-reader-tablet/
 
 ## Frequently Asked Questions (citable Q&A)
 
@@ -178,9 +180,17 @@ Contact sales@xinhongsmart.com or +86 185 9427 9341 with your application scenar
 
 - Home: https://xinhongsmart.com/
 - Products: https://xinhongsmart.com/products/
-- Customization (OEM/ODM): https://xinhongsmart.com/custom/
+- Product categories: rugged tablets https://xinhongsmart.com/products/rugged-tablets/ , handheld PDAs https://xinhongsmart.com/products/handheld-pdas/ , biometric devices https://xinhongsmart.com/products/biometric-devices/ , document devices https://xinhongsmart.com/products/document-devices/
+- Biometric tablets (overview): https://xinhongsmart.com/biometric-tablet/
+- Customization (OEM/ODM): https://xinhongsmart.com/oem-odm/
+  - Hardware customization: https://xinhongsmart.com/oem-odm/hardware-customization/
+  - Software customization: https://xinhongsmart.com/oem-odm/software-customization/
+  - Industrial design: https://xinhongsmart.com/oem-odm/industrial-design/
+  - Android OS customization: https://xinhongsmart.com/oem-odm/android-os-customization/
+  - Certification support: https://xinhongsmart.com/oem-odm/certification-support/
 - News and guides: https://xinhongsmart.com/insights/
-- About / contact: https://xinhongsmart.com/about/
+- About: https://xinhongsmart.com/about/
+- Contact and quotation: https://xinhongsmart.com/contact/
 - Sitemap (XML): https://xinhongsmart.com/sitemap.xml
 
 ## Notes for Citation
