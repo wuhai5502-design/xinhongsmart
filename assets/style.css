@@ -71,10 +71,15 @@
 .hero-full .hero-banners::after{content:"";position:absolute;inset:0;pointer-events:none;background:rgba(6,18,52,.10)}
 .hero-full .hero-grid{grid-template-columns:1fr;justify-items:start;padding:76px 0 88px}
 /* Banner art is 2172x724 (exactly 3:1) and its headline is baked into the pixels, so
-   object-fit:cover must never crop it horizontally. Deriving the hero height from the
-   viewport width keeps the box at 3:1 and shows the whole banner; capped at 560px so
-   wide screens (>=1680) and the <1024px layout keep their current height. */
-@media(min-width:1024px){.hero-full .hero-grid{min-height:min(33.3333vw,560px)}}
+   object-fit:cover must never crop it: the hero box has to stay 3:1 at EVERY width.
+   This used to be wrapped in @media(min-width:1024px), so phones fell back to the plain
+   .hero-grid{min-height:560px}: a 3:1 banner stretched to cover a 560px-tall box was
+   blown up to ~4.3x the viewport width, and ~77% of it (headline included) was cropped.
+   padding:0 is required as well - the grid's own 76px/88px padding would otherwise push
+   the box taller than 3:1 and crop ~26% again. The grid holds only the sr-only h1, so
+   removing that padding has no visual side effect. Capped at 560px so screens >=1680
+   keep their current height (the banner is then cropped vertically, centred, as before). */
+.hero-full .hero-grid{min-height:min(33.3333vw,560px);padding:0}
 /* Visually hidden, still read by screen readers and crawlers. The hero headline lives
    inside the banner artwork, so it is repeated here as real text. */
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);clip-path:inset(50%);white-space:nowrap;border:0}
