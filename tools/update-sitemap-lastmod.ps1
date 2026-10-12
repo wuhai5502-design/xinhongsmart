@@ -1,5 +1,6 @@
 param([string]$repo)
-$g="C:\Users\Administrator\CodeBuddy\tools\mingit\cmd\git.exe"
+$g="C:\Program Files\Git\cmd\git.exe"
+if(-not (Test-Path $g)){ $g="git" }
 $sm=[System.IO.File]::ReadAllText("$repo\sitemap.xml")
 $blocks=[regex]::Matches($sm,'(?s)\s*<url>\s*<loc>(.*?)</loc>\s*<lastmod>(.*?)</lastmod>(.*?)</url>')
 $sb=New-Object System.Text.StringBuilder
