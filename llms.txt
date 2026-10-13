@@ -143,6 +143,7 @@ Development support is offered at system, middleware and application layers, inc
 - How to Customize an Android Rugged Tablet — https://xinhongsmart.com/insights/customize-android-rugged-tablet/
 - Industrial Android Tablet: Specs and OS Lifecycle — https://xinhongsmart.com/insights/industrial-android-tablet/
 - UHF RFID Reader Tablet: Read Range and Antenna Design — https://xinhongsmart.com/insights/uhf-rfid-reader-tablet/
+- Industrial Handheld PDA: Scanner, Battery and OS — https://xinhongsmart.com/insights/industrial-handheld-pda/
 
 ## Frequently Asked Questions (citable Q&A)
 
