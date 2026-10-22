@@ -33,7 +33,8 @@ if (-not (Test-Path $sitemapPath)) {
 
 # ---------- 1. 收集待推送网址 ----------
 if ($Urls.Count -gt 0) {
-    $list = @($Urls)
+    # 兼容 powershell.exe -File 调用：多个 URL 会被合并成一个逗号分隔的单个字符串，这里统一拆开
+    $list = @($Urls | ForEach-Object { $_ -split ',' } | ForEach-Object { $_.Trim() } | Where-Object { $_ })
 } else {
     $xml    = [IO.File]::ReadAllText($sitemapPath)
     $cutoff = (Get-Date).Date.AddDays(-$LastDays)
