@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-459FM7B610"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-459FM7B610');</script><script>/*xhsLeadTrack*/(function(){var last={};function lead(m,u){var n=Date.now();if(last[m]&&n-last[m]<1000)return;last[m]=n;if(typeof gtag!=='function')return;gtag('event','generate_lead',{method:m,link_url:u||location.pathname});}document.addEventListener('click',function(e){var t=e.target;while(t&&t!==document){if(t.tagName==='A'){var h=t.getAttribute('href')||'';var c=t.getAttribute('class')||'';if(c.indexOf('xhs-wa-float')>-1||h.indexOf('wa.me')>-1||h.indexOf('api.whatsapp.com')>-1){lead('whatsapp',h);return;}if(h.indexOf('mailto:')===0){lead('email',h);return;}if(h.indexOf('tel:')===0){lead('phone',h);return;}return;}t=t.parentNode;}},true);})();</script><meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261012-footerinfo2"><!-- SEO:HEAD:START -->
-<title>Face Liveness Detection in Biometric Terminals: How to Specify It</title>
+<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261026-mobilefix"><!-- SEO:HEAD:START -->
+<title>Face Liveness Detection in Biometric Terminals</title>
 <meta name="description" content="Monocular, binocular and 3D face capture compared, the ISO/IEC 30107-3 numbers to put in an RFQ, and the field conditions that break liveness checks.">
 <meta name="keywords" content="face liveness detection, presentation attack detection, biometric terminal, ISO/IEC 30107-3, APCER BPCER, binocular camera, 3D structured light">
 <meta name="author" content="Shenzhen Xinhong Smart Technology Co., Ltd.">
@@ -48,7 +48,7 @@
 
 <h2>Three capture architectures and what each can prove</h2>
 <div style="overflow-x:auto">
-<table style="overflow-wrap:normal;min-width:660px">
+<div class="table-scroll" tabindex="0"><table style="overflow-wrap:normal;min-width:660px">
 <caption style="text-align:left;font-size:14px;color:#5a6572;margin-bottom:8px">Face capture architectures used in biometric terminals</caption>
 <colgroup><col style="width:20%"><col style="width:27%"><col style="width:21%"><col style="width:22%"><col style="width:10%"></colgroup>
 <thead><tr><th>Architecture</th><th>Second signal</th><th>Rejects</th><th>Misses</th><th>Cost</th></tr></thead>
@@ -57,7 +57,7 @@
 <tr><td>Binocular RGB + NIR</td><td>Near-infrared reflectance plus stereo parallax.</td><td>Printed photos, phone and tablet screens, flat paper masks.</td><td>Silicone masks with real depth; injected video.</td><td>Medium</td></tr>
 <tr><td>3D depth (structured light / ToF)</td><td>A measured depth map, 30,000 points or more.</td><td>Most 2D attacks and simple 3D masks.</td><td>High-quality silicone masks; injected video.</td><td>High</td></tr>
 </tbody>
-</table>
+</table></div>
 </div>
 <p>The near-infrared channel works because skin reflects 850 to 940 nm light in a predictable way and a printed sheet or an LCD panel does not. That is a physical property, not a trained behaviour, which is why it holds up across user populations in a way that pure image analysis does not.</p>
 <p>The depth channel works on geometry. A photograph has no nose. A curved mask has a nose but usually the wrong curvature and no subsurface scattering, so the depth map is close but not right. Depth is the stronger signal against masks and the weaker signal against a screen, which is why some terminals pair depth with infrared rather than choosing one.</p>

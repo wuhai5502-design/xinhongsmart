@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-459FM7B610"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-459FM7B610');</script><script>/*xhsLeadTrack*/(function(){var last={};function lead(m,u){var n=Date.now();if(last[m]&&n-last[m]<1000)return;last[m]=n;if(typeof gtag!=='function')return;gtag('event','generate_lead',{method:m,link_url:u||location.pathname});}document.addEventListener('click',function(e){var t=e.target;while(t&&t!==document){if(t.tagName==='A'){var h=t.getAttribute('href')||'';var c=t.getAttribute('class')||'';if(c.indexOf('xhs-wa-float')>-1||h.indexOf('wa.me')>-1||h.indexOf('api.whatsapp.com')>-1){lead('whatsapp',h);return;}if(h.indexOf('mailto:')===0){lead('email',h);return;}if(h.indexOf('tel:')===0){lead('phone',h);return;}return;}t=t.parentNode;}},true);})();</script><meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261012-footerinfo2"><!-- SEO:HEAD:START -->
+<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261026-mobilefix"><!-- SEO:HEAD:START -->
 <title>Biometric Terminals for Civil Identity Enrolment</title>
 <meta name="description" content="How civil identity enrolment differs from short registration campaigns: ten-year supply windows, ISO/IEC 19794 formats, deduplication and data residency.">
 <meta name="keywords" content="civil identity enrolment, biometric terminal, biometric tablet, ISO/IEC 19794, deduplication, data residency, national ID">
@@ -54,7 +54,7 @@
 
 <h2>The record has to survive the hardware</h2>
 <p>Enrolment data does not belong to the device that captured it. A fingerprint enrolled in 2026 has to be matchable in 2036, likely on hardware from a different vendor. That requirement decides the output format, and the format decides which sensors are acceptable.</p>
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <caption style="text-align:left;font-size:14px;color:#5a6572;margin-bottom:8px">Fingerprint record formats and what each implies</caption>
 <thead><tr><th>Format</th><th>Contents</th><th>Implication for a long programme</th></tr></thead>
 <tbody>
@@ -63,7 +63,7 @@
 <tr><td>ISO/IEC 19794-5</td><td>Face image</td><td>Used where facial capture is part of the record. Storage and transmission cost scale accordingly.</td></tr>
 <tr><td>Proprietary template</td><td>Vendor-specific</td><td>Fast to integrate, but ties the register to one supplier for its whole life.</td></tr>
 </tbody>
-</table>
+</table></div>
 <p>A sensor that emits only a proprietary template is not a lower-quality sensor, but it is a lock-in decision taken at procurement time and paid for over a decade. When the register is expected to outlive the hardware, the ISO formats are the safer requirement.</p>
 <p>On the capture side the specification is the pair of numbers: <strong>500 ppi</strong> resolution and a stated <strong>FAP</strong> level. There is more on what <a href="/insights/fingerprint-biometric-tablet-fap-fbi-iso/">FAP 10, FAP 20 and FAP 30</a> actually mean, including the FBI certification question, because the answer depends on which ABIS your backend uses.</p>
 
@@ -89,7 +89,7 @@
 
 <h2>Fixed centres and mobile teams need different builds</h2>
 <p>Most programmes end up running both, and the two are difficult to satisfy with one configuration.</p>
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <thead><tr><th></th><th>Fixed enrolment centre</th><th>Mobile enrolment team</th></tr></thead>
 <tbody>
 <tr><td>Power</td><td>Mains available</td><td>Battery for a full shift, no recharge opportunity</td></tr>
@@ -98,7 +98,7 @@
 <tr><td>Protection</td><td>Indoor handling is enough</td><td>Sealing, drop rating, dust</td></tr>
 <tr><td>Accessory fit</td><td>Desk stand, mains adapter</td><td>Carry case, vehicle mount, spare battery</td></tr>
 </tbody>
-</table>
+</table></div>
 <p>The usual resolution is one platform in two build variants rather than two unrelated devices, so spares, docks, MDM policy and operator training stay common across the fleet. Where the two variants diverge, it is worth confirming that the shared components are the ones under supply pressure, not only the ones that are easy to standardise.</p>
 
 <h2>From enrolment to issuance</h2>

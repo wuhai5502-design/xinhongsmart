@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-459FM7B610"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-459FM7B610');</script><script>/*xhsLeadTrack*/(function(){var last={};function lead(m,u){var n=Date.now();if(last[m]&&n-last[m]<1000)return;last[m]=n;if(typeof gtag!=='function')return;gtag('event','generate_lead',{method:m,link_url:u||location.pathname});}document.addEventListener('click',function(e){var t=e.target;while(t&&t!==document){if(t.tagName==='A'){var h=t.getAttribute('href')||'';var c=t.getAttribute('class')||'';if(c.indexOf('xhs-wa-float')>-1||h.indexOf('wa.me')>-1||h.indexOf('api.whatsapp.com')>-1){lead('whatsapp',h);return;}if(h.indexOf('mailto:')===0){lead('email',h);return;}if(h.indexOf('tel:')===0){lead('phone',h);return;}return;}t=t.parentNode;}},true);})();</script><meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261012-footerinfo2"><!-- SEO:HEAD:START -->
+<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261026-mobilefix"><!-- SEO:HEAD:START -->
 <title>Rugged Tablet for Cold Storage and Freezer Warehouses</title>
 <meta name="description" content="How to specify a rugged tablet for cold storage: low-temperature batteries, condensation, glove input and IP sealing that holds at -25°C.">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
@@ -48,13 +48,13 @@
 
 <p>Datasheets routinely put two temperature numbers side by side, and buyers read the wider one. The distinction matters more in cold storage than anywhere else.</p>
 
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Claim on the datasheet</th><th>What it actually means</th><th>What to ask instead</th></tr>
 <tr><td>Storage: -30°C to 70°C</td><td>Survives being left there, powered off</td><td>Not relevant to daily operation</td></tr>
 <tr><td>Operating: -20°C to 60°C</td><td>Works while running, once it is running</td><td>Does it cold start at -20°C?</td></tr>
 <tr><td>Cold start at -20°C</td><td>Boots from cold at that temperature</td><td>The number that actually matters</td></tr>
 <tr><td>Charging: 0°C to 45°C</td><td>Charging below 0°C is blocked or damaging</td><td>Where will charging physically happen?</td></tr>
-</table>
+</table></div>
 
 <p>Displays degrade before electronics do. LCD response slows and ghosting appears well above the rated minimum, and a panel that is technically inside its range can still be unreadable while scrolling a pick list at -18°C. Ask for the display operating range separately if the workflow depends on fast scrolling.</p>
 
@@ -108,20 +108,20 @@
 
 <h2 id="tests">Five tests worth running before you buy</h2>
 
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Test</th><th>How to run it</th><th>Pass criteria</th></tr>
 <tr><td>Cold start</td><td>Power off at the lowest site temperature for 8 hours, then boot inside the freezer</td><td>Boots and reaches the app without a warm-up period</td></tr>
 <tr><td>Shift endurance</td><td>Four hours at -18°C with a scan every 30 seconds and the radio on</td><td>No shutdown, at least 30 percent remaining</td></tr>
 <tr><td>Thermal cycling</td><td>Ten cycles between -25°C and +20°C, 30 minutes dwell each way</td><td>No condensation inside the scanner window or camera</td></tr>
 <tr><td>Glove input</td><td>Operator in site gloves completes 20 scans and one form</td><td>No repeated taps, no abandoned fields</td></tr>
 <tr><td>Frozen decode</td><td>50 frozen labels, mixed print quality and curvature</td><td>98 percent or better first-read rate</td></tr>
-</table>
+</table></div>
 
 <p>Run these on site, with ten to twenty devices, in one zone, for two weeks. A lab report proves the device met a standard; only a site test proves the workflow survives a real shift. The phased rollout logic in the <a href="/insights/warehouse-rugged-tablet-guide/">warehouse deployment guide</a> applies unchanged here — the freezer is simply a harsher zone.</p>
 
 <h2 id="checklist">Specification checklist</h2>
 
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Item</th><th>What to specify</th><th>Why it matters in a freezer</th></tr>
 <tr><td>Operating temperature</td><td>Stated separately from storage, with cold-start confirmation</td><td>The only number that predicts daily behaviour</td></tr>
 <tr><td>Battery</td><td>Low-temperature cell, capacity sized at 60% of rated runtime</td><td>Voltage sag causes shutdowns that look like faults</td></tr>
@@ -130,7 +130,7 @@
 <tr><td>Input</td><td>Glove-touch mode plus physical scan and navigation keys</td><td>Gloved fingers on cold glass are unreliable</td></tr>
 <tr><td>Display</td><td>500 to 800 nits, wide operating range</td><td>Dim, reflective environments punish low brightness</td></tr>
 <tr><td>Labels</td><td>Freezer-grade adhesive, printer profile re-tuned</td><td>Most scan failures start here</td></tr>
-</table>
+</table></div>
 
 <h2 id="xinhong">How Xinhong configures cold-store units</h2>
 

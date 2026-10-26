@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-459FM7B610"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-459FM7B610');</script><script>/*xhsLeadTrack*/(function(){var last={};function lead(m,u){var n=Date.now();if(last[m]&&n-last[m]<1000)return;last[m]=n;if(typeof gtag!=='function')return;gtag('event','generate_lead',{method:m,link_url:u||location.pathname});}document.addEventListener('click',function(e){var t=e.target;while(t&&t!==document){if(t.tagName==='A'){var h=t.getAttribute('href')||'';var c=t.getAttribute('class')||'';if(c.indexOf('xhs-wa-float')>-1||h.indexOf('wa.me')>-1||h.indexOf('api.whatsapp.com')>-1){lead('whatsapp',h);return;}if(h.indexOf('mailto:')===0){lead('email',h);return;}if(h.indexOf('tel:')===0){lead('phone',h);return;}return;}t=t.parentNode;}},true);})();</script><meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261012-footerinfo2"><!-- SEO:HEAD:START -->
+<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261026-mobilefix"><!-- SEO:HEAD:START -->
 <title>Hardware Customization for Rugged Terminals | Xinhong Smart</title>
 <meta name="description" content="Hardware customization for rugged tablets and PDAs: 2D scan engine, fingerprint, NFC and RFID modules, GPIO and SPI headers, memory tiers, LTE bands.">
 <meta name="keywords" content="hardware customization, rugged tablet customization, industrial PDA custom hardware, 2D scan engine options, fingerprint module integration, TTL GPIO SPI interface, LTE band customization">
@@ -51,14 +51,14 @@
 
 <main>
 <section class="section"><div class="container"><div class="eyebrow">MODULES</div><h2>What can be built into the device</h2>
-<table class="xhs-hw-table">
+<div class="table-scroll" tabindex="0"><table class="xhs-hw-table">
 <tr><th>Function</th><th>Available options</th></tr>
 <tr><td>Barcode scanning</td><td>Rear 2D engine from Newland, Honeywell N3680 or Zebra 4710; the engine connects to a dedicated FPC header inside the housing</td></tr>
 <tr><td>Fingerprint capture</td><td>FAP10 capacitive sensor; FAP20 or FAP30 optical sensors (Slim2 / Slim3 family). The profile decides the capture area and image dimensions, so confirm the record format your application has to produce</td></tr>
 <tr><td>Identity documents</td><td>Second-generation Chinese ID card reader, working offline, with an online version available where the workflow depends on a central service</td></tr>
 <tr><td>NFC and contactless</td><td>NFC ST21NFC at 13.56 MHz, ISO/IEC 14443 Type A/B and ISO/IEC 15693</td></tr>
 <tr><td>RFID</td><td>LF 125K / 134.2K, HF 13.56 MHz (FD101) and UHF options depending on the platform</td></tr>
-</table>
+</table></div>
 <p style="color:#5a6a82;font-size:15px;line-height:1.8">Module availability varies by model — what fits the XH-500 tablet is not the same list as the XH-100 handheld. The set is confirmed against the platform you select, and any software impact is captured at the <a class="text-link" href="/oem-odm/software-customization/">software customization</a> stage.</p>
 </div></section>
 
@@ -71,14 +71,14 @@
 </div></section>
 
 <section class="section"><div class="container"><div class="eyebrow">PLATFORM CONFIGURATION</div><h2>Memory, display, radio and power</h2>
-<table class="xhs-hw-table">
+<div class="table-scroll" tabindex="0"><table class="xhs-hw-table">
 <tr><th>Area</th><th>How it can change</th></tr>
 <tr><td>Memory and storage</td><td>On XH-500, Android 12 with 4 GB RAM and 64 GB storage is standard, and 6 GB + 128 GB or 8 GB + 128 GB are optional; the TF slot adds expansion up to 512 GB</td></tr>
 <tr><td>Display</td><td>Optional display resolution on platforms that offer more than one panel tier; glass and touch behaviour are covered by the environmental specification</td></tr>
 <tr><td>Cellular</td><td>LTE band configuration matched to the destination market, so devices work with the local carriers instead of being reworked after arrival</td></tr>
 <tr><td>Power</td><td>Charger plug types and adapter input range matched to the destination market; vehicle and desk docking accessories available</td></tr>
 <tr><td>Identification</td><td>Device model name and rating-label marking set for the project, with serialisation on the line</td></tr>
-</table>
+</table></div>
 <p style="color:#5a6a82;font-size:15px;line-height:1.8">Android version and the rest of the software image — GMS or plain AOSP, the launcher, pre-installed applications and kiosk behaviour — are handled on the <a class="text-link" href="/oem-odm/android-os-customization/">Android OS customization</a> page.</p>
 </div></section>
 

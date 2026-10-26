@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-459FM7B610"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-459FM7B610');</script><script>/*xhsLeadTrack*/(function(){var last={};function lead(m,u){var n=Date.now();if(last[m]&&n-last[m]<1000)return;last[m]=n;if(typeof gtag!=='function')return;gtag('event','generate_lead',{method:m,link_url:u||location.pathname});}document.addEventListener('click',function(e){var t=e.target;while(t&&t!==document){if(t.tagName==='A'){var h=t.getAttribute('href')||'';var c=t.getAttribute('class')||'';if(c.indexOf('xhs-wa-float')>-1||h.indexOf('wa.me')>-1||h.indexOf('api.whatsapp.com')>-1){lead('whatsapp',h);return;}if(h.indexOf('mailto:')===0){lead('email',h);return;}if(h.indexOf('tel:')===0){lead('phone',h);return;}return;}t=t.parentNode;}},true);})();</script><meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261012-footerinfo2"><!-- SEO:HEAD:START -->
+<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261026-mobilefix"><!-- SEO:HEAD:START -->
 <title>Border Identity Verification Terminals: Buying Guide</title>
 <meta name="description" content="How border identity verification terminals work: MRZ and chip reading, biometric capture, 1:1 vs 1:N matching, throughput, offline fallback and data retention.">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
@@ -32,13 +32,13 @@
 <p>Below: what happens inside a border identity verification terminal, which components set the throughput, and what to write into a procurement spec. For the fingerprint module specifically, see our <a href="/insights/fingerprint-biometric-tablet-fap-fbi-iso/">guide to FAP, FBI and ISO fingerprint standards</a>. For the device options themselves, see our <a href="/biometric-tablet/">biometric tablets for identity verification</a>.</p>
 
 <h2>What happens in thirty seconds</h2>
-<table><tr><th>Step</th><th>What the terminal does</th><th>Typical time</th></tr>
+<div class="table-scroll" tabindex="0"><table><tr><th>Step</th><th>What the terminal does</th><th>Typical time</th></tr>
 <tr><td>1. Document presentment</td><td>Optical scan of MRZ or barcode; chip read if present</td><td>2&#8211;5 s</td></tr>
 <tr><td>2. Authenticity check</td><td>Chip signature validation, MRZ checksum, hologram / UV</td><td>1&#8211;3 s</td></tr>
 <tr><td>3. Biometric capture</td><td>Face, fingerprint or both</td><td>3&#8211;8 s</td></tr>
 <tr><td>4. Matching</td><td>1:1 against the document, or 1:N against a watchlist</td><td>1&#8211;5 s</td></tr>
 <tr><td>5. Decision and logging</td><td>Result displayed, record written to audit log</td><td>&lt;1 s</td></tr>
-</table>
+</table></div>
 <p>The two slow steps are biometric capture and matching. Capture is dominated by how well the traveller is guided — a fixed-height camera with clear on-screen prompts beats a handheld device held at an angle. Matching time depends on whether you are doing 1:1 or 1:N, described below.</p>
 
 <h2>Document authentication</h2>
@@ -68,13 +68,13 @@
 
 <h2>Environmental and duty-cycle requirements</h2>
 <p>Outdoor border posts combine direct sun, rain, dust and continuous operation. Specify by duty cycle, not by peak spec:</p>
-<table><tr><th>Item</th><th>Fixed counter</th><th>Mobile / vehicle unit</th></tr>
+<div class="table-scroll" tabindex="0"><table><tr><th>Item</th><th>Fixed counter</th><th>Mobile / vehicle unit</th></tr>
 <tr><td>Display</td><td>500&#8211;700 nit, controlled lighting</td><td>700+ nit, direct sun</td></tr>
 <tr><td>Sealing</td><td>IP54&#8211;IP65</td><td>IP65&#8211;IP67</td></tr>
 <tr><td>Power</td><td>Mains with UPS</td><td>12/24 V vehicle supply</td></tr>
 <tr><td>Duty cycle</td><td>Continuous, 16&#8211;24 h</td><td>Shift-based</td></tr>
 <tr><td>Thermal</td><td>Indoor range</td><td>-20 °C to +60 °C</td></tr>
-</table>
+</table></div>
 <p>Continuous duty is the demanding case. A device rated for intermittent use will thermal-throttle or fail early when run 24 hours a day in a hot climate.</p>
 
 <h2>Data protection and retention</h2>

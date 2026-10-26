@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-459FM7B610"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-459FM7B610');</script><script>/*xhsLeadTrack*/(function(){var last={};function lead(m,u){var n=Date.now();if(last[m]&&n-last[m]<1000)return;last[m]=n;if(typeof gtag!=='function')return;gtag('event','generate_lead',{method:m,link_url:u||location.pathname});}document.addEventListener('click',function(e){var t=e.target;while(t&&t!==document){if(t.tagName==='A'){var h=t.getAttribute('href')||'';var c=t.getAttribute('class')||'';if(c.indexOf('xhs-wa-float')>-1||h.indexOf('wa.me')>-1||h.indexOf('api.whatsapp.com')>-1){lead('whatsapp',h);return;}if(h.indexOf('mailto:')===0){lead('email',h);return;}if(h.indexOf('tel:')===0){lead('phone',h);return;}return;}t=t.parentNode;}},true);})();</script><meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261012-footerinfo2"><!-- SEO:HEAD:START -->
+<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261026-mobilefix"><!-- SEO:HEAD:START -->
 <title>MIL-STD-810G vs 810H: Rugged Tablet Standards Explained</title>
 <meta name="description" content="MIL-STD-810G vs 810H compared: what changed between revisions, which methods matter for rugged tablets, and how to write the requirement into a tender.">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
@@ -45,7 +45,7 @@
 <h2 id="810g-vs-810h">MIL-STD-810G vs 810H: What Actually Changed</h2>
 <p>810H is not a uniform tightening of 810G. It is a revision that moved most methods onto current test practice, and the practical consequence for buyers is that <strong>the method numbers changed</strong>. A report written against 810G and a report written against 810H do not describe the same test, even when both headlines say "drop tested".</p>
 
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Test</th><th>810G method</th><th>810H method</th></tr>
 <tr><td>High temperature</td><td>501.5</td><td><strong>501.7</strong></td></tr>
 <tr><td>Low temperature</td><td>502.5</td><td><strong>502.7</strong></td></tr>
@@ -54,7 +54,7 @@
 <tr><td>Salt fog</td><td>509.5</td><td><strong>509.7</strong></td></tr>
 <tr><td>Vibration</td><td>514.6</td><td><strong>514.8</strong></td></tr>
 <tr><td>Shock / transit drop</td><td>516.6</td><td><strong>516.8</strong></td></tr>
-</table>
+</table></div>
 
 <p>810G dates from 2008, 810H from 2019. In between, the test community found that several 810G procedures under-represented how equipment actually fails in service, notably vibration profiles and thermal cycling. 810H also leans harder on <em>tailoring</em>: it expects test conditions to be derived from a real life-cycle profile instead of copied from a default table. That is better engineering, but it means two 810H reports can differ substantially depending on what each lab was told to simulate.</p>
 
@@ -71,7 +71,7 @@
 <h2 id="methods">The Methods That Matter for Rugged Tablets</h2>
 <p>MIL-STD-810H contains dozens of methods. These are the ones relevant to industrial mobile devices:</p>
 
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Method</th><th>Stress</th><th>Why it matters</th></tr>
 <tr><td><strong>516.8</strong> Procedure IV</td><td>Shock / transit drop</td><td>Handheld drops, falls from carts and vehicles</td></tr>
 <tr><td><strong>514.8</strong></td><td>Vibration</td><td>Forklift and vehicle mounting, continuous engine vibration</td></tr>
@@ -83,7 +83,7 @@
 <tr><td><strong>510.7</strong></td><td>Sand and dust</td><td>Construction, mining, deserts, bulk material handling</td></tr>
 <tr><td><strong>505.7</strong></td><td>Solar radiation</td><td>Permanently outdoor kiosks and yard operations</td></tr>
 <tr><td><strong>500.6</strong></td><td>Low pressure</td><td>High-altitude sites and air freight</td></tr>
-</table>
+</table></div>
 
 <h3>The one everyone quotes: Method 516.8 drop</h3>
 <p>When a datasheet says "MIL-STD-810H drop tested", it almost always means <strong>Method 516.8, Procedure IV (transit drop)</strong>. But the standard does not fix a single height — the test plan does. You must ask:</p>
@@ -102,12 +102,12 @@
 </figure>
 
 <h2 id="three-standards">MIL-STD vs IP vs IK: Three Different Questions</h2>
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Standard</th><th>Measures</th><th>Question it answers</th></tr>
 <tr><td><strong>IP</strong> (IEC 60529)</td><td>Dust and water ingress</td><td>"Will dust or water get inside?"</td></tr>
 <tr><td><strong>IK</strong> (IEC 62262)</td><td>Impact energy (joules)</td><td>"Will a localised impact break it?"</td></tr>
 <tr><td><strong>MIL-STD-810H</strong></td><td>Environmental &amp; mechanical stress</td><td>"Will it survive drops, vibration, heat, cold, humidity?"</td></tr>
-</table>
+</table></div>
 <p>A device can be <strong>IP67 and still crack when dropped</strong> — ingress protection says nothing about impact. Conversely, a device may pass drop testing with an IP65 enclosure. <strong>Always specify all three.</strong></p>
 
 <h2 id="red-flags">How to Spot a Misleading Claim</h2>

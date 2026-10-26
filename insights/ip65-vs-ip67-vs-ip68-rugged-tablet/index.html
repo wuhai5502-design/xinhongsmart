@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-459FM7B610"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-459FM7B610');</script><script>/*xhsLeadTrack*/(function(){var last={};function lead(m,u){var n=Date.now();if(last[m]&&n-last[m]<1000)return;last[m]=n;if(typeof gtag!=='function')return;gtag('event','generate_lead',{method:m,link_url:u||location.pathname});}document.addEventListener('click',function(e){var t=e.target;while(t&&t!==document){if(t.tagName==='A'){var h=t.getAttribute('href')||'';var c=t.getAttribute('class')||'';if(c.indexOf('xhs-wa-float')>-1||h.indexOf('wa.me')>-1||h.indexOf('api.whatsapp.com')>-1){lead('whatsapp',h);return;}if(h.indexOf('mailto:')===0){lead('email',h);return;}if(h.indexOf('tel:')===0){lead('phone',h);return;}return;}t=t.parentNode;}},true);})();</script><meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261012-footerinfo2"><!-- SEO:HEAD:START -->
+<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261026-mobilefix"><!-- SEO:HEAD:START -->
 <title>IP65 vs IP67 vs IP68: Rugged Tablet Ratings | Xinhong Smart</title>
 <meta name="description" content="Decode the IEC 60529 IP code: IP65, IP67, IP68 and IP69K compared, what IP ratings do not cover, how to verify vendor claims, plus the IK impact rating.">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
@@ -31,37 +31,37 @@
 <p>The IP code is the most quoted — and most misunderstood — specification on any rugged tablet datasheet. So: what each digit means, how IP65/IP67/IP68/IP69K compare, and the four things IP ratings do <strong>not</strong> protect against. The wider hardware decision sits in our <a href="/insights/industrial-tablet-buying-guide-2026/">Industrial Tablet Buying Guide 2026</a>.</p>
 
 <h2 id="summary">Quick Answer</h2>
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Your environment</th><th>Minimum rating</th></tr>
 <tr><td>Indoor warehouse, light airborne dust</td><td><strong>IP65</strong></td></tr>
 <tr><td>Outdoor yard work, rain, mixed indoor/outdoor fleets</td><td><strong>IP67</strong></td></tr>
 <tr><td>Maritime, food washdown, pressure-steam cleaning</td><td><strong>IP68 / IP69K</strong></td></tr>
 <tr><td>Chemical splash (oils, solvents, disinfectants)</td><td><strong>IP67 + chemical compatibility check</strong></td></tr>
-</table>
+</table></div>
 
 <h2 id="anatomy">Anatomy of the IP Code (IEC 60529)</h2>
 <p>An IP code has two digits. The first describes protection against <strong>solid objects</strong>; the second against <strong>liquids</strong>. A higher number is not universally "better" — each describes a specific test.</p>
 
 <h3>First Digit — Solids</h3>
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Digit</th><th>Meaning</th><th>Detail</th></tr>
 <tr><td><strong>5</strong></td><td>Dust-protected</td><td>Limited ingress permitted; not fully sealed</td></tr>
 <tr><td><strong>6</strong></td><td>Dust-tight</td><td>No ingress after 8 hours in a dust chamber; vacuum test</td></tr>
-</table>
+</table></div>
 <p>For industrial duty always require <strong>first digit 6</strong>. Digit 5 allows enough ingress to cause long-term failures with metal or mineral dust.</p>
 
 <h3>Second Digit — Liquids</h3>
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Digit</th><th>Test condition</th><th>Practical translation</th></tr>
 <tr><td><strong>5</strong></td><td>6.3 mm nozzle, 12.5 L/min, 3 min from 3 m</td><td>Low-pressure jets — cleaning spray</td></tr>
 <tr><td><strong>6</strong></td><td>12.5 mm nozzle, 100 L/min, 3 min from 3 m</td><td>Powerful jets — heavy washdown</td></tr>
 <tr><td><strong>7</strong></td><td>Immersion 1 m depth, 30 min</td><td>Rain, puddles, accidental submersion</td></tr>
 <tr><td><strong>8</strong></td><td>Continuous immersion, manufacturer specifies depth &amp; duration</td><td>Varies — ask specifics</td></tr>
 <tr><td><strong>9K</strong></td><td>Steam jet 80 °C, 80–100 bar, close range</td><td>High-pressure hot washdown</td></tr>
-</table>
+</table></div>
 
 <h2 id="comparison">IP65 vs IP67 vs IP68: Side by Side</h2>
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Aspect</th><th>IP65</th><th>IP67</th><th>IP68</th></tr>
 <tr><td><strong>Dust</strong></td><td>Protected (limited ingress)</td><td><strong>Dust-tight</strong></td><td><strong>Dust-tight</strong></td></tr>
 <tr><td><strong>Water</strong></td><td>Low-pressure jets</td><td><strong>1 m / 30 min immersion</strong></td><td>Immersion per maker spec</td></tr>
@@ -70,18 +70,18 @@
 <tr><td><strong>Hose cleaning</strong></td><td>Light only</td><td>Moderate</td><td>High (verify conditions)</td></tr>
 <tr><td><strong>Cost impact</strong></td><td>Baseline</td><td>+3–8%</td><td>+10–25%</td></tr>
 <tr><td><strong>Typical deployment</strong></td><td>Indoor logistics</td><td><strong>Mixed indoor/outdoor fleets</strong></td><td>Marine, washdown</td></tr>
-</table>
+</table></div>
 <blockquote><p><strong>The trap:</strong> "IP68" without stated conditions is marketing. Ask: <em>Depth? Duration? Fresh or salt water? Tested by whom?</em></p></blockquote>
 
 <h2 id="ik">IK Impact Rating — The Missing Half</h2>
 <p>IP says nothing about hitting things. For that you need the <strong>IK code (IEC 62262)</strong>, measured in impact joules:</p>
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Rating</th><th>Impact energy</th><th>Real-world equivalent</th></tr>
 <tr><td>IK06</td><td>1 J</td><td>Light knocks</td></tr>
 <tr><td>IK07</td><td>2 J</td><td>Drop of a small tool</td></tr>
 <tr><td>IK08</td><td>5 J</td><td><strong>Recommended industrial minimum</strong></td></tr>
 <tr><td>IK09 / IK10</td><td>10 J / 20 J</td><td>Vandal-resistant, heavy equipment</td></tr>
-</table>
+</table></div>
 <p>Ask for <strong>IK07 minimum, IK08 preferred</strong>. Pair it with MIL-STD-810H drop certification, which simulates actual falls rather than pendulum impacts — both are explained in our <a href="/insights/industrial-tablet-buying-guide-2026/#mil-std">drop resistance section</a>.</p>
 
 <h2 id="not-covered">What IP Ratings Do NOT Cover</h2>
@@ -109,7 +109,7 @@
 <blockquote><p>Xinhong provides test reports for each shipped configuration and specifies exact IP68 terms where applicable.</p></blockquote>
 
 <h2 id="matrix">Selection Matrix by Application</h2>
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Application</th><th>IP</th><th>Also require</th></tr>
 <tr><td>Indoor warehouse picking</td><td>IP65</td><td>IK07+, MIL-STD-810H</td></tr>
 <tr><td>Outdoor yard / port operations</td><td>IP67</td><td>Salt-fog test, wide temp</td></tr>
@@ -118,7 +118,7 @@
 <tr><td>Pharmaceutical cleanroom</td><td>IP65–IP67</td><td>Disinfectant compatibility, low outgassing</td></tr>
 <tr><td>Construction site</td><td>IP67</td><td>IK08+, high drop spec, sunlight display</td></tr>
 <tr><td>Marine / offshore</td><td>IP67–IP68</td><td>Salt-fog, corrosion-resistant fasteners</td></tr>
-</table>
+</table></div>
 
 <h2 id="recommendation">Xinhong Recommendation</h2>
 <ul>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head><meta charset="utf-8"><!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-459FM7B610"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-459FM7B610');</script><script>/*xhsLeadTrack*/(function(){var last={};function lead(m,u){var n=Date.now();if(last[m]&&n-last[m]<1000)return;last[m]=n;if(typeof gtag!=='function')return;gtag('event','generate_lead',{method:m,link_url:u||location.pathname});}document.addEventListener('click',function(e){var t=e.target;while(t&&t!==document){if(t.tagName==='A'){var h=t.getAttribute('href')||'';var c=t.getAttribute('class')||'';if(c.indexOf('xhs-wa-float')>-1||h.indexOf('wa.me')>-1||h.indexOf('api.whatsapp.com')>-1){lead('whatsapp',h);return;}if(h.indexOf('mailto:')===0){lead('email',h);return;}if(h.indexOf('tel:')===0){lead('phone',h);return;}return;}t=t.parentNode;}},true);})();</script><meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261012-footerinfo2">
+<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261026-mobilefix">
 <!-- SEO:HEAD:START -->
 <title>Industrial Android Tablet: Specs &amp; Lifecycle | Xinhong Smart</title>
 <meta name="description" content="What makes an Android tablet industrial: OS and patch lifecycle, GMS vs AOSP, Android Enterprise MDM, serial and GPIO interfaces, 5-7 year supply.">
@@ -37,7 +37,7 @@
 
 <h2>What "Industrial" Actually Changes</h2>
 <p>An industrial Android tablet is not a consumer tablet in a thick case. The differences that matter are the ones that show up after eighteen months in service.</p>
-<table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:15px">
+<div class="table-scroll" tabindex="0"><table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:15px">
 <thead><tr style="background:#f3f6fc"><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Attribute</th><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Consumer tablet</th><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Industrial Android tablet</th></tr></thead>
 <tbody>
 <tr><td style="padding:10px;border:1px solid #dfe6f2">Availability</td><td style="padding:10px;border:1px solid #dfe6f2">12&#8211;24 months, then replaced</td><td style="padding:10px;border:1px solid #dfe6f2">Commonly 5&#8211;7 years on a written commitment</td></tr>
@@ -46,7 +46,7 @@
 <tr><td style="padding:10px;border:1px solid #dfe6f2">Interfaces</td><td style="padding:10px;border:1px solid #dfe6f2">USB-C, maybe microSD</td><td style="padding:10px;border:1px solid #dfe6f2">Serial, RJ45, GPIO, pogo pins, dedicated modules</td></tr>
 <tr><td style="padding:10px;border:1px solid #dfe6f2">Battery</td><td style="padding:10px;border:1px solid #dfe6f2">Sealed, replace by service</td><td style="padding:10px;border:1px solid #dfe6f2">Sized for a full shift, often hot-swappable</td></tr>
 <tr><td style="padding:10px;border:1px solid #dfe6f2">Management</td><td style="padding:10px;border:1px solid #dfe6f2">Personal device assumptions</td><td style="padding:10px;border:1px solid #dfe6f2">Android Enterprise, kiosk lock, zero-touch enrolment</td></tr>
-</tbody></table>
+</tbody></table></div>
 
 <h2>Android Version and Security Patch Lifecycle</h2>
 <p>The major version number gets the attention; the patch cadence determines your actual risk. Ask two separate questions:</p>
@@ -110,7 +110,7 @@
 <p>More detail: <a href="/insights/customize-android-rugged-tablet/">How to Customize an Android Rugged Tablet</a> &#183; <a href="/oem-odm/android-os-customization/">Android OS customisation</a></p>
 
 <h2>Industrial Android Tablet: Specification Checklist</h2>
-<table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:15px">
+<div class="table-scroll" tabindex="0"><table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:15px">
 <thead><tr style="background:#f3f6fc"><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Item</th><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">What to confirm in writing</th></tr></thead>
 <tbody>
 <tr><td style="padding:10px;border:1px solid #dfe6f2">Android version and patches</td><td style="padding:10px;border:1px solid #dfe6f2">Ship version, upgrade path, patch cadence, end-of-support date</td></tr>
@@ -123,7 +123,7 @@
 <tr><td style="padding:10px;border:1px solid #dfe6f2">Supply and change control</td><td style="padding:10px;border:1px solid #dfe6f2">Multi-year availability, advance notice of component changes</td></tr>
 <tr><td style="padding:10px;border:1px solid #dfe6f2">Certifications</td><td style="padding:10px;border:1px solid #dfe6f2">CE, FCC, UKCA, RoHS, UN 38.3 and any industry-specific scheme</td></tr>
 <tr><td style="padding:10px;border:1px solid #dfe6f2">Support</td><td style="padding:10px;border:1px solid #dfe6f2">Firmware update path, SDK, RMA turnaround, spare parts</td></tr>
-</tbody></table>
+</tbody></table></div>
 
 <h2>Frequently Asked Questions</h2>
 <h3>What Android version should an industrial tablet run?</h3>

@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-459FM7B610"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-459FM7B610');</script><script>/*xhsLeadTrack*/(function(){var last={};function lead(m,u){var n=Date.now();if(last[m]&&n-last[m]<1000)return;last[m]=n;if(typeof gtag!=='function')return;gtag('event','generate_lead',{method:m,link_url:u||location.pathname});}document.addEventListener('click',function(e){var t=e.target;while(t&&t!==document){if(t.tagName==='A'){var h=t.getAttribute('href')||'';var c=t.getAttribute('class')||'';if(c.indexOf('xhs-wa-float')>-1||h.indexOf('wa.me')>-1||h.indexOf('api.whatsapp.com')>-1){lead('whatsapp',h);return;}if(h.indexOf('mailto:')===0){lead('email',h);return;}if(h.indexOf('tel:')===0){lead('phone',h);return;}return;}t=t.parentNode;}},true);})();</script><meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261012-footerinfo2"><!-- SEO:HEAD:START -->
+<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261026-mobilefix"><!-- SEO:HEAD:START -->
 <title>Rugged Tablet Certifications: What You Need | Xinhong Smart</title>
 <meta name="description" content="Which certifications a rugged tablet needs: IP (IEC 60529), MIL-STD-810H, IK, CE, FCC, UKCA, RoHS and ATEX/IECEx - what each proves and how to verify a claim.">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
@@ -32,7 +32,7 @@
 <p>"Rugged" is not a standard. Any vendor can print the word on a datasheet. What makes a device genuinely survive a warehouse, a construction site or an offshore platform is a set of <strong>independently tested specifications</strong> — and knowing which ones actually apply to your environment. Four families of certification apply here. Some are legally mandatory, some are optional, and telling a real test report from a marketing icon is where buyers most often get caught. It pairs with our <a href="/insights/ip65-vs-ip67-vs-ip68-rugged-tablet/">IP rating comparison</a> and our <a href="/insights/mil-std-810h-rugged-tablet/">MIL-STD-810H breakdown</a>.</p>
 
 <h2 id="summary">Quick Answer</h2>
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Your deployment</th><th>Must have</th><th>Strongly advised</th></tr>
 <tr><td>Indoor warehouse or retail</td><td>IP65, CE / FCC, RoHS</td><td>IK07, MIL-STD-810H drop</td></tr>
 <tr><td>Outdoor yard, port, utilities</td><td>IP67, CE / FCC, RoHS</td><td>MIL-STD-810H salt fog + wide temp, IK08</td></tr>
@@ -42,7 +42,7 @@
 <tr><td>Food and pharmaceutical washdown</td><td>IP69K, material compliance</td><td>Chemical resistance testing</td></tr>
 <tr><td>Healthcare</td><td>IEC 60601-1 (if patient-adjacent)</td><td>Disinfectant compatibility, low outgassing</td></tr>
 <tr><td>Public safety or government</td><td>CE / FCC, security policy</td><td>FIPS 140-3 validated crypto, MDM support</td></tr>
-</table>
+</table></div>
 <blockquote><p><strong>The one rule:</strong> certifications are bought for a <em>risk</em>, not for a datasheet. Write down the top three ways your current devices fail, then specify only the standards that address them.</p></blockquote>
 
 <h2 id="families">The Four Families of Rugged Certification</h2>
@@ -54,7 +54,7 @@
 
 <h3>Family 2 — Environmental and Mechanical (MIL-STD-810)</h3>
 <p>MIL-STD-810H is a set of <strong>test methods</strong> published by the US Department of Defense. It is not a certificate and there is no issuing authority — a vendor either ran the methods and can show the report, or did not. The methods that matter for a tablet:</p>
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Method</th><th>What it simulates</th><th>Who actually needs it</th></tr>
 <tr><td><strong>516.8</strong> Shock</td><td>Drops and handling impacts</td><td>Everyone — this is the core "rugged" claim</td></tr>
 <tr><td><strong>514.8</strong> Vibration</td><td>Vehicle and machinery mounting</td><td>Forklifts, trucks, rail, plant equipment</td></tr>
@@ -62,18 +62,18 @@
 <tr><td><strong>507.6</strong> Humidity</td><td>Tropical and condensing environments</td><td>Coastal Asia, food processing, greenhouses</td></tr>
 <tr><td><strong>509.7</strong> Salt fog</td><td>Corrosion</td><td>Marine, offshore, ports, road de-icing fleets</td></tr>
 <tr><td><strong>505.7</strong> Solar radiation</td><td>Sunload and UV</td><td>Continuous outdoor use</td></tr>
-</table>
+</table></div>
 <p>Ask which methods were run, at what severity, and on which sample. "Compliant with MIL-STD-810H" without method numbers is meaningless.</p>
 
 <h3>Family 3 — Mechanical Impact (IK, IEC 62262)</h3>
 <p>The IK code rates resistance to a defined impact energy in joules, from IK00 to IK10 (20 J). It is the missing half of the IP story: a dust-tight, immersion-proof tablet can still shatter when a tool lands on it. Pair it with the drop method above.</p>
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Rating</th><th>Impact energy</th><th>Guidance</th></tr>
 <tr><td>IK06</td><td>1 J</td><td>Light knocks only</td></tr>
 <tr><td>IK07</td><td>2 J</td><td>Minimum for industrial fleets</td></tr>
 <tr><td>IK08</td><td>5 J</td><td>Recommended for construction and field service</td></tr>
 <tr><td>IK09 / IK10</td><td>10 J / 20 J</td><td>Vandal-prone or heavy plant environments</td></tr>
-</table>
+</table></div>
 
 <figure style="margin:28px 0;text-align:center;">
   <picture><source srcset="/uploads/blog/quality-lab-800.webp" type="image/webp"><img srcset="/uploads/blog/quality-lab-800.jpg 800w, /uploads/blog/quality-lab-1200.jpg 1200w, /uploads/blog/quality-lab.jpg 1536w" sizes="(max-width: 820px) 100vw, 820px" fetchpriority="high" src="/uploads/blog/quality-lab.jpg" alt="Rugged tablet undergoing environmental and drop validation testing in a quality laboratory" width="1536" height="1024" loading="eager" decoding="async" style="max-width:100%;height:auto;border-radius:8px;box-shadow:0 4px 18px rgba(0,0,0,.10);"></picture>
@@ -82,7 +82,7 @@
 
 <h3>Family 4 — Market Access and Legal Compliance</h3>
 <p>These are not about ruggedness. They are the minimum legal permission to import, sell and operate the device in a country, and they apply to every tablet including consumer models.</p>
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Mark</th><th>Market</th><th>What it covers</th></tr>
 <tr><td><strong>CE</strong></td><td>European Union</td><td>Radio Equipment Directive 2014/53/EU, EMC, safety, RoHS</td></tr>
 <tr><td><strong>UKCA</strong></td><td>United Kingdom</td><td>Equivalent UK conformity route</td></tr>
@@ -91,7 +91,7 @@
 <tr><td><strong>RoHS / REACH</strong></td><td>EU and others</td><td>Restricted substances and chemical reporting</td></tr>
 <tr><td><strong>UN 38.3 / IEC 62133</strong></td><td>Global shipping</td><td>Lithium battery transport and cell safety</td></tr>
 <tr><td><strong>IEC 62368-1</strong></td><td>Global</td><td>Product safety standard for IT and AV equipment</td></tr>
-</table>
+</table></div>
 <p>Two practical traps. First, radio compliance is per-configuration: a tablet certified with one cellular module is not automatically certified with another. Second, UN 38.3 is a <em>shipping</em> requirement — without it a carrier can refuse your air freight regardless of product quality.</p>
 
 <h2 id="industry">Industry-Specific Schemes You May Also Need</h2>
@@ -128,7 +128,7 @@
 <blockquote><p>Xinhong supplies test reports for each shipped configuration and states exact IP and MIL-STD conditions in writing. Where a customer requests a mechanical change, we re-validate rather than assume the original rating still holds.</p></blockquote>
 
 <h2 id="matrix">Certification Matrix by Industry</h2>
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Industry</th><th>Core requirements</th><th>Often overlooked</th></tr>
 <tr><td>Warehousing and logistics</td><td>IP65, IK07, MIL-STD-810H 516.8</td><td>Battery cycle life, dock durability</td></tr>
 <tr><td>Ports, marine, offshore</td><td>IP67, salt fog 509.7</td><td>Corrosion-resistant fasteners, salt-fog on accessories</td></tr>
@@ -138,7 +138,7 @@
 <tr><td>Food and beverage</td><td>IP69K, material compliance</td><td>Disinfectant chemical compatibility</td></tr>
 <tr><td>Healthcare</td><td>IEC 60601-1 where applicable</td><td>Cleaning agent compatibility, low outgassing</td></tr>
 <tr><td>Government and defence</td><td>FIPS 140-3, MDM support</td><td>Android patch cadence commitment</td></tr>
-</table>
+</table></div>
 
 <h2 id="recommendation">Xinhong Recommendation</h2>
 <ul>

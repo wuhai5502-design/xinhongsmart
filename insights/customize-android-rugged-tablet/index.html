@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-459FM7B610"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-459FM7B610');</script><script>/*xhsLeadTrack*/(function(){var last={};function lead(m,u){var n=Date.now();if(last[m]&&n-last[m]<1000)return;last[m]=n;if(typeof gtag!=='function')return;gtag('event','generate_lead',{method:m,link_url:u||location.pathname});}document.addEventListener('click',function(e){var t=e.target;while(t&&t!==document){if(t.tagName==='A'){var h=t.getAttribute('href')||'';var c=t.getAttribute('class')||'';if(c.indexOf('xhs-wa-float')>-1||h.indexOf('wa.me')>-1||h.indexOf('api.whatsapp.com')>-1){lead('whatsapp',h);return;}if(h.indexOf('mailto:')===0){lead('email',h);return;}if(h.indexOf('tel:')===0){lead('phone',h);return;}return;}t=t.parentNode;}},true);})();</script><meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261012-footerinfo2"><!-- SEO:HEAD:START -->
+<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261026-mobilefix"><!-- SEO:HEAD:START -->
 <title>How to Customize an Android Rugged Tablet | Xinhong Smart</title>
 <meta name="description" content="An OEM/ODM roadmap for custom Android rugged tablets: hardware modules, OS and kiosk changes, SDK and MDM, branding, certification re-testing and MOQ.">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
@@ -32,28 +32,28 @@
 <p>Most buyers approach customization backwards: they start with a wish list of features and discover the cost and lead time at the end. It works better the other way round. Customization happens in <strong>five independent layers</strong>, each with its own minimum order quantity, lead time and risk profile. Once you know which layer a request belongs to, you can predict what it will cost and how long it will take — and, more importantly, which requests will invalidate the certifications you already paid for. Each layer is priced and scheduled through our <a href="/oem-odm/">OEM and ODM programmes</a>.</p>
 
 <h2 id="summary">The Five Layers at a Glance</h2>
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Layer</th><th>What you can change</th><th>Typical MOQ</th><th>Typical lead time</th></tr>
 <tr><td><strong>1. Hardware</strong></td><td>Scanner, RFID, fingerprint, battery, ports, display, radios</td><td>100–300</td><td>4–8 weeks</td></tr>
 <tr><td><strong>2. Android OS</strong></td><td>Launcher, kiosk, pre-installed apps, boot logo, key mapping</td><td>50–100</td><td>2–4 weeks</td></tr>
 <tr><td><strong>3. Firmware / SDK</strong></td><td>APIs, scan intents, GPIO control, FOTA, MDM hooks</td><td>50–100</td><td>2–6 weeks</td></tr>
 <tr><td><strong>4. Branding</strong></td><td>Logo, housing colour, packaging, manuals, labels</td><td>50–500</td><td>2–8 weeks</td></tr>
 <tr><td><strong>5. Industrial design</strong></td><td>New housing, tooling, full ODM</td><td>500–1000+</td><td>12–20 weeks</td></tr>
-</table>
+</table></div>
 <blockquote><p><strong>Cost driver:</strong> layers 2, 3 and 4 are configuration work — cheap and fast. Layer 5 means tooling, which means NRE and months. Most projects get 90% of the value from layers 1 to 4.</p></blockquote>
 
 <h2 id="hardware">Layer 1 — Hardware Customization</h2>
 <p>This is where the device stops being generic. Each change is a board or mechanical decision, so each carries validation cost.</p>
 
 <h3>Data Capture</h3>
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Module</th><th>Options</th><th>Typical use</th></tr>
 <tr><td>2D imager</td><td>Zebra SE4710 / SE55, Honeywell N6703 / N3601</td><td>Warehouse picking, retail, ticketing</td></tr>
 <tr><td>UHF RFID</td><td>Impinj-based reader, 860–960 MHz by region</td><td>Pallet and inventory scanning at distance</td></tr>
 <tr><td>NFC / HF RFID</td><td>ISO 14443 A/B, ISO 15693, MIFARE</td><td>Access control, smart card, payment</td></tr>
 <tr><td>Fingerprint</td><td>FAP 10 / FAP 20 / FAP 30, ISO 19794 formats</td><td>Identity verification, enrolment</td></tr>
 <tr><td>ID / passport</td><td>MRZ OCR, contact chip, full-page document scan</td><td>Border control, KYC</td></tr>
-</table>
+</table></div>
 
 <h3>Power, Display and I/O</h3>
 <ul>
@@ -106,29 +106,29 @@
 
 <h2 id="certification">Layer 5 — Certification and Re-Validation</h2>
 <p>This is the layer buyers forget, and it is the one that can invalidate the other four. A mechanical change alters the sealing path; a radio change alters the emissions profile.</p>
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Change</th><th>Does it need re-testing?</th><th>Why</th></tr>
 <tr><td>Software, launcher, branding</td><td>No</td><td>No effect on enclosure or radio</td></tr>
 <tr><td>New port, connector or cut-out</td><td><strong>Yes — IP re-test</strong></td><td>Sealing path has changed</td></tr>
 <tr><td>New battery pack or cover</td><td><strong>Yes — IP and battery</strong></td><td>Gasket geometry and cell safety</td></tr>
 <tr><td>Different cellular module</td><td><strong>Yes — radio</strong></td><td>FCC ID / CE radio conformity is per module</td></tr>
 <tr><td>New housing or tooling</td><td><strong>Yes — full re-validation</strong></td><td>Drop, IP, thermal all change</td></tr>
-</table>
+</table></div>
 <p>Our <a href="/insights/rugged-tablet-certifications-required/">rugged tablet certification guide</a> explains how to read a test report and what each standard actually proves, and our <a href="/oem-odm/certification-support/">certification support</a> page covers the approvals we can arrange for a customer configuration.</p>
 
 <h2 id="process">Process and Realistic Timeline</h2>
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Stage</th><th>Duration</th><th>Deliverable</th></tr>
 <tr><td>Requirements and feasibility review</td><td>1–2 weeks</td><td>Specification, risk list, quote</td></tr>
 <tr><td>Engineering verification test (EVT)</td><td>3–5 weeks</td><td>Working prototype, SDK handover</td></tr>
 <tr><td>Design verification test (DVT)</td><td>3–5 weeks</td><td>Validated build, test reports</td></tr>
 <tr><td>Production verification test (PVT)</td><td>2–4 weeks</td><td>Pilot batch, packaging sign-off</td></tr>
 <tr><td>Mass production</td><td>2–4 weeks</td><td>Shipment</td></tr>
-</table>
+</table></div>
 <p>Configuration-only projects compress EVT and DVT into 4–8 weeks total. New tooling stretches the middle stages to 12–20 weeks, and new market certifications add 4–8 weeks on top.</p>
 
 <h2 id="cost">MOQ, NRE and Unit Cost</h2>
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Request</th><th>Typical MOQ</th><th>Cost character</th></tr>
 <tr><td>Launcher, kiosk, pre-installed apps</td><td>50–100</td><td>Usually no NRE</td></tr>
 <tr><td>Logo and packaging</td><td>50–500</td><td>Small setup fee</td></tr>
@@ -136,7 +136,7 @@
 <tr><td>Custom port or connector</td><td>300–500</td><td>NRE plus IP re-test</td></tr>
 <tr><td>New housing colour</td><td>500+</td><td>Paint batch MOQ</td></tr>
 <tr><td>New housing tooling</td><td>1000+</td><td>Tooling NRE plus full validation</td></tr>
-</table>
+</table></div>
 
 <h2 id="mistakes">Seven Mistakes to Avoid</h2>
 <ol>
@@ -155,7 +155,7 @@
 </figure>
 
 <h2 id="checklist">Buyer's Checklist</h2>
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Item</th><th>Why it matters</th></tr>
 <tr><td>Written specification with method numbers</td><td>Enforceable after delivery</td></tr>
 <tr><td>SDK documentation reviewed by your developers</td><td>Avoids locked-out hardware</td></tr>
@@ -164,7 +164,7 @@
 <tr><td>Spare parts and repair window</td><td>Custom housing needs a custom pipeline</td></tr>
 <tr><td>Tooling ownership clause</td><td>Protects your investment</td></tr>
 <tr><td>Pilot batch before mass production</td><td>Catches dock and app issues cheaply</td></tr>
-</table>
+</table></div>
 
 <h2 id="recommendation">Xinhong Recommendation</h2>
 <ul>

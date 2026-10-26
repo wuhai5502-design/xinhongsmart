@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-459FM7B610"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-459FM7B610');</script><script>/*xhsLeadTrack*/(function(){var last={};function lead(m,u){var n=Date.now();if(last[m]&&n-last[m]<1000)return;last[m]=n;if(typeof gtag!=='function')return;gtag('event','generate_lead',{method:m,link_url:u||location.pathname});}document.addEventListener('click',function(e){var t=e.target;while(t&&t!==document){if(t.tagName==='A'){var h=t.getAttribute('href')||'';var c=t.getAttribute('class')||'';if(c.indexOf('xhs-wa-float')>-1||h.indexOf('wa.me')>-1||h.indexOf('api.whatsapp.com')>-1){lead('whatsapp',h);return;}if(h.indexOf('mailto:')===0){lead('email',h);return;}if(h.indexOf('tel:')===0){lead('phone',h);return;}return;}t=t.parentNode;}},true);})();</script><meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261012-footerinfo2"><!-- SEO:HEAD:START -->
+<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261026-mobilefix"><!-- SEO:HEAD:START -->
 <title>Android vs Windows Rugged Tablet: How to Choose</title>
 <meta name="description" content="Android or Windows for your rugged tablet fleet? Compare MDM support, scanning SDKs, legacy app compatibility, TCO and lifecycle, plus a buying framework.">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
@@ -34,7 +34,7 @@
 <h2 id="summary">Executive Summary: The 80/20 Answer</h2>
 <p>If you need one sentence: <strong>scan-centric, mobile, single-purpose and field workflows belong on Android; x86 legacy Windows applications, domain-joined endpoints and Windows-only peripherals belong on Windows</strong>.</p>
 
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Scenario</th><th>Recommended OS</th><th>Why</th></tr>
 <tr><td>Warehouse picking / receiving</td><td><strong>Android</strong></td><td>Zebra &amp; Honeywell scanning SDKs, fast decode, all-shift battery</td></tr>
 <tr><td>Field service / inspections</td><td><strong>Android</strong></td><td>Instant boot, LTE+GNSS, sunlight UI, lower unit cost</td></tr>
@@ -42,7 +42,7 @@
 <tr><td>Manufacturing MES / SCADA client</td><td><strong>Windows</strong></td><td>Existing Win32/.NET client, OPC drivers, PLC tools</td></tr>
 <tr><td>Healthcare EMR workstation</td><td><strong>Windows</strong></td><td>Epic/Cerner clients, Active Directory, SSO, Citrix</td></tr>
 <tr><td>Desktop replacement / eng. workstation</td><td><strong>Windows</strong></td><td> CAD viewers, USB peripherals with signed Windows drivers</td></tr>
-</table>
+</table></div>
 
 <h2 id="market">Market Reality: Where Each OS Actually Wins</h2>
 <p>Roughly <strong>65% of new rugged tablet deployments globally run Android</strong>, about <strong>30% Windows</strong>, and the remainder Linux or proprietary RTOS. The ratio is not accidental — it tracks three structural advantages:</p>
@@ -79,12 +79,12 @@
 </ul>
 
 <h3>Android Edition Choices</h3>
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Option</th><th>Contents</th><th>Best for</th></tr>
 <tr><td><strong>GMS-certified</strong></td><td>Google Play, Gmail, Maps, Play Protect</td><td>International deployments, app store distribution</td></tr>
 <tr><td><strong>AOSP (non-GMS)</strong></td><td>Open-source Android, no Google services</td><td>China domestic, restricted networks, custom app store</td></tr>
 <tr><td><strong>Android Enterprise Recommended</strong></td><td>Hardware-verified, 3-year+ patch guarantee</td><td>Regulated industries, large fleets</td></tr>
-</table>
+</table></div>
 <blockquote><p><strong>Xinhong supplies both GMS and non-GMS builds</strong> on 8-inch and 10.1-inch models — specify at order time.</p></blockquote>
 
 <h2 id="windows">Windows Rugged Tablets: Deep Dive</h2>
@@ -99,7 +99,7 @@
 </ul>
 
 <h3>Windows 11 IoT Enterprise vs Windows 11 Pro</h3>
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Feature</th><th>Windows 11 Pro</th><th>Windows 11 IoT Enterprise LTSC</th></tr>
 <tr><td>Availability window</td><td>Follows consumer lifecycle</td><td><strong>10-year fixed availability</strong></td></tr>
 <tr><td>Feature updates</td><td>Twice yearly, forced</td><td><strong>None — security patches only</strong></td></tr>
@@ -107,7 +107,7 @@
 <tr><td>Write filter (UWF)</td><td>Not available</td><td><strong>Yes — protects flash</strong></td></tr>
 <tr><td>USB / syskey filters</td><td>No</td><td><strong>Yes</strong></td></tr>
 <tr><td>Telemetry control</td><td>Limited</td><td><strong>Granular</strong></td></tr>
-</table>
+</table></div>
 <blockquote><p><strong>Recommendation:</strong> for any fleet above roughly 50 units, choose <strong>Windows 11 IoT Enterprise LTSC</strong>. Feature updates breaking validation are the single largest source of unplanned support cost in Windows deployments.</p></blockquote>
 
 <h3>Limits to Budget For</h3>
@@ -120,7 +120,7 @@
 </ul>
 
 <h2 id="comparison">Head-to-Head Comparison</h2>
-<table>
+<div class="table-scroll" tabindex="0"><table>
 <tr><th>Criterion</th><th>Android 12/14</th><th>Windows 11 IoT</th></tr>
 <tr><td><strong>Scanning SDK quality</strong></td><td><strong>Excellent</strong> (Zebra/Honeywell native)</td><td>Good (HID wedge, higher latency)</td></tr>
 <tr><td><strong>Legacy x86 apps</strong></td><td>None (VDI workaround)</td><td><strong>Native</strong></td></tr>
@@ -133,7 +133,7 @@
 <tr><td><strong>Update control</strong></td><td>MDM-managed</td><td><strong>LTSC = no feature updates</strong></td></tr>
 <tr><td><strong>Touch UX</strong></td><td><strong>Touch-first</strong></td><td>Desktop-first</td></tr>
 <tr><td><strong>Hardware cost</strong></td><td><strong>Lower</strong></td><td>15–40% higher</td></tr>
-</table>
+</table></div>
 
 <h2 id="framework">Decision Framework by Industry</h2>
 <h3>Warehousing &amp; Logistics → Android</h3>

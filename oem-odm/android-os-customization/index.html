@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-459FM7B610"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-459FM7B610');</script><script>/*xhsLeadTrack*/(function(){var last={};function lead(m,u){var n=Date.now();if(last[m]&&n-last[m]<1000)return;last[m]=n;if(typeof gtag!=='function')return;gtag('event','generate_lead',{method:m,link_url:u||location.pathname});}document.addEventListener('click',function(e){var t=e.target;while(t&&t!==document){if(t.tagName==='A'){var h=t.getAttribute('href')||'';var c=t.getAttribute('class')||'';if(c.indexOf('xhs-wa-float')>-1||h.indexOf('wa.me')>-1||h.indexOf('api.whatsapp.com')>-1){lead('whatsapp',h);return;}if(h.indexOf('mailto:')===0){lead('email',h);return;}if(h.indexOf('tel:')===0){lead('phone',h);return;}return;}t=t.parentNode;}},true);})();</script><meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261012-footerinfo2"><!-- SEO:HEAD:START -->
+<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261026-mobilefix"><!-- SEO:HEAD:START -->
 <title>Android OS Customization for Rugged Devices | Xinhong Smart</title>
 <meta name="description" content="Android OS customization for rugged tablets and PDAs: version per platform, GMS or AOSP build, boot logo, launcher, kiosk lock-down and pre-installed apps.">
 <meta name="keywords" content="Android OS customization, Android 12 rugged tablet, Android 13 industrial PDA, GMS certification vs AOSP, kiosk mode industrial device, custom launcher, pre-installed APK, Android firmware build">
@@ -51,12 +51,12 @@
 
 <main>
 <section class="section"><div class="container"><div class="eyebrow">VERSION</div><h2>Choose the version against the platform</h2>
-<table class="xhs-os-table">
+<div class="table-scroll" tabindex="0"><table class="xhs-os-table">
 <tr><th>Reference</th><th>What the platform ships</th></tr>
 <tr><td><a href="/products/rugged-tablets/xh-500/">XH-500 10.1-inch rugged tablet</a></td><td>Android 12 standard with 4 GB + 64 GB; Android 13 optional, with 6 GB + 128 GB or 8 GB + 128 GB configurations</td></tr>
 <tr><td><a href="/products/biometric-devices/xh-400/">XH-400 10.1-inch biometric tablet</a></td><td>Android build carrying GMS certification; confirm the exact version for the configuration you order</td></tr>
 <tr><td><a href="/products/handheld-pdas/5-inch-handheld-pda/">Handheld PDA series</a></td><td>Android 12 platform with the memory and module configuration chosen for the project</td></tr>
-</table>
+</table></div>
 <p style="color:#5a6a82;font-size:15px;line-height:1.8">The operating system version is tied to the build validated for that hardware, not chosen freely. If your application requires a specific version, tell us at the start so it can be matched to the right platform rather than discovered during integration.</p>
 </div></section>
 
@@ -67,14 +67,14 @@
 </div></div></section>
 
 <section class="section"><div class="container"><div class="eyebrow">DEVICE BEHAVIOUR</div><h2>What gets set before the line starts</h2>
-<table class="xhs-os-table">
+<div class="table-scroll" tabindex="0"><table class="xhs-os-table">
 <tr><th>Area</th><th>How it is handled</th></tr>
 <tr><td>Applications</td><td>Your APK and its dependencies are pre-installed as part of the image, so devices arrive configured instead of being rolled out on site</td></tr>
 <tr><td>Launcher and kiosk</td><td>What the operator can reach is defined during feasibility and validated on the sample — including whether one application owns the screen</td></tr>
 <tr><td>Branding</td><td>Boot logo and start-up animation carry your brand rather than ours</td></tr>
 <tr><td>Locale</td><td>Default language set for the deployment country</td></tr>
 <tr><td>Updates</td><td>Whether the image is frozen or updateable is agreed before production, because it affects how the image is built and documented</td></tr>
-</table>
+</table></div>
 <p style="color:#5a6a82;font-size:15px;line-height:1.8">Permissions deserve the same attention. If your application requires elevated privileges, say so at the start — whether that can be provided depends on the platform and the intended use, and there is often a module-level API that does the same job.</p>
 </div></section>
 

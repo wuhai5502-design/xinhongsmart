@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head><meta charset="utf-8"><!-- Google tag (gtag.js) --><script async src="https://www.googletagmanager.com/gtag/js?id=G-459FM7B610"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-459FM7B610');</script><script>/*xhsLeadTrack*/(function(){var last={};function lead(m,u){var n=Date.now();if(last[m]&&n-last[m]<1000)return;last[m]=n;if(typeof gtag!=='function')return;gtag('event','generate_lead',{method:m,link_url:u||location.pathname});}document.addEventListener('click',function(e){var t=e.target;while(t&&t!==document){if(t.tagName==='A'){var h=t.getAttribute('href')||'';var c=t.getAttribute('class')||'';if(c.indexOf('xhs-wa-float')>-1||h.indexOf('wa.me')>-1||h.indexOf('api.whatsapp.com')>-1){lead('whatsapp',h);return;}if(h.indexOf('mailto:')===0){lead('email',h);return;}if(h.indexOf('tel:')===0){lead('phone',h);return;}return;}t=t.parentNode;}},true);})();</script><meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261012-footerinfo2">
+<link rel="icon" href="/favicon.ico" sizes="32x32"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../../assets/style.css?v=20261026-mobilefix">
 <!-- SEO:HEAD:START -->
 <title>UHF RFID Tablet: Read Range &amp; Antenna Design | Xinhong Smart</title>
 <meta name="description" content="How to specify a UHF RFID reader tablet: read range vs output power, EPC Gen2v2 and ISO 18000-63, regional bands, antenna polarisation and on-metal tags.">
@@ -38,13 +38,13 @@
 <h2>What a UHF RFID Reader Tablet Does</h2>
 <p>A UHF RFID reader tablet is a rugged Android tablet with an integrated UHF radio module, an antenna, and an API that returns tag identifiers to an application. It operates in the 860&#8211;960 MHz band, reads passive EPC Gen2 tags that have no battery, and can inventory hundreds of tags per second within its field.</p>
 <p>The physics worth knowing: a passive UHF tag is powered by the reader's own transmission, and answers by reflecting a modulated signal back. This two-way link is why range behaves differently from anything with its own power source.</p>
-<table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:15px">
+<div class="table-scroll" tabindex="0"><table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:15px">
 <thead><tr style="background:#f3f6fc"><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Capture method</th><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Typical range</th><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Line of sight</th><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Bulk read</th><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Tag cost</th></tr></thead>
 <tbody>
 <tr><td style="padding:10px;border:1px solid #dfe6f2">UHF RFID</td><td style="padding:10px;border:1px solid #dfe6f2">1&#8211;10 m, varies with tag and environment</td><td style="padding:10px;border:1px solid #dfe6f2">Not required</td><td style="padding:10px;border:1px solid #dfe6f2">Hundreds per second</td><td style="padding:10px;border:1px solid #dfe6f2">Low, cents per label</td></tr>
 <tr><td style="padding:10px;border:1px solid #dfe6f2">HF / NFC (13.56 MHz)</td><td style="padding:10px;border:1px solid #dfe6f2">Up to about 10 cm</td><td style="padding:10px;border:1px solid #dfe6f2">Required, close contact</td><td style="padding:10px;border:1px solid #dfe6f2">One at a time</td><td style="padding:10px;border:1px solid #dfe6f2">Low</td></tr>
 <tr><td style="padding:10px;border:1px solid #dfe6f2">2D barcode</td><td style="padding:10px;border:1px solid #dfe6f2">Contact to roughly 1 m</td><td style="padding:10px;border:1px solid #dfe6f2">Required, and label must be clean</td><td style="padding:10px;border:1px solid #dfe6f2">One at a time</td><td style="padding:10px;border:1px solid #dfe6f2">Lowest, printed</td></tr>
-</tbody></table>
+</tbody></table></div>
 
 <h2>Read Range: Why the Datasheet Number Is Not the Field Number</h2>
 <p>Read range on a UHF handheld is the result of a link budget, not a fixed property of the reader. Five things set it:</p>
@@ -117,7 +117,7 @@
 <p>Tag commissioning deserves its own budget. Someone has to print, encode and attach every label, and that process needs to be right before the first device ships.</p>
 
 <h2>UHF RFID Reader Tablet: Specification Checklist</h2>
-<table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:15px">
+<div class="table-scroll" tabindex="0"><table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:15px">
 <thead><tr style="background:#f3f6fc"><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Item</th><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">What to confirm</th></tr></thead>
 <tbody>
 <tr><td style="padding:10px;border:1px solid #dfe6f2">Frequency and region</td><td style="padding:10px;border:1px solid #dfe6f2">Configurable for every destination market, with certification to match</td></tr>
@@ -130,7 +130,7 @@
 <tr><td style="padding:10px;border:1px solid #dfe6f2">Ruggedness</td><td style="padding:10px;border:1px solid #dfe6f2">IP rating and drop spec suited to the environment</td></tr>
 <tr><td style="padding:10px;border:1px solid #dfe6f2">SDK and support</td><td style="padding:10px;border:1px solid #dfe6f2">Documented API, sample code, firmware update path</td></tr>
 <tr><td style="padding:10px;border:1px solid #dfe6f2">Pilot</td><td style="padding:10px;border:1px solid #dfe6f2">Trial with your own tags and goods before volume order</td></tr>
-</tbody></table>
+</tbody></table></div>
 
 <h2>Frequently Asked Questions</h2>
 <h3>What read range should I expect from a UHF RFID reader tablet?</h3>
