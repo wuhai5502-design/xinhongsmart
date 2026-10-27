@@ -45,3 +45,10 @@
 1. **8寸机型的 IP 等级**：目前文案写 "IP65 standard / IP67 optional" —— 请跟工厂确认
 2. ~~**公司成立年份**：schema 里写了 2016，请确认（影响 Organization 数据）~~ ✅ 已确认 2016（2026-10-05 用户确认），About 页正文 + Organization.foundingDate + llms.txt 三处均已写入
 3. **WhatsApp / 领英**：海外 B2B 站强烈建议挂 WhatsApp 按钮；有领英公司页的话加进 schema 的 sameAs
+
+## 审计记录
+
+- **2026-10-28 整站审计**（66 页）：P0 = 0；13 项 P1（超重图片）已全部整改并复检为 0。A/B/C/D 各项早已完成，本清单不再逐项回勾。
+  报告：`Desktop\SEO\SEO审计报告-xinhongsmart.com-2026-10-28.md`。
+  注意：本站的「图片未转 WebP」「无 lazy」类报警多为工具误报 —— 全站图片已是 `<picture>` + WebP 源，JPG/PNG 只是兜底；
+  产品主图与首屏 banner 属于 LCP 元素，必须 `loading="eager"`，不要为消除报警去加懒加载。
