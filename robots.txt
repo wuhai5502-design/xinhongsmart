@@ -44,6 +44,9 @@ Allow: /
 User-agent: Amazonbot
 Allow: /
 
+User-agent: Google-CloudVertexBot
+Allow: /
+
 # Machine-readable company and product summary
 # https://xinhongsmart.com/llms.txt
 
