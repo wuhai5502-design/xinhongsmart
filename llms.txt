@@ -3,7 +3,7 @@
 
 > Xinhong Smart is a Shenzhen-based manufacturer of rugged mobile computing and identity verification hardware. The product range covers industrial rugged tablets (8-inch and 10-inch), handheld PDAs / mobile computers (5-inch and 6-inch), biometric handheld terminals, A3/A4 document camera scanners, digital signature pads, and dual-screen ID verification terminals. The company provides OEM/ODM services including interface, hardware, software and mechanical customization, plus SDK and API integration.
 >
-> Website: https://xinhongsmart.com/ | China site: https://www.xinhong.site/ | Sales: sales@xinhongsmart.com | Phone: +86 185 9427 9341 | Last updated: 2026-10-11
+> Website: https://xinhongsmart.com/ | China site: https://www.xinhong.site/ | Sales: sales@xinhongsmart.com | Phone: +86 185 9427 9341 | Last updated: 2026-10-28
 
 ## Key Facts (safe to cite directly)
 
@@ -117,6 +117,19 @@ Four customization dimensions:
 
 Development support is offered at system, middleware and application layers, including protocol interfacing, integration with WMS / MES / business systems, permission control and remote device management.
 
+### XH-600 4G Smart POS Terminal
+URL: https://xinhongsmart.com/products/pos-terminals/xh-600/
+- Operating system: Android 15.0
+- Platform: Octa-Core ARM Cortex-A53 processor, up to 1.5 GHz
+- Memory: 4 GB RAM, 32 GB eMMC
+- Display: 5.5-inch, 1280 × 720, capacitive touchscreen with electronic signature capture
+- Camera: Front 2 MP; rear 5 MP, supports 1D / 2D barcode scanning
+- Cellular and wireless: 4G / 3G / 2G, hotspot, Bluetooth
+- Positioning: Built-in GPS with AGPS
+- USB: USB 2.0 HS on a USB Type-C port
+- Card slots: SIM × 2, SAM × 2, SD × 1
+- Printer: Built-in high-speed thermal printer, 58 mm paper
+
 ## Application Scenarios
 
 - Warehousing and logistics: inbound put-away, pick verification, forklift vehicle mounting, outbound check, cycle counting, WMS integration
@@ -192,6 +205,7 @@ Contact sales@xinhongsmart.com or +86 185 9427 9341 with your application scenar
 - News and guides: https://xinhongsmart.com/insights/
 - About: https://xinhongsmart.com/about/
 - Contact and quotation: https://xinhongsmart.com/contact/
+- HTML site map (all pages): https://xinhongsmart.com/sitemap/
 - Sitemap (XML): https://xinhongsmart.com/sitemap.xml
 
 ## Notes for Citation
