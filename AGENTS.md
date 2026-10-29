@@ -58,6 +58,44 @@ incidents; reversing them silently is how problems come back.
   used, device capabilities and specs already published on product pages. No invented
   quantities, prices, signing dates or client names — buyers check.
 
+## Legacy URLs are redirected by Cloudflare — keep the stub pages
+
+Since **2026-10-29** every legacy URL answers with a real **HTTP 301 from Cloudflare**.
+Nothing about this lives in this repository, so nothing here may be changed for it:
+
+- Bulk Redirect List: `xinhongsmart_legacy_urls`
+- Bulk Redirect Rule: `xinhongsmart_legacy_redirects`
+- Dashboard path: Rules → Settings → **Bulk Redirects** tab (or account-level Bulk
+  redirects). List names accept only lowercase letters, digits and `_` — hyphens are
+  rejected by the dashboard.
+- The import CSV is kept on the owner's machine, not in this repo. 18 rows as of
+  2026-10-29: the 12 legacy folder URLs and 6 old root-level `.html` product filenames.
+
+Rules that follow from this:
+
+1. **Never delete the 12 stub pages** (`products/handheld-pda/`, `products/xh-100/` …
+   `products/xh-500/`, `products/8-inch-rugged-tablet/`,
+   `products/10-inch-rugged-tablet/`, `products/document-camera-scanner/`,
+   `products/signature-pad/`, `products/dual-screen-id-verification-terminal/`,
+   `custom/`). Each carries `canonical` + `noindex` + a meta refresh and is the fallback
+   if the Cloudflare rule is ever disabled. They look like dead pages. They are not.
+2. **A list does nothing on its own.** It needs a Bulk Redirect Rule that selects it and
+   is *Deployed* — saving it as a draft silently leaves every old URL returning 200.
+3. To add another legacy URL: append a row to the CSV, re-import into the **same** list
+   (Cloudflare updates existing rows and adds new ones; it does not delete), then confirm
+   the URL returns 301.
+4. **Verify with `curl`, never with a browser** — the stubs contain a meta refresh, so a
+   browser jumps even when the Cloudflare rule is off:
+
+   ```
+   curl.exe -sS -4 -o NUL -D - -H "Cache-Control: no-cache" "<old-url>" | Select-String "^HTTP/|^location:"
+   ```
+
+   Expected: `HTTP/1.1 301` and a `location:` header pointing at the new URL.
+5. These URLs show up in Search Console under "excluded" categories (redirect /
+   automatically redirected). **That is intended.** Do not request indexing for them, do
+   not add them to `sitemap.xml`, and do not link to them from any page.
+
 ## Publishing a new article — full checklist
 
 Skipping any step means the page is effectively not published:
@@ -92,5 +130,10 @@ Skipping any step means the page is effectively not published:
 - **Bing Webmaster / IndexNow submissions** run from the owner's machine with a local API
   key. The daily quota is 100 URLs — if you submit, check the remaining quota first.
 - **Google Search Console** access is separate; GitHub credentials do not include it.
+- **Legacy URL redirects** are Cloudflare rules outside this repository — see the
+  section above before touching any old-looking page under `products/`.
+- **The DMARC / mail-authentication policy** for the domain is likewise DNS-only; Google
+  sends a daily RUA aggregate report but the collected rows have all passed, so no action
+  is pending unless the owner confirms every sending service.
 - If you are an external agent: you were most likely given a fine-grained token with
    Contents read/write on this repo only. That is all you need to edit the site.
