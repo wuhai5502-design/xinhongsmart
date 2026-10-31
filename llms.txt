@@ -141,6 +141,7 @@ URL: https://xinhongsmart.com/products/pos-terminals/xh-600/
 
 ## Technical Guides and Articles
 
+- Biometric Identity Programme Series (six guides) — https://xinhongsmart.com/insights/biometric-identity-programme-series/
 - Biometric Capture Quality: Why Enrolment Retries Happen — https://xinhongsmart.com/insights/biometric-capture-quality-enrolment-retries/
 - Reading eMRTD Chips on a Biometric Terminal — https://xinhongsmart.com/insights/emrtd-chip-reading-biometric-terminal/
 - Biometric Deduplication at Population Scale — https://xinhongsmart.com/insights/biometric-deduplication-national-id/
