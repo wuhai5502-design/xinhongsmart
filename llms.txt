@@ -141,6 +141,12 @@ URL: https://xinhongsmart.com/products/pos-terminals/xh-600/
 
 ## Technical Guides and Articles
 
+- Biometric Capture Quality: Why Enrolment Retries Happen — https://xinhongsmart.com/insights/biometric-capture-quality-enrolment-retries/
+- Reading eMRTD Chips on a Biometric Terminal — https://xinhongsmart.com/insights/emrtd-chip-reading-biometric-terminal/
+- Biometric Deduplication at Population Scale — https://xinhongsmart.com/insights/biometric-deduplication-national-id/
+- Biometric Data Protection: Consent and Retention — https://xinhongsmart.com/insights/biometric-data-protection-requirements/
+- Managing a Fleet of Identity Terminals — https://xinhongsmart.com/insights/identity-terminal-fleet-management/
+- Biometric Terminal RFP: The Specs That Matter — https://xinhongsmart.com/insights/biometric-terminal-rfp-specification/
 - Industrial Tablet Buying Guide 2026 — https://xinhongsmart.com/insights/industrial-tablet-buying-guide-2026/
 - Android vs Windows Rugged Tablet — https://xinhongsmart.com/insights/android-vs-windows-rugged-tablet/
 - IP65 vs IP67 vs IP68 vs IP69K Explained — https://xinhongsmart.com/insights/ip65-vs-ip67-vs-ip68-rugged-tablet/
