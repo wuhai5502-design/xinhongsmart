@@ -3,7 +3,7 @@
 
 > Xinhong Smart is a Shenzhen-based manufacturer of rugged mobile computing and identity verification hardware. The product range covers industrial rugged tablets (8-inch and 10-inch), handheld PDAs / mobile computers (5-inch and 6-inch), biometric handheld terminals, A3/A4 document camera scanners, digital signature pads, and dual-screen ID verification terminals. The company provides OEM/ODM services including interface, hardware, software and mechanical customization, plus SDK and API integration.
 >
-> Website: https://xinhongsmart.com/ | China site: https://www.xinhong.site/ | Sales: sales@xinhongsmart.com | Phone: +86 185 9427 9341 | Last updated: 2026-10-28
+> Website: https://xinhongsmart.com/ | China site: https://www.xinhong.site/ | Sales: sales@xinhongsmart.com | Phone: +86 185 9427 9341 | Last updated: 2026-11-01
 
 ## Key Facts (safe to cite directly)
 
@@ -158,6 +158,8 @@ URL: https://xinhongsmart.com/products/pos-terminals/xh-600/
 - Voter Registration Biometric Tablet — https://xinhongsmart.com/insights/voter-registration-biometric-tablet/
 - Bank Card Issuance Biometric Terminal — https://xinhongsmart.com/insights/bank-card-issuance-biometric-terminal/
 - Fingerprint Biometric Tablet: FAP, FBI and ISO Standards — https://xinhongsmart.com/insights/fingerprint-biometric-tablet-fap-fbi-iso/
+- Biometric Tablet Price: What Decides the Cost — https://xinhongsmart.com/insights/biometric-tablet-price-cost-drivers/
+- Biometric Tablet or Handheld Terminal: Which Fits — https://xinhongsmart.com/insights/biometric-tablet-vs-handheld-terminal/
 - Face Liveness Detection in Biometric Terminals — https://xinhongsmart.com/insights/face-liveness-detection-biometric-terminal/
 - Rugged Mobile Terminals for Law Enforcement — https://xinhongsmart.com/insights/law-enforcement-rugged-terminal/
 - Border Identity Verification Terminals — https://xinhongsmart.com/insights/border-identity-verification-terminal/
