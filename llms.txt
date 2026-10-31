@@ -147,9 +147,11 @@ URL: https://xinhongsmart.com/products/pos-terminals/xh-600/
 - Rugged Tablet Total Cost of Ownership — https://xinhongsmart.com/insights/rugged-tablet-tco-guide/
 - MIL-STD-810H Explained — https://xinhongsmart.com/insights/mil-std-810h-rugged-tablet/
 - Warehouse Rugged Tablet Deployment Guide — https://xinhongsmart.com/insights/warehouse-rugged-tablet-guide/
+- Rugged Tablet for Cold Storage and Freezer Warehouses — https://xinhongsmart.com/insights/cold-storage-rugged-tablet/
 - Voter Registration Biometric Tablet — https://xinhongsmart.com/insights/voter-registration-biometric-tablet/
 - Bank Card Issuance Biometric Terminal — https://xinhongsmart.com/insights/bank-card-issuance-biometric-terminal/
 - Fingerprint Biometric Tablet: FAP, FBI and ISO Standards — https://xinhongsmart.com/insights/fingerprint-biometric-tablet-fap-fbi-iso/
+- Face Liveness Detection in Biometric Terminals — https://xinhongsmart.com/insights/face-liveness-detection-biometric-terminal/
 - Rugged Mobile Terminals for Law Enforcement — https://xinhongsmart.com/insights/law-enforcement-rugged-terminal/
 - Border Identity Verification Terminals — https://xinhongsmart.com/insights/border-identity-verification-terminal/
 - Rugged Tablet Certifications: What You Need — https://xinhongsmart.com/insights/rugged-tablet-certifications-required/
@@ -160,6 +162,12 @@ URL: https://xinhongsmart.com/products/pos-terminals/xh-600/
 - SIM Card Registration With the XH-100 in Venezuela — https://xinhongsmart.com/insights/sim-card-registration-biometric-handheld/
 - Custom Handheld Terminal for Saudi Arabia — https://xinhongsmart.com/insights/custom-handheld-terminal-saudi-arabia/
 - Civil Identity Enrolment in Zimbabwe on the XH-500 — https://xinhongsmart.com/insights/civil-identity-enrolment-xh-500-zimbabwe/
+- Biometric Terminals for Civil Identity Enrolment — https://xinhongsmart.com/insights/civil-identity-enrolment-biometric-terminal/
+- What Is a Biometric Tablet? Capture Chain and Standards — https://xinhongsmart.com/insights/what-is-a-biometric-tablet/
+- Biometric Terminal Fingerprint Modules: Idemia, Suprema, IB, HID — https://xinhongsmart.com/insights/biometric-terminal-fingerprint-modules-idemia-suprema-ib-hid/
+- XH-600 POS Terminal Buying Guide 2026 — https://xinhongsmart.com/insights/xh-600-pos-terminal-buying-guide/
+- Industrial Tablet Aviation Connector and RJ45 Port — https://xinhongsmart.com/insights/industrial-tablet-aviation-connector-rj45/
+- HK Electronics Fair 2026: Rugged Terminals — https://xinhongsmart.com/insights/hk-electronics-fair-2026/
 
 ## Frequently Asked Questions (citable Q&A)
 
