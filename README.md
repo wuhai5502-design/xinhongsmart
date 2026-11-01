@@ -31,9 +31,16 @@ Typical deployments: warehousing and logistics, manufacturing and MES, field ins
 | `/products/` | Product catalogue: 4 category pages + **11 product pages** |
 | `/biometric-tablet/` | Biometric tablet overview |
 | `/oem-odm/` | OEM / ODM customization — overview plus 5 sub-pages |
-| `/insights/` | **15** technical guides and application notes |
+| `/insights/` | **35** technical guides and application notes |
 | `/about/` | Company profile, factory and certifications |
 | `/contact/` | Contact details, company verification and enquiry form |
+
+## Key pages
+
+- Biometric tablets for identity programmes — https://xinhongsmart.com/biometric-tablet/
+- OEM / ODM customization — https://xinhongsmart.com/oem-odm/
+- What decides the price of a configured build — https://xinhongsmart.com/insights/biometric-tablet-price-cost-drivers/
+- Biometric tablet or handheld terminal — https://xinhongsmart.com/insights/biometric-tablet-vs-handheld-terminal/
 
 Products: XH-100 to XH-500 series, 8-inch rugged tablet, 10-inch rugged tablet, 5-inch handheld PDA, document camera scanner, signature pad, dual-screen ID verification terminal.
 
@@ -44,7 +51,7 @@ Old flat URLs (for example `/products/xh-100/`, `/products/10-inch-rugged-tablet
 | File | Purpose |
 |---|---|
 | `llms.txt` | Summarized company and product facts for AI / LLM retrieval |
-| `sitemap.xml` | XML sitemap (**42** URLs) |
+| `sitemap.xml` | XML sitemap (**66** URLs) |
 | `robots.txt` | Crawler rules; GPTBot, ClaudeBot, PerplexityBot, Google-Extended, CCBot and Applebot explicitly allowed |
 | JSON-LD (inline) | Organization / WebSite on every page; Product, FAQPage, Article, BreadcrumbList where relevant |
 
