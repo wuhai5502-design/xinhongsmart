@@ -47,7 +47,7 @@ URL: https://xinhongsmart.com/products/rugged-tablets/8-inch-rugged-tablet/
 URL: https://xinhongsmart.com/products/rugged-tablets/10-inch-rugged-tablet/
 - Display: 10.1 inch, 1920 × 1200, multi-touch, Corning Gorilla Glass
 - Platform: Android 12 or Windows 11
-- Storage: up to 128 GB
+- Storage: 4 GB + 64 GB standard, 128 GB / 256 GB optional
 - Ingress protection: IP67
 - Typical use: vehicle-mounted cradles, production-line workstations, and-andon board display, counter service
 - Data capture options: 2D barcode scanning, fingerprint, face recognition, national ID card reading
