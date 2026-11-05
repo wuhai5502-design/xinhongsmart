@@ -216,3 +216,11 @@ nav[aria-label="Breadcrumb"] a{display:inline-block;padding:6px 2px}
   .xhs-wa-float{padding:10px 16px!important;font-size:14px!important;right:16px!important;bottom:16px!important;gap:8px!important}
   .xhs-wa-float svg{width:22px!important;height:22px!important}
 }
+
+/* Footer social icons (WhatsApp / Facebook) */
+.footer-social{display:inline-flex;align-items:center;gap:10px;margin-top:10px;vertical-align:middle}
+.footer-social-link{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:50%;text-decoration:none;transition:transform .16s ease,opacity .16s ease}
+.footer-social-link svg{display:block;fill:#fff}
+.footer-social-link:hover,.footer-social-link:focus-visible{transform:translateY(-2px);opacity:.88;outline:2px solid #fff;outline-offset:2px}
+.footer-social-wa{background:#25D366}
+.footer-social-fb{background:#1877F2}
