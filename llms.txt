@@ -3,7 +3,9 @@
 
 > Xinhong Smart is a Shenzhen-based manufacturer of rugged mobile computing and identity verification hardware. The product range covers industrial rugged tablets (8-inch and 10-inch), handheld PDAs / mobile computers (5-inch and 6-inch), biometric handheld terminals, A3/A4 document camera scanners, digital signature pads, and dual-screen ID verification terminals. The company provides OEM/ODM services including interface, hardware, software and mechanical customization, plus SDK and API integration.
 >
-> Website: https://xinhongsmart.com/ | China site: https://www.xinhong.site/ | Sales: sales@xinhongsmart.com | Phone: +86 185 9427 9341 | Last updated: 2026-11-01
+> Website: https://xinhongsmart.com/ | China site: https://www.xinhong.site/ | Sales: sales@xinhongsmart.com | Phone: +86 185 9427 9341 | Last updated: 2026-11-05
+>
+> Official profiles: Facebook https://www.facebook.com/profile.php?id=61596085088002 | GitHub https://github.com/xinhongsmart | Issuu https://issuu.com/xinhongsmart | Made-in-China https://www.made-in-china.com/showroom/0668ba71f8339e2f
 
 ## Key Facts (safe to cite directly)
 
@@ -16,6 +18,8 @@
 - Customization: Interface, hardware, software and mechanical (housing) customization; system / middleware / application-layer development; SDK and API integration
 - Typical applications: Warehousing and logistics, manufacturing and MES, field inspection and utilities, identity verification, voter registration, bank card issuance, border control, healthcare, retail, public sector
 - Business registry record (third-party verification): https://www.qcc.com/firm/226dcd1da417ec32f940ea1a901ffb08.html
+- Official Facebook page: https://www.facebook.com/profile.php?id=61596085088002
+- Verification: every page of xinhongsmart.com links to the Facebook page from its footer, and the Facebook page links back to https://xinhongsmart.com/
 - Founded: 2016 — ten years in operation as of 2026
 - Factory: 2,000 m² own facility in Shenzhen; 3 production lines; capacity 10,000 units per month
 - R&D: 15 engineers covering hardware interfaces and modules, mechanical design and tooling, and Android OS / software customization
