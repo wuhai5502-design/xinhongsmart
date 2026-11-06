@@ -225,3 +225,44 @@ nav[aria-label="Breadcrumb"] a{display:inline-block;padding:6px 2px}
 .footer-social-wa{background:#25D366}
 .footer-social-fb{background:#1877F2}
 .footer-social-ig{background:linear-gradient(45deg,#f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)}
+
+/* === Mobile hero (2026-11-06) ===
+   The desktop banners are 2172x724 with the headline baked into the pixels; at 390px
+   wide that renders as a 130px strip whose text is ~6px tall. On phones we drop to a
+   single 1.5:1 crop of the product shot (banner-1-m.webp, no baked text) and let the
+   readable <h2> directly below carry the message. Desktop is untouched. */
+@media (max-width:650px){
+  .hero-full .hero-grid{min-height:260px;padding:0}
+  .hero-full .banner-slide:not(.is-active){display:none}
+  .hero-full .banner-dots{display:none}
+  .hero-full .banner-pause{display:none}
+}
+/* Pause control for the auto-rotating banner (WCAG 2.2.2) */
+.banner-pause{position:absolute;right:16px;bottom:14px;z-index:3;width:34px;height:34px;
+  padding:0;border:0;border-radius:50%;background:rgba(6,18,52,.45);color:#fff;
+  font:600 11px/1 Arial,Helvetica,sans-serif;display:flex;align-items:center;
+  justify-content:center;cursor:pointer;backdrop-filter:blur(2px)}
+.banner-pause:hover,.banner-pause:focus-visible{background:rgba(6,18,52,.72)}
+/* Text links row under "Products": keep the separator on the same line (it wrapped onto
+   its own centred line at 390px and read like a broken list) */
+.link-row{display:inline-flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:10px}
+
+/* Skip link (2026-11-06): only about/contact/privacy had one before */
+.skip-link{position:absolute;left:-9999px;top:0;z-index:100;background:var(--blue);color:#fff;
+  padding:12px 18px;font:700 14px/1.2 Arial,Helvetica,sans-serif;text-decoration:none}
+.skip-link:focus{left:12px;top:12px;outline:2px solid #fff}
+
+/* Analytics consent bar — shown to EEA/UK visitors until they choose */
+#xhs-consent-bar{position:fixed;left:16px;right:16px;bottom:16px;z-index:9999;max-width:560px;
+  margin:0 auto;background:#fff;border:1px solid var(--line);border-radius:10px;
+  box-shadow:0 10px 30px rgba(6,18,52,.18);padding:16px 18px;
+  font:14px/1.5 Arial,Helvetica,sans-serif;color:var(--ink);display:flex;gap:14px;
+  align-items:center;flex-wrap:wrap}
+#xhs-consent-bar p{margin:0;flex:1 1 260px;color:#3c4a62}
+#xhs-consent-bar a{color:var(--blue);text-decoration:underline}
+.xhs-consent-actions{display:flex;gap:8px;margin-left:auto}
+.xhs-consent-actions button{font:700 13px/1 Arial,Helvetica,sans-serif;padding:10px 16px;
+  border-radius:4px;cursor:pointer;border:1px solid var(--blue)}
+.xhs-consent-actions button[data-choice=granted]{background:var(--blue);color:#fff}
+.xhs-consent-actions button[data-choice=denied]{background:#fff;color:var(--blue)}
+.consent-open .xhs-wa-float{display:none!important}
