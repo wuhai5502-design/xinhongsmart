@@ -15,6 +15,9 @@ incidents; reversing them silently is how problems come back.
 - Shared stylesheet: `assets/style.css`. Images live under `uploads/` (with `-800` /
   `-1200` / `.webp` variants). Articles live under `insights/<slug>/index.html`; product
   pages under `products/<category>/<slug>/index.html`.
+- Prepare photos with `python tools/prepare-image.py photo.jpg --name xh-900-hero`.
+  It writes the WebP + JPEG pair at two widths and prints the `<picture>` block with the
+  right `width`/`height`, so sizes never have to be typed by hand.
 - `llms.txt` at the root is the AI-readable site summary — keep it in sync when pages are
   added.
 
