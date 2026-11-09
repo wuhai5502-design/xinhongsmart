@@ -45,7 +45,7 @@ URL: https://xinhongsmart.com/products/rugged-tablets/xh-800/
 - Wireless: WiFi 802.11 a/b/g/n/ac dual-band, Bluetooth 5.0 BLE class 1, NFC 13.56 MHz (ISO 14443A/B, 15693, 18092, MIFARE)
 - Positioning: BeiDou, GPS and GLONASS; high-precision positioning and BDS-3 optional
 - Reliability: 1.2 m drop onto wooden floor powered on; operating -20 to +60 C; storage -40 to +70 C; 95% RH non-condensing
-- Ingress protection: not listed in the specification sheet
+- Ingress protection: IP68, dust-tight and sealed against continuous immersion; marketed as the military-grade build
 - Optional: barcode (Newland N1, Newland N2596 or Zebra 4100), capacitive or optical fingerprint, ID card reader, LF/HF/UHF RFID, iris, binocular liveness, barometric altitude, LoRa, aviation connector, PSAM
 
 ### XH-700 5G 10.1-Inch Rugged Android Tablet
