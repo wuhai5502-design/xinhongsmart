@@ -33,6 +33,21 @@
 
 ## Products and Specifications
 
+### XH-800 8-Inch Rugged Android Tablet
+URL: https://xinhongsmart.com/products/rugged-tablets/xh-800/
+- Display: 8.0 inch IPS 16:10, 800 x 1280, 450 nits; 1920 x 1200 optional; 10-point capacitive touch
+- Platform: MediaTek MTK8788 2.0 GHz, Arm Mali-G73 MP3; Android 13
+- Memory: 4 GB LPDDR3 + 64 GB eMMC standard; 6 GB + 128 GB or 8 GB + 128 GB optional; TF card to 512 GB
+- Battery: built-in 3.8 V / 10000 mAh; listed endurance 10 h of 1080p video at 70% volume and brightness
+- Cameras: 5 MP front (8 MP optional), 13 MP rear (20 MP optional)
+- Dimensions: 246 x 148 x 17 mm, 750 g, black
+- Cellular: LTE FDD B1/B2/B3/B4/B5/B7/B8/B12/B17/B19/B20/B26/B28a/B28b; TDD B34/B38/B39/B40/B41; WCDMA B1/B2/B4/B5/B8; TD-SCDMA B34/B39
+- Wireless: WiFi 802.11 a/b/g/n/ac dual-band, Bluetooth 5.0 BLE class 1, NFC 13.56 MHz (ISO 14443A/B, 15693, 18092, MIFARE)
+- Positioning: BeiDou, GPS and GLONASS; high-precision positioning and BDS-3 optional
+- Reliability: 1.2 m drop onto wooden floor powered on; operating -20 to +60 C; storage -40 to +70 C; 95% RH non-condensing
+- Ingress protection: not listed in the specification sheet
+- Optional: barcode (Newland N1, Newland N2596 or Zebra 4100), capacitive or optical fingerprint, ID card reader, LF/HF/UHF RFID, iris, binocular liveness, barometric altitude, LoRa, aviation connector, PSAM
+
 ### XH-700 5G 10.1-Inch Rugged Android Tablet
 URL: https://xinhongsmart.com/products/rugged-tablets/xh-700/
 - Display: 10.1 inch IPS, FHD 1200 x 1920, 400 nits, 10-point G+G capacitive touch
