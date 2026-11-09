@@ -37,8 +37,8 @@
 URL: https://xinhongsmart.com/products/rugged-tablets/xh-700/
 - Display: 10.1 inch IPS, FHD 1200 x 1920, 400 nits, 10-point G+G capacitive touch
 - Platform: UNISOC UIS7885, octa-core up to 2.7 GHz, 8 TOPS NPU
-- Operating system: Android 13; HarmonyOS 6.1 build listed
-- Memory: 8 GB RAM + 128 GB storage, TF card to 512 GB
+- Operating system: Android 13 or Ubuntu, fixed at order stage
+- Memory: 8 GB + 128 GB or 16 GB + 256 GB, TF card to 512 GB
 - Battery: 3.8 V / 10000 mAh, USB-C PD fast charge up to 18 W
 - Cameras: 8 MP front, 48 MP rear autofocus with flash; 8 MP rear macro optional
 - Cellular (global build): 5G SA/NSA N1/N3/N5/N8/N28/N41/N78/N79; LTE B1/B3/B5/B8/B34/B38/B39/B40/B41; WCDMA B1/B5/B8
