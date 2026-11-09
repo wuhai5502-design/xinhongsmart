@@ -127,8 +127,15 @@ Skipping any step means the page is effectively not published:
 
 ## What is not in this repository
 
-- **Bing Webmaster / IndexNow submissions** run from the owner's machine with a local API
-  key. The daily quota is 100 URLs — if you submit, check the remaining quota first.
+- **IndexNow runs automatically** in `.github/workflows/indexnow.yml` on every push to
+  `main`. It submits only pages that are listed in `sitemap.xml` *and* whose `lastmod`
+  is within two days, capped at 100 URLs, so a bulk edit that touches every page does
+  not burn the quota. The rules live in `tools/indexnow_ci.py` (run it with `--dry-run`
+  to see what a push would submit). Consequence: **bump `lastmod` when a page's content
+  changes**, otherwise that page will not be pushed.
+- **Bing Webmaster API submissions** (`tools/bing-submit.ps1`) still run from the
+  owner's machine with a local API key. The daily quota is 100 URLs — check the
+  remaining quota with `-Quota` before submitting.
 - **Google Search Console** access is separate; GitHub credentials do not include it.
 - **Legacy URL redirects** are Cloudflare rules outside this repository — see the
   section above before touching any old-looking page under `products/`.

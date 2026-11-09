@@ -1,0 +1,43 @@
+name: IndexNow
+
+# Submits the pages that changed in this push to IndexNow (Bing, Yandex,
+# Seznam, Naver and the search back-ends that read it). Ownership is proved by
+# /<key>.txt at the site root, so nothing secret lives in this repository.
+#
+# The filtering rules - only pages listed in sitemap.xml, only a recent
+# lastmod, at most 100 URLs - are in tools/indexnow_ci.py.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: 'Absolute URLs to submit, space separated. Leave empty to use the push diff.'
+        required: false
+        default: ''
+
+permissions:
+  contents: read
+
+concurrency:
+  group: indexnow
+  cancel-in-progress: false
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Submit changed pages
+        env:
+          MANUAL_URLS: ${{ github.event.inputs.urls }}
+        run: |
+          if [ -n "$MANUAL_URLS" ]; then
+            python3 tools/indexnow_ci.py --urls $MANUAL_URLS
+          else
+            python3 tools/indexnow_ci.py
+          fi
