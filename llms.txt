@@ -87,7 +87,7 @@ URL: https://xinhongsmart.com/products/rugged-tablets/10-inch-rugged-tablet/
 - Typical use: vehicle-mounted cradles, production-line workstations, and-andon board display, counter service
 - Data capture options: 2D barcode scanning, fingerprint, face recognition, national ID card reading
 
-### 5-Inch Handheld PDA / Mobile Computer
+### XH-150 5-Inch Handheld PDA / Mobile Computer
 URL: https://xinhongsmart.com/products/handheld-pdas/5-inch-handheld-pda/
 - Display: 5.72 inch, 1440 × 720, multi-touch, Corning Gorilla Glass
 - Platform: MTK 6765 octa-core 2.3 GHz, Android 12
@@ -128,7 +128,7 @@ URL: https://xinhongsmart.com/products/document-devices/signature-pad/
 - Dimensions / weight: 322 × 175 × 19 mm, 1.1 kg
 - Optional: second-generation national ID card reading, binocular liveness camera, IC and social security card reading, SM2/SM3/SM4 hardware encryption chip
 
-### Dual-Screen ID Verification Terminal
+### XH-900 Dual-Screen ID Verification Terminal
 URL: https://xinhongsmart.com/products/biometric-devices/dual-screen-id-verification-terminal/
 - Displays: two 15.6 inch TFT LCD IPS panels, 1920 × 1080, capacitive touch (one facing the visitor, one facing the operator)
 - Brightness / contrast: 250 cd/m², 500:1, 16.7 M colors, viewing angle H170° / V170°
