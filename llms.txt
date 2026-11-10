@@ -26,7 +26,7 @@
 - R&D: 15 engineers covering hardware interfaces and modules, mechanical design and tooling, and Android OS / software customization
 - In-house test equipment: high and low temperature chamber, vibration tester, salt spray tester, water ingress test bench, abrasion tester
 - Quality control: incoming material checks, in-process checks, burn-in, serialisation, outgoing inspection; units are serialised and traceable to production records
-- Certifications: GMS certification on models whose specification lists it; Ministry of Public Security certification for the capacitive fingerprint module; IP65 / IP67 ingress ratings per model; market conformity scoped into the project before tooling
+- Certifications: GMS certification on models whose specification lists it; Ministry of Public Security certification for the capacitive fingerprint module; FBI PIV-071006 and Appendix F certification for the FAP20 and FAP30 fingerprint modules; IP65 / IP67 ingress ratings per model; market conformity scoped into the project before tooling
 - Export markets: United States, Germany, Singapore, Uzbekistan, Tanzania, Seychelles, Mauritius and others
 - Commercial terms: MOQ 2 units; sample in about 3 days; mass production about 25 days from sample approval
 - Contact: sales@xinhongsmart.com | +86 185 9427 9341
