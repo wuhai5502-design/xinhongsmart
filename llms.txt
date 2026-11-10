@@ -216,6 +216,8 @@ URL: https://xinhongsmart.com/products/pos-terminals/xh-600/
 
 ## Frequently Asked Questions (citable Q&A)
 
+Full FAQ hub, 21 questions across ordering, hardware, data capture, sealing, certification and support: https://xinhongsmart.com/faq/
+
 ### What is the difference between an industrial rugged tablet and a consumer tablet?
 Consumer tablets target entertainment and light office use. Industrial rugged tablets are designed for field environments, with specific engineering for dust and water ingress protection, drop and shock resistance, wide operating temperature range, continuous-duty stability, extended I/O (serial, Ethernet, GPIO, scan engine) and long-term supply availability. They suit warehousing, manufacturing, inspection and identity verification work.
 
@@ -258,6 +260,9 @@ Contact sales@xinhongsmart.com or +86 185 9427 9341 with your application scenar
   - Industrial design: https://xinhongsmart.com/oem-odm/industrial-design/
   - Android OS customization: https://xinhongsmart.com/oem-odm/android-os-customization/
   - Certification support: https://xinhongsmart.com/oem-odm/certification-support/
+- Comparison: XH-700 vs XH-800 https://xinhongsmart.com/compare/xh-700-vs-xh-800/
+- FAQ hub: https://xinhongsmart.com/faq/
+- Engineering team: https://xinhongsmart.com/about/engineering-team/
 - News and guides: https://xinhongsmart.com/insights/
 - About: https://xinhongsmart.com/about/
 - Contact and quotation: https://xinhongsmart.com/contact/

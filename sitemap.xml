@@ -19,7 +19,7 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/products/rugged-tablets/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>monthly</changefreq><priority>0.8</priority>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/8-inch-rugged-tablet.jpg</image:loc>
@@ -123,7 +123,7 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/contact/</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <changefreq>yearly</changefreq><priority>0.7</priority>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/sz-bay-skyline.jpg</image:loc>
@@ -139,7 +139,7 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/about/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/sz-bay-skyline.jpg</image:loc>
@@ -427,7 +427,7 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/sitemap/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <priority>0.3</priority>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/banner-1.jpg</image:loc>
@@ -533,16 +533,37 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/products/rugged-tablets/xh-700/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/xh-700-hero.jpg</image:loc>
     </image:image>
   </url>
   <url>
     <loc>https://xinhongsmart.com/products/rugged-tablets/xh-800/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/xh-800-hero.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://xinhongsmart.com/compare/xh-700-vs-xh-800/</loc>
+    <lastmod>2026-11-10</lastmod>
+      <image:image>
+      <image:loc>https://xinhongsmart.com/uploads/xh-700-hero.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://xinhongsmart.com/faq/</loc>
+    <lastmod>2026-11-10</lastmod>
+      <image:image>
+      <image:loc>https://xinhongsmart.com/uploads/xh-700-hero.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://xinhongsmart.com/about/engineering-team/</loc>
+    <lastmod>2026-11-10</lastmod>
+      <image:image>
+      <image:loc>https://xinhongsmart.com/uploads/xh-700-hero.jpg</image:loc>
     </image:image>
   </url>
 </urlset>
