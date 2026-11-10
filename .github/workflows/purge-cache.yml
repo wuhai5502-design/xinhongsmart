@@ -5,7 +5,9 @@ name: Purge Cloudflare cache
 # with the old page and pin it there for the whole TTL.
 on:
   workflow_run:
-    workflows: ["pages build and deployment"]
+    # GitHub reports the Pages workflow as "pages-build-deployment"; the UI shows
+    # "pages build and deployment". Both are listed so either form matches.
+    workflows: ["pages-build-deployment", "pages build and deployment"]
     types: [completed]
   workflow_dispatch:
 
