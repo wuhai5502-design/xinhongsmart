@@ -29,6 +29,12 @@ incidents; reversing them silently is how problems come back.
 - Verify the deploy ~100 s after push with `curl`: the page must return 200 and contain
   the new content (check the title or a new string, not just the status code).
 - Commit messages: imperative subject line, body explaining **why**, not just what.
+- **The site is edge-cached by Cloudflare**: HTML for 1 day, `/assets/` for a year, `/uploads/`
+  for a month (Cache Rules, 2026-11-10). `.github/workflows/purge-cache.yml` purges the zone
+  after each Pages build, so a deploy goes live in seconds. If that workflow logs a notice
+  instead of purging, the two secrets are missing and the edge will serve the old HTML for up
+  to a day — the deploy is fine, only its visibility is delayed. Image and stylesheet
+  replacement therefore has to change the filename: the browser keeps `/assets/` for a year.
 
 ## Page structure rules
 
