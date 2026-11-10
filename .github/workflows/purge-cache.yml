@@ -1,0 +1,45 @@
+name: Purge Cloudflare cache
+
+# Runs after GitHub Pages has finished publishing, not on the push itself:
+# a purge that fires before the origin has the new HTML would fill the edge
+# with the old page and pin it there for the whole TTL.
+on:
+  workflow_run:
+    workflows: ["pages build and deployment"]
+    types: [completed]
+  workflow_dispatch:
+
+jobs:
+  purge:
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check that the credentials exist
+        id: creds
+        env:
+          TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          ZONE: ${{ secrets.CLOUDFLARE_ZONE_ID }}
+        run: |
+          if [ -z "$TOKEN" ] || [ -z "$ZONE" ]; then
+            echo "::notice::CLOUDFLARE_API_TOKEN or CLOUDFLARE_ZONE_ID is not set - skipping the purge. The site still deploys; the edge will serve the new HTML when its TTL expires."
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Purge everything
+        if: steps.creds.outputs.ready == 'true'
+        env:
+          TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          ZONE: ${{ secrets.CLOUDFLARE_ZONE_ID }}
+        run: |
+          set -o pipefail
+          response=$(curl -sS -X POST "https://api.cloudflare.com/client/v4/zones/${ZONE}/purge_cache" \
+            -H "Authorization: Bearer ${TOKEN}" \
+            -H "Content-Type: application/json" \
+            --data '{"purge_everything":true}')
+          echo "$response"
+          echo "$response" | grep -q '"success":true' || {
+            echo "::error::Cloudflare rejected the purge - check that the token has Zone > Cache Purge > Purge and that the zone id is for xinhongsmart.com."
+            exit 1
+          }
