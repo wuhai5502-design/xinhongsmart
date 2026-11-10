@@ -135,7 +135,7 @@ URL: https://xinhongsmart.com/products/biometric-devices/dual-screen-id-verifica
 - Platform: RK3568 quad-core Android (optional RK3576 octa-core for HarmonyOS; RK3588 Kylin for domestic-compliance projects)
 - Memory: 4 GB + 32 GB default (options up to 8 GB + 128 GB)
 - OS: Android 11 / Windows / Kylin / UOS depending on mainboard
-- ID card reader: China second-generation resident ID card module
+- ID reader: contactless national e-ID and e-passport reading standard; China second-generation resident ID card module optional
 - Document camera: 8 MP default, optional 12 MP / 16 MP, A3 and A4 capture
 - Face camera: 2 MP mono default, optional 2 MP binocular, adjustable
 - Optional: fingerprint sensor (256 × 360), social security card reading, barcode scanning, Gigabit Ethernet
