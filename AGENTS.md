@@ -127,6 +127,10 @@ Skipping any step means the page is effectively not published:
   `civil-identity-enrolment-biometric-terminal`, **not** `…-biometric-tablet`.
 - Test at least one changed page in a real browser (headless is fine): title, single H1,
   Quick answer visible, no JS errors, no 404 resources.
+- Run `python tools/check-lastmod.py` before committing. The IndexNow workflow only
+  submits pages whose sitemap `lastmod` is recent, so a page whose content changed
+  without a bump is silently never pushed. Boilerplate-only edits are meant to show up
+  here too — leave their lastmod alone.
 
 ## What is not in this repository
 
