@@ -1,0 +1,87 @@
+/* Print / PDF datasheet styles.
+   Loaded with media="print" on product pages only, so the screen layout is untouched. */
+
+@page {
+  size: A4;
+  margin: 13mm 12mm 20mm;
+}
+
+@media print {
+  html, body {
+    background: #fff !important;
+    font-size: 10.5pt;
+    color: #1d2733;
+  }
+
+  /* site chrome never belongs in a datasheet */
+  header, footer, nav, .skip-link, #xhs-consent-bar, .xhs-wa-float,
+  .breadcrumb, .banner, .banner-carousel, .hero-banners,
+  .pdf-download, .btn, .mobile-menu, .site-footer {
+    display: none !important;
+  }
+
+  /* the FAQ is interactive on screen and useless on paper: drop the block,
+     the heading that introduces it, and the closing call-to-action paragraph */
+  details { display: none !important; }
+  h2:has(+ details) { display: none !important; }
+  p:has(> a[href="/contact/"]) { display: none !important; }
+
+  .container { max-width: none !important; width: auto !important; padding: 0 !important; margin: 0 !important; }
+  .detail-page { padding: 0 !important; }
+
+  .detail-grid {
+    display: block !important;
+    padding-top: 0 !important;
+  }
+
+  .detail-image {
+    float: right;
+    width: 46%;
+    margin: 0 0 6mm 6mm;
+    height: auto !important;
+    background: none !important;
+    border: 0 !important;
+  }
+
+  .detail-image img {
+    max-height: 62mm;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  h1 {
+    font-size: 21pt !important;
+    letter-spacing: -0.02em;
+    margin: 0 0 3mm !important;
+    color: #002fa7;
+  }
+
+  h2 {
+    font-size: 12.5pt !important;
+    margin: 6mm 0 2mm !important;
+    padding-bottom: 1.4mm;
+    border-bottom: 1px solid #c9d3e3;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  h3 { font-size: 11pt !important; break-after: avoid; page-break-after: avoid; }
+
+  p, li { font-size: 10pt !important; line-height: 1.45 !important; }
+
+  .eyebrow { font-size: 8pt !important; letter-spacing: .08em; color: #5a6a82 !important; }
+
+  table { width: 100% !important; border-collapse: collapse !important; font-size: 9pt !important; }
+  .table-scroll { overflow: visible !important; }
+  tr, td, th { break-inside: avoid; page-break-inside: avoid; }
+  td, th { padding: 3pt 4pt !important; }
+  thead { display: table-header-group; }
+
+  a { color: #002fa7 !important; text-decoration: none; }
+
+}
+
+/* the contact footer is stamped onto every PDF page after printing,
+   so the page itself does not carry it */
+.pdf-footer { display: none !important; }

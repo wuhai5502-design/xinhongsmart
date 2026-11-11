@@ -267,6 +267,7 @@ Contact sales@xinhongsmart.com or +86 185 9427 9341 with your application scenar
 - News and guides: https://xinhongsmart.com/insights/
 - About: https://xinhongsmart.com/about/
 - Contact and quotation: https://xinhongsmart.com/contact/
+- Datasheets: every product page offers a PDF, e.g. https://xinhongsmart.com/downloads/xh-700-datasheet.pdf
 - HTML site map (all pages): https://xinhongsmart.com/sitemap/
 - Sitemap (XML): https://xinhongsmart.com/sitemap.xml
 
