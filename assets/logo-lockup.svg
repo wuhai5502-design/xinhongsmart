@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Xinhong Smart logo">
+  <rect width="600" height="600" fill="#ffffff"/>
+  <g transform="translate(180 120)">
+    <rect width="240" height="240" rx="52" fill="#002FA7"/>
+    <path d="M90 146V94m30 71V75m30 71V94" stroke="#ffffff" stroke-width="19" stroke-linecap="square"/>
+  </g>
+  <text x="300" y="470" text-anchor="middle"
+        font-family="Segoe UI, Arial, Helvetica, sans-serif" font-size="64" font-weight="700"
+        letter-spacing="2" fill="#002FA7">Xinhong Smart</text>
+</svg>
