@@ -54,6 +54,18 @@
 <p>Two practical rules follow. First, buy a 2D imager unless the label format genuinely cannot change, because the cost of replacing a fleet later dwarfs the price difference at purchase. Second, test the engine on your worst label, not your best: a faded thermal label, a code printed on a curved bottle, a barcode shown on a phone screen at a gate, or a code behind reflective film. A spec sheet that says "reads 1D and 2D" tells you nothing about any of those.</p>
 <p>Ask also for the read rate under motion, the scan angle tolerance and whether the engine supports both near and far focus in one unit. Operators do not pause to align a device perfectly, and the difference between a forgiving engine and a fussy one shows up as seconds per scan multiplied by a few thousand scans a day.</p>
 
+<h2>Scan Engine by Brand: Newland, Honeywell and Zebra</h2>
+<p>The table above answers "which type"; this one answers "which engine". All three families decode the standard 1D and 2D symbologies, so the decision is rarely about whether an engine can read a code — it is about how it behaves on the codes your operation actually produces, and about what the extra cost buys.</p>
+<div class="table-scroll" tabindex="0"><table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:15px">
+<thead><tr style="background:#f3f6fc"><thead><tr style="background:#f3f6fc"><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Engine family</th><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Typical fit</th><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">What it does well</th><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">What to weigh</th></tr></thead>
+<tbody>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Newland (N1, N3296, N3596)</td><td style="padding:10px;border:1px solid #dfe6f2">General warehouse and retail scanning</td><td style="padding:10px;border:1px solid #dfe6f2">Good all-round decoding at a lower cost than the US engines</td><td style="padding:10px;border:1px solid #dfe6f2">Fewer tuning options for damaged or low-contrast labels</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Honeywell (N3680, HS7)</td><td style="padding:10px;border:1px solid #dfe6f2">Receiving, putaway, damaged labels</td><td style="padding:10px;border:1px solid #dfe6f2">Strong on poor-quality and low-contrast codes; wide SDK and MDM support</td><td style="padding:10px;border:1px solid #dfe6f2">Costs more per unit; the HS7 is a larger module and needs housing space</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">Zebra (SE4710, 4100, 4710)</td><td style="padding:10px;border:1px solid #dfe6f2">Retail, logistics, screen and DPM codes</td><td style="padding:10px;border:1px solid #dfe6f2">Best ecosystem support; the 4710 handles long range</td><td style="padding:10px;border:1px solid #dfe6f2">Highest cost; long-range engines can need a separate near-field setting</td></tr>
+</tbody></table></div>
+<p>Two things are worth saying plainly. The brand of the engine matters less than the tuning that goes with it: the same module, configured badly for your label stock, will underperform a cheaper engine configured well. And the price gap between the cheapest and the most expensive option here is smaller than the cost of a re-scan at the dock, so the decision should be made on your worst label, not the budget line.</p>
+<p>Whatever you choose, ask for the engine part number in writing, and ask whether the SDK exposes decode-time and image-capture settings. A device that hides those settings cannot be tuned later, and a fleet that cannot be tuned gets replaced.</p>
+
 <h2>Step Two: Size the Battery by the Shift, Not by the mAh</h2>
 <p>Battery capacity in milliamp hours is the least useful number on a handheld datasheet, because consumption depends almost entirely on how the device is used. What matters is whether one charge covers the longest shift at the highest realistic duty cycle, after two years of battery ageing, at the coldest temperature the device will see.</p>
 <p>The loads that dominate are the scan engine and its illumination, the display backlight, the Wi-Fi or cellular radio, and the CPU work your own application does. A device that spends its day in a good Wi-Fi coverage area with the screen mostly idle behaves very differently from the same device roaming between access points in a cold store with the scanner firing constantly.</p>
@@ -98,6 +110,17 @@
 <li><strong>NFC and Bluetooth.</strong> NFC for close-range card and tag work, Bluetooth for wearable ring scanners and printers.</li>
 <li><strong>Buffering.</strong> Whether your application stores transactions locally when the network drops and reconciles them when it returns, and whether the device timestamps them correctly.</li>
 </ul>
+
+<h2>Five Specification Mistakes We See in PDA Tenders</h2>
+<p>These repeat often enough to be predictable. Each one is cheap to avoid at the specification stage and expensive to fix after the fleet arrives.</p>
+<ol style="line-height:1.8">
+<li><strong>Specifying by screen size instead of by label.</strong> The screen is what the buyer sees in a quote; the engine is what the operator uses two thousand times a shift. A 5-inch screen with the wrong engine is a worse device than a 4-inch screen with the right one.</li>
+<li><strong>Sizing the battery in mAh rather than in shifts.</strong> A 5,000 mAh pack at 60% capacity after eighteen months is 3,000 mAh. Ask for the runtime at your duty cycle, with the ageing and cold-temperature allowance stated, or plan for a mid-shift swap.</li>
+<li><strong>Accepting an Android version without a patch commitment.</strong> The version number is not the commitment. Ask in writing for the patch cadence and the support end date; a device on a recent Android build with no patch policy is a worse purchase than one version behind with a documented one.</li>
+<li><strong>Leaving the SDK question until after the order.</strong> If the scanner SDK is not documented, or the trigger and key mapping cannot be changed, integration becomes a custom project. Ask for the API document and a sample application before the pilot.</li>
+<li><strong>Buying the cheapest drop rating without reading the condition.</strong> A 1.2 m drop onto a wooden floor, powered on, is not the same as a 1.5 m drop onto concrete. The number and the test condition have to be read together, and the report should name both.</li>
+</ol>
+<p>None of this is exotic. It is the difference between a tender written around a price and one written around the label, the shift and the software the device has to run.</p>
 
 <h2>Industrial Handheld PDA: Specification Checklist</h2>
 <div class="table-scroll" tabindex="0"><table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:15px">

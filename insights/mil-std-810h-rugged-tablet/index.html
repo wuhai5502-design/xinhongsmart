@@ -102,6 +102,26 @@
   <figcaption style="margin-top:10px;font-size:.875rem;color:#6b7280;line-height:1.65;">Real deployments combine drop, vibration, temperature and sunlight — no single rating predicts field survival.</figcaption>
 </figure>
 
+<h2>Method by method: what to ask for in each case</h2>
+<p>A vendor claiming "MIL-STD-810H" has told you almost nothing until the method numbers appear. There are more than twenty methods in the standard; a rugged tablet typically runs six to ten of them, and which six matters more than the claim itself.</p>
+<div class="table-scroll" tabindex="0"><table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:15px">
+<thead><tr style="background:#f3f6fc"><thead><tr style="background:#f3f6fc"><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Method</th><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">What it tests</th><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">Where it matters</th><th style="text-align:left;padding:10px;border:1px solid #dfe6f2">What to ask for</th></tr></thead>
+<tbody>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">500</td><td style="padding:10px;border:1px solid #dfe6f2">Low pressure / altitude</td><td style="padding:10px;border:1px solid #dfe6f2">5,000 ft and above, air freight</td><td style="padding:10px;border:1px solid #dfe6f2">Ask for the altitude and the duration</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">501</td><td style="padding:10px;border:1px solid #dfe6f2">High temperature</td><td style="padding:10px;border:1px solid #dfe6f2">Vehicles in direct sun, hot climates</td><td style="padding:10px;border:1px solid #dfe6f2">Ask for the temperature and the soak time</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">502</td><td style="padding:10px;border:1px solid #dfe6f2">Low temperature</td><td style="padding:10px;border:1px solid #dfe6f2">Cold stores, unheated depots</td><td style="padding:10px;border:1px solid #dfe6f2">Ask for the temperature and whether the unit was operating</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">503</td><td style="padding:10px;border:1px solid #dfe6f2">Thermal shock</td><td style="padding:10px;border:1px solid #dfe6f2">Moving between freezer and dock</td><td style="padding:10px;border:1px solid #dfe6f2">Ask for the two temperatures and the cycle count</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">506</td><td style="padding:10px;border:1px solid #dfe6f2">Rain and blowing rain</td><td style="padding:10px;border:1px solid #dfe6f2">Outdoor use, wash-down areas</td><td style="padding:10px;border:1px solid #dfe6f2">Ask for the rainfall rate and the wind speed</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">507</td><td style="padding:10px;border:1px solid #dfe6f2">Humidity</td><td style="padding:10px;border:1px solid #dfe6f2">Tropical and coastal deployments</td><td style="padding:10px;border:1px solid #dfe6f2">Ask for the cycle count, not just the percentage</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">509</td><td style="padding:10px;border:1px solid #dfe6f2">Salt fog</td><td style="padding:10px;border:1px solid #dfe6f2">Coastal and marine work</td><td style="padding:10px;border:1px solid #dfe6f2">Ask for the concentration and the exposure hours</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">510</td><td style="padding:10px;border:1px solid #dfe6f2">Sand and dust</td><td style="padding:10px;border:1px solid #dfe6f2">Construction, mining, agriculture</td><td style="padding:10px;border:1px solid #dfe6f2">Ask for the dust concentration and the duration</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">512</td><td style="padding:10px;border:1px solid #dfe6f2">Immersion</td><td style="padding:10px;border:1px solid #dfe6f2">Wash-down and immersion-rated builds</td><td style="padding:10px;border:1px solid #dfe6f2">Ask for the depth and the time</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">514</td><td style="padding:10px;border:1px solid #dfe6f2">Vibration</td><td style="padding:10px;border:1px solid #dfe6f2">Forklift and vehicle mounting</td><td style="padding:10px;border:1px solid #dfe6f2">Ask which procedure and axis were run</td></tr>
+<tr><td style="padding:10px;border:1px solid #dfe6f2">516</td><td style="padding:10px;border:1px solid #dfe6f2">Shock</td><td style="padding:10px;border:1px solid #dfe6f2">Drop and transit damage</td><td style="padding:10px;border:1px solid #dfe6f2">Ask for the height, the surface and the drop count</td></tr>
+</tbody></table></div>
+<p>Two cautions about this table. First, a method number without parameters is not evidence: "tested to Method 516.8" means nothing until the height, the surface and the number of drops are named. Second, passing a method is not the same as surviving your environment — the standard defines a laboratory procedure, not your site.</p>
+<p>The revision numbers matter too. Method 516.7 in 810G became 516.8 in 810H, and several procedures were rewritten between the two; a report written against 810G cites different clause numbers than one written against 810H. If a tender names 810H, a 810G report does not satisfy it even where the device would pass.</p>
+
 <h2 id="three-standards">MIL-STD vs IP vs IK: Three Different Questions</h2>
 <div class="table-scroll" tabindex="0"><table>
 <tr><th>Standard</th><th>Measures</th><th>Question it answers</th></tr>
@@ -148,7 +168,18 @@ on the exact shipping configuration.</code></pre>
 <p>If the tender is silent on the revision, specify the methods and parameters yourself rather than quoting the letter. That is covered in the <a href="/insights/rugged-tablet-certifications-required/">certifications guide</a>.</p>
 
 <section class="landing-cta">
-  <h2>Ask for Our Test Documentation</h2>
+  <h2>How to read a MIL-STD-810H report in five minutes</h2>
+<p>A test report is a short document with a long appendix. You do not need to read the appendix to decide whether the report is worth anything. These five checks take minutes.</p>
+<ol style="line-height:1.8">
+<li><strong>Who ran the test.</strong> An independent laboratory with an accreditation number is worth more than an in-house summary. If the report has no laboratory name and no report number, treat it as a datasheet claim, not a test result.</li>
+<li><strong>Which methods, with revision numbers.</strong> "516.8" is a method and a revision. "Drop test passed" is not. Early 810G reports will cite 516.7, which tells you the report predates the current revision.</li>
+<li><strong>The parameters for each method.</strong> Height and surface for 516, temperatures and duration for 501 and 502, cycles for 507 and 503. A method listed without parameters is a checkbox, not a result.</li>
+<li><strong>The unit tested.</strong> The report should name a serial number or a configuration, and that configuration should be the one you are buying. A report for a different module set, battery or housing does not cover your build.</li>
+<li><strong>What failed.</strong> Real reports list failures and deviations. A report with no failures at all, across every method, is unusual enough to ask about.</li>
+</ol>
+<p>If the vendor cannot produce these five things, ask for the report by name — most reputable manufacturers will send it under NDA to a qualified buyer. A refusal is itself an answer.</p>
+
+<h2>Ask for Our Test Documentation</h2>
   <p>Tell us your environment and we will send the applicable drop, vibration, thermal and IP/IK test documentation for the models you are evaluating.</p>
   <p><a class="cta-btn" href="/contact/">Contact Us</a> <a class="cta-btn-secondary" href="/products/">View Rugged Tablets</a> <a class="cta-btn-secondary" href="/insights/ip65-vs-ip67-vs-ip68-rugged-tablet/">IP Ratings Guide</a></p>
 </section>
