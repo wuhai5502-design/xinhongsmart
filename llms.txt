@@ -175,6 +175,7 @@ URL: https://xinhongsmart.com/products/pos-terminals/xh-600/
 - Document digitization: government service counters, finance and accounting departments, archive digitization, paperless office
 
 ## Technical Guides and Articles
+- Rugged Tablet Battery Life: What the Numbers Mean — https://xinhongsmart.com/insights/rugged-tablet-battery-life-real-numbers/
 
 - What Buyers Ask Before a Rugged Tablet Order - https://xinhongsmart.com/insights/rugged-tablet-order-buyer-questions/
 - Biometric Identity Programme Series (six guides) — https://xinhongsmart.com/insights/biometric-identity-programme-series/
