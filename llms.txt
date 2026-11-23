@@ -179,6 +179,7 @@ URL: https://xinhongsmart.com/products/pos-terminals/xh-600/
 Each entry states the one-line conclusion the page argues, so a citation can be checked against the page itself.
 
 ### Sealing, standards and durability
+- 5G Rugged Tablet: Iris, Fingerprint and IP68 Sealing — 5G, IP68 and iris capture pull the housing in three directions; most platforms satisfy two of the three, so the RFQ has to carry a priority order. https://xinhongsmart.com/insights/5g-rugged-tablet-iris-fingerprint-ip68/
 - How to Read an IP67 Test Report for Rugged Tablets — IP67 is a test condition, not a promise: the report states the standard edition, the sample, the port state and the pass criterion. https://xinhongsmart.com/insights/rugged-tablet-ip-rating-test-report/
 - IP65 vs IP67 vs IP68 vs IP69K: Protection Ratings Explained — IP65 for indoor dust and light washdown, IP67 for rain and accidental submersion, IP68 or IP69K only for continuous immersion or high-pressure hot washdown. https://xinhongsmart.com/insights/ip65-vs-ip67-vs-ip68-rugged-tablet/
 - MIL-STD-810G vs 810H: What "Military Grade" Really Means — MIL-STD-810H is a set of laboratory methods, so a vendor quoting it should be able to name the method, the parameters and the lab. https://xinhongsmart.com/insights/mil-std-810h-rugged-tablet/

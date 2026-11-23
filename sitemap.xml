@@ -131,7 +131,7 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/insights/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/banner-2.jpg</image:loc>
@@ -533,14 +533,14 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/products/rugged-tablets/xh-700/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/xh-700-hero.jpg</image:loc>
     </image:image>
   </url>
   <url>
     <loc>https://xinhongsmart.com/products/rugged-tablets/xh-800/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/xh-800-hero.jpg</image:loc>
     </image:image>
@@ -582,9 +582,16 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/insights/rugged-tablet-ip-rating-test-report/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-23</lastmod>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/blog/quality-lab.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://xinhongsmart.com/insights/5g-rugged-tablet-iris-fingerprint-ip68/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <image:image>
+      <image:loc>https://xinhongsmart.com/uploads/xh-800.jpg</image:loc>
     </image:image>
   </url>
 </urlset>
