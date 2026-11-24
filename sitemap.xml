@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://xinhongsmart.com/</loc>
-    <lastmod>2026-11-19</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/banner-1.jpg</image:loc>
@@ -19,7 +19,7 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/products/rugged-tablets/</loc>
-    <lastmod>2026-11-19</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>monthly</changefreq><priority>0.8</priority>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/8-inch-rugged-tablet.jpg</image:loc>
@@ -27,7 +27,7 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/products/handheld-pdas/</loc>
-    <lastmod>2026-11-16</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>monthly</changefreq><priority>0.8</priority>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/handheld-pda.jpg</image:loc>
@@ -35,7 +35,7 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/products/biometric-devices/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>monthly</changefreq><priority>0.8</priority>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/xh-400.jpg</image:loc>
@@ -43,7 +43,7 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/products/document-devices/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>monthly</changefreq><priority>0.8</priority>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/document-camera-scanner.png</image:loc>
@@ -51,7 +51,7 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/products/pos-terminals/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>monthly</changefreq><priority>0.8</priority>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/xh-600.jpg</image:loc>
@@ -211,7 +211,7 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/insights/fingerprint-biometric-tablet-fap-fbi-iso/</loc>
-    <lastmod>2026-09-29</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <priority>0.7</priority>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/xh-400.jpg</image:loc>
