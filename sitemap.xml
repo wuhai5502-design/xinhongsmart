@@ -115,7 +115,7 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/biometric-tablet/</loc>
-    <lastmod>2026-11-23</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>monthly</changefreq><priority>0.9</priority>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/xh-400.jpg</image:loc>
@@ -131,7 +131,7 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/insights/</loc>
-    <lastmod>2026-11-23</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/banner-2.jpg</image:loc>
@@ -243,7 +243,7 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/insights/what-is-a-biometric-tablet/</loc>
-    <lastmod>2026-11-23</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/blog/field-products.jpg</image:loc>
@@ -505,7 +505,7 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/insights/biometric-terminal-rfp-specification/</loc>
-    <lastmod>2026-11-23</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/blog/manufacturing-line.jpg</image:loc>
     </image:image>
@@ -540,7 +540,7 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/products/rugged-tablets/xh-800/</loc>
-    <lastmod>2026-11-23</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/xh-800-hero.jpg</image:loc>
     </image:image>
@@ -589,9 +589,16 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/insights/5g-rugged-tablet-iris-fingerprint-ip68/</loc>
-    <lastmod>2026-11-23</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/xh-800.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://xinhongsmart.com/insights/multimodal-biometric-tablet-iris-face-passport/</loc>
+    <lastmod>2026-11-24</lastmod>
+    <image:image>
+      <image:loc>https://xinhongsmart.com/uploads/xh-800-hero-800.jpg</image:loc>
     </image:image>
   </url>
 </urlset>

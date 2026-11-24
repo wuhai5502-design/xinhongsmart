@@ -206,6 +206,7 @@ Each entry states the one-line conclusion the page argues, so a citation can be 
 - How to Customize an Android Rugged Tablet — Five independent layers: hardware modules, OS and kiosk configuration, firmware with SDK or MDM, branding, then certification re-validation. https://xinhongsmart.com/insights/customize-android-rugged-tablet/
 
 ### Biometric identity programmes
+- Multimodal Biometric Tablet: Iris, Face, Print and Passport — the XH-800 carries all five routes in one IP68 enclosure; the fusion policy, not the sensor count, decides whether the record is defensible. https://xinhongsmart.com/insights/multimodal-biometric-tablet-iris-face-passport/
 - Biometric Identity Programme Series (six guides) — The six decisions that decide whether an identity programme works, from capture quality to the tender. https://xinhongsmart.com/insights/biometric-identity-programme-series/
 - Biometric Capture Quality: Why Enrolment Retries Happen — Retries come from capture conditions - worn ridges, off-centre placement, no live quality score - not from sensor resolution. https://xinhongsmart.com/insights/biometric-capture-quality-enrolment-retries/
 - Reading eMRTD Chips on a Biometric Terminal — Reading the printed MRZ and photographing the portrait is an optical check, not a chip check. https://xinhongsmart.com/insights/emrtd-chip-reading-biometric-terminal/
