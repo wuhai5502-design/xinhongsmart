@@ -198,6 +198,7 @@ Each entry states the one-line conclusion the page argues, so a citation can be 
 - XH-600 Smart POS Terminal Buying Guide — Specify against the payment flow and the destination market, not the headline spec. https://xinhongsmart.com/insights/xh-600-pos-terminal-buying-guide/
 
 ### Modules and interfaces
+- Android Firmware and Software Customisation for OEM Builds — boot chain, app protection, build identity and branding removal decide an OEM firmware build, and only a system-signed app both resists uninstall and survives a factory reset. https://xinhongsmart.com/insights/android-firmware-software-customization-oem/
 - What FAP 10, FAP 20 and FAP 30 Mean on a Fingerprint Tablet — All three are single-finger acquisition profiles, differing in platen size, resolution and the print they can capture. https://xinhongsmart.com/insights/fingerprint-biometric-tablet-fap-fbi-iso/
 - Fingerprint Modules: Idemia, Suprema, Integrated Biometrics and HID — Capacitive, optical, multispectral and light-emitting sensor options across the biometric terminal range. https://xinhongsmart.com/insights/biometric-terminal-fingerprint-modules-idemia-suprema-ib-hid/
 - Face Liveness Detection: How to Specify It — Liveness is decided by the capture architecture, not the camera resolution. https://xinhongsmart.com/insights/face-liveness-detection-biometric-terminal/

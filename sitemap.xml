@@ -83,7 +83,7 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/oem-odm/software-customization/</loc>
-    <lastmod>2026-11-10</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq><priority>0.8</priority>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/banner-3.jpg</image:loc>
@@ -99,7 +99,7 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/oem-odm/android-os-customization/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <changefreq>monthly</changefreq><priority>0.8</priority>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/banner-3.jpg</image:loc>
@@ -131,7 +131,7 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/insights/</loc>
-    <lastmod>2026-11-24</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <priority>0.9</priority>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/banner-2.jpg</image:loc>
@@ -355,7 +355,7 @@
   </url>
   <url>
     <loc>https://xinhongsmart.com/insights/customize-android-rugged-tablet/</loc>
-    <lastmod>2026-11-19</lastmod>
+    <lastmod>2026-11-27</lastmod>
     <priority>0.7</priority>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/blog/manufacturing-line.jpg</image:loc>
@@ -599,6 +599,13 @@
     <lastmod>2026-11-24</lastmod>
     <image:image>
       <image:loc>https://xinhongsmart.com/uploads/xh-800-hero-800.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://xinhongsmart.com/insights/android-firmware-software-customization-oem/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://xinhongsmart.com/uploads/xh-700-hero-800.jpg</image:loc>
     </image:image>
   </url>
 </urlset>
